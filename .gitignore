@@ -1,0 +1,7 @@
+.DS_Store
+**/.DS_Store
+.trash/
+**/__pycache__/
+*.pyc
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json

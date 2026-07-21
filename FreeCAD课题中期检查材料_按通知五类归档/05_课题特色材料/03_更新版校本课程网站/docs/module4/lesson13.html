@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>代码造物数字工坊</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+    /* CSS for syntax highlighting */
+    html { -webkit-text-size-adjust: 100%; }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+  </style>
+  <link rel="stylesheet" href="../site.css" />
+</head>
+<body>
+<nav><a href="../index.html">🏠 课程首页</a>　<a href="../contents.html">📚 课程目录</a></nav><main>
+<header id="title-block-header">
+<h1 class="title">代码造物数字工坊</h1>
+</header>
+<h1 id="第-13-课数据录入舱qlineedit-文本与数值转换">📍 第 13
+课：数据录入舱（QLineEdit 文本与数值转换）</h1>
+<blockquote>
+<p>输入框得到的是文字，必须转换成数字后才能用于建模。</p>
+</blockquote>
+<h2 id="本课要完成什么">本课要完成什么</h2>
+<ol type="1">
+<li>用自己的话说清楚：输入框得到的是文字，必须转换成数字后才能用于建模。</li>
+<li>看懂并计算：数字 = float（输入框文字）</li>
+<li>运行一段最小代码，完成：输入半径创建球体</li>
+</ol>
+<h2 id="先把关系说成人话">先把关系说成人话</h2>
+<p><strong>数量关系：</strong> 数字 = float（输入框文字）</p>
+<p><strong>怎么理解：</strong>
+先读文字，再转为小数；转换失败时要给出提示。</p>
+<p><strong>数字例子：</strong> 输入“15.5”→ 转换为15.5 →
+创建半径15.5毫米的球体。</p>
+<p><strong>生活类比：</strong>
+文字“15”不能直接参加几何计算，要先变成数值15。</p>
+<h2 id="已验证的课堂最小代码">已验证的课堂最小代码</h2>
+<p>下面的代码聚焦本课核心知识点，适用于带 Python 控制台的 FreeCAD
+桌面版。</p>
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> FreeCAD <span class="im">as</span> App</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> Part</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> PySide <span class="im">import</span> QtWidgets</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>doc <span class="op">=</span> App.newDocument(<span class="st">&quot;Lesson13&quot;</span>)</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> create_sphere():</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>    <span class="cf">try</span>:</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>        radius <span class="op">=</span> <span class="bu">float</span>(input_box.text())</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> radius <span class="op">&lt;=</span> <span class="dv">0</span>:</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>            <span class="cf">raise</span> <span class="pp">ValueError</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>        sphere <span class="op">=</span> doc.addObject(<span class="st">&quot;Part::Feature&quot;</span>, <span class="st">&quot;Sphere&quot;</span>)</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>        sphere.Shape <span class="op">=</span> Part.makeSphere(radius)</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>        message.setText(<span class="st">&quot;已创建半径 </span><span class="sc">%.1f</span><span class="st"> mm 的球体&quot;</span> <span class="op">%</span> radius)</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>        doc.recompute()</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>        Gui.activeDocument().activeView().fitAll()</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>    <span class="cf">except</span> <span class="pp">ValueError</span>:</span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>        message.setText(<span class="st">&quot;请输入大于0的数字&quot;</span>)</span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>panel <span class="op">=</span> QtWidgets.QWidget()</span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>layout <span class="op">=</span> QtWidgets.QVBoxLayout(panel)</span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>input_box <span class="op">=</span> QtWidgets.QLineEdit(<span class="st">&quot;15&quot;</span>)</span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>button <span class="op">=</span> QtWidgets.QPushButton(<span class="st">&quot;创建球体&quot;</span>)</span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>message <span class="op">=</span> QtWidgets.QLabel()</span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>button.clicked.<span class="ex">connect</span>(create_sphere)</span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a>layout.addWidget(input_box)</span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a>layout.addWidget(button)</span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a>layout.addWidget(message)</span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a>panel.show()</span></code></pre></div>
+<h2 id="按这五步运行">按这五步运行</h2>
+<ol type="1">
+<li>打开FreeCAD，新建文档。</li>
+<li>打开“视图 → 面板 → Python控制台”。</li>
+<li>输入 <code>15.5</code> 并点击按钮，确认生成对应半径的球体。</li>
+<li>输入汉字或负数，确认界面显示错误提示且不会建模。</li>
+<li>记录“改了什么、结果怎样、为什么会变”。</li>
+</ol>
+<h2 id="常见问题">常见问题</h2>
+<ul>
+<li>输入空白或汉字导致转换失败</li>
+<li>没有限制数值范围</li>
+<li>转换异常没有提示用户</li>
+</ul>
+<h2 id="分层任务">分层任务</h2>
+<h3 id="基础任务">基础任务</h3>
+<p>输入半径创建球体</p>
+<h3 id="进阶任务">进阶任务</h3>
+<p>增加高度输入框创建圆柱</p>
+<h3 id="创意任务">创意任务</h3>
+<p>加入错误提示和默认值</p>
+<h2 id="下课前检查">下课前检查</h2>
+<ul class="task-list">
+<li><label><input
+type="checkbox" />我能用一句话解释本课原理。</label></li>
+<li><label><input
+type="checkbox" />我能指出代码中最关键的参数。</label></li>
+<li><label><input
+type="checkbox" />我只修改一个参数并比较了结果。</label></li>
+<li><label><input
+type="checkbox" />我保存了模型文件、截图和一句话说明。</label></li>
+</ul>
+</main>
+</body>
+</html>

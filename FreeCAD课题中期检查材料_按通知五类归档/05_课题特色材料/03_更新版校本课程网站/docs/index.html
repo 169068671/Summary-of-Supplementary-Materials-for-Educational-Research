@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>代码造物数字工坊</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+    /* CSS for syntax highlighting */
+    html { -webkit-text-size-adjust: 100%; }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+  </style>
+  <link rel="stylesheet" href="site.css" />
+</head>
+<body>
+<nav><a href="index.html">🏠 课程首页</a>　<a href="contents.html">📚 课程目录</a></nav><main>
+<header id="title-block-header">
+<h1 class="title">代码造物数字工坊</h1>
+</header>
+<h1 id="欢迎来到代码造物数字工坊">🚀 欢迎来到”代码造物”数字工坊！</h1>
+<blockquote>
+<p><strong>“想过用几行简单的代码，就能召唤出属于你自己的3D世界，甚至把它真实地打印出来吗？”</strong></p>
+</blockquote>
+<p><img src="https://img.shields.io/badge/STEAM-教育-blue"
+alt="STEAM教育" /> <img
+src="https://img.shields.io/badge/FreeCAD-开源3D建模-orange"
+alt="FreeCAD" /> <img
+src="https://img.shields.io/badge/Python-编程语言-green" alt="Python" />
+<img src="https://img.shields.io/badge/3D打印-实物化-red"
+alt="3D打印" /></p>
+<hr />
+<h2 id="关于本项目">🎯 关于本项目</h2>
+<p>欢迎来到<strong>江苏省东台中学通用技术创客空间</strong>！本项目源自盐城市教育学会课题——<strong>《STEAM
+理念下基于编程建模的高中
+3D打印校本课程的开发与研究》</strong>（编号：2024B-178）。</p>
+<p>在这里，我们<strong>摒弃传统的”拉拽式”3D建模</strong>，将
+<strong>STEAM</strong>（科学、技术、工程、艺术、数学）理念与
+<strong>FreeCAD Python
+编程</strong>深度融合。你将化身为数字造物主，不仅能用代码生成复杂的几何形态，还将学习使用
+<strong>Qt GUI</strong>
+开发出带有按钮、滑动条的专属交互面板，最终将这些数字创意通过 3D
+打印机转化为改变生活的真实物理产品！</p>
+<hr />
+<h2 id="在这里你将经历">🌟 在这里，你将经历</h2>
+<h3 id="青铜时代写下第一行代码">🥉 青铜时代：写下第一行代码</h3>
+<p>召唤出三维世界的纯粹几何体，感受代码与空间的第一次碰撞。</p>
+<h3 id="白银时代告别枯燥的黑框">🥈 白银时代：告别枯燥的黑框</h3>
+<p>用 Python 设计出带有按钮和滑动条的<strong>专属图形交互界面
+(GUI)</strong>。</p>
+<h3 id="黄金时代将代码注入灵魂">🥇 黄金时代：将代码注入灵魂</h3>
+<p>让几何体根据物理原理和数学公式动起来，体验参数化设计的魅力。</p>
+<h3 id="王者时代切片上机打印">👑 王者时代：切片、上机、打印</h3>
+<p>见证数字代码变成手中实物的奇迹，完成 STEAM 教育的终极闭环。</p>
+<hr />
+<h2 id="课程大纲20课时">📚 课程大纲（20课时）</h2>
+<table>
+<colgroup>
+<col style="width: 27%" />
+<col style="width: 22%" />
+<col style="width: 27%" />
+<col style="width: 22%" />
+</colgroup>
+<thead>
+<tr>
+<th style="text-align: center;">模块</th>
+<th style="text-align: left;">主题</th>
+<th style="text-align: center;">课时</th>
+<th style="text-align: left;">核心内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><strong>模块一</strong></td>
+<td style="text-align: left;">🚀 启航 —— STEAM与数字造物</td>
+<td style="text-align: center;">2课时</td>
+<td style="text-align: left;">3D打印原理、FreeCAD基础</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>模块二</strong></td>
+<td style="text-align: left;">🥉 青铜时代 —— Python与三维空间</td>
+<td style="text-align: center;">4课时</td>
+<td style="text-align: left;">变量、循环、条件判断</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>模块三</strong></td>
+<td style="text-align: left;">🥈 白银时代 —— 数学之美与算法</td>
+<td style="text-align: center;">4课时</td>
+<td style="text-align: left;">列表、函数、三角函数、分形</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>模块四</strong></td>
+<td style="text-align: left;">🥇 黄金时代 —— 掌控交互</td>
+<td style="text-align: center;">4课时</td>
+<td style="text-align: left;">GUI开发、按钮、滑动条、布局</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>模块五</strong></td>
+<td style="text-align: left;">💎 铂金时代 —— 动力与模拟</td>
+<td style="text-align: center;">3课时</td>
+<td style="text-align: left;">定时器、碰撞检测、轨迹追踪</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>模块六</strong></td>
+<td style="text-align: left;">👑 王者时代 —— 终极挑战</td>
+<td style="text-align: center;">3课时</td>
+<td style="text-align: left;">项目设计、3D打印、答辩展示</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="快速开始">💻 快速开始</h2>
+<h3 id="第一步环境准备">第一步：环境准备</h3>
+<ol type="1">
+<li><strong>下载并安装 FreeCAD</strong>（推荐 0.21+ 版本）
+<ul>
+<li>官网：https://www.freecad.org/</li>
+</ul></li>
+<li><strong>启动 FreeCAD，打开 Python 控制台</strong>
+<ul>
+<li>点击菜单栏 <code>视图 (View)</code> → <code>面板 (Panels)</code> →
+勾选 <code>Python 控制台 (Python console)</code></li>
+</ul></li>
+</ol>
+<h3
+id="第二步写下你的第一行创世代码">第二步：写下你的第一行”创世代码”</h3>
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> FreeCAD <span class="im">as</span> App</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> Part</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co"># 创造一个长宽高都是10的立方体</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>my_box <span class="op">=</span> Part.makeBox(<span class="dv">10</span>, <span class="dv">10</span>, <span class="dv">10</span>)</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="co"># 把立方体显示在3D视图中</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>Part.show(my_box)</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="co"># 刷新视图</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>App.ActiveDocument.recompute()</span></code></pre></div>
+<p>🎉
+<strong>魔法生效</strong>：屏幕上出现了一个正方体！这就是你的”Hello 3D
+World”！</p>
+<hr />
+<h2 id="教学特色">🎯 教学特色</h2>
+<h3 id="标准化四步教学法">✅ 标准化四步教学法</h3>
+<p>每节课严格执行：<strong>物理/数理原理 → FreeCAD 脚本 → 实验报告 →
+制作指南</strong></p>
+<h3 id="steam-融合理念">✅ STEAM 融合理念</h3>
+<ul>
+<li><strong>科学</strong>：物理原理（力学、声学、电磁学）</li>
+<li><strong>技术</strong>：编程技术、3D建模技术</li>
+<li><strong>工程</strong>：参数化设计、结构优化</li>
+<li><strong>艺术</strong>：造型美学、色彩设计</li>
+<li><strong>数学</strong>：函数、坐标、几何、算法</li>
+</ul>
+<h3 id="从代码到实物的完整闭环">✅ 从代码到实物的完整闭环</h3>
+<p>编程思维 → 三维建模 → 交互设计 → 物理模拟 → 实物制造</p>
+<hr />
+<h2 id="你将创造什么">🏆 你将创造什么</h2>
+<ul>
+<li>🎨 <strong>参数化可变形收纳盒</strong> —
+滑动条改参数，隔板自动增加</li>
+<li>🌨️ <strong>古诗词意境3D场景</strong> — 用随机函数生成漫天飞雪</li>
+<li>🔢 <strong>数学之美可视化</strong> — 莫比乌斯环、3D螺旋线</li>
+<li>⚙️ <strong>齿轮传动教具</strong> — 带GUI控制面板的动态演示</li>
+<li>🏗️ <strong>个性化笔筒/花瓶</strong> — 可3D打印的实用作品</li>
+</ul>
+<hr />
+<h2 id="配套资源">📖 配套资源</h2>
+<ul>
+<li>📹 <strong>视频教程</strong>：每节课配套讲解视频</li>
+<li>💾 <strong>代码仓库</strong>：完整示例代码下载</li>
+<li>🎓 <strong>实验报告模板</strong>：规范的学习记录</li>
+<li>🖨️ <strong>3D打印指南</strong>：从模型到实物的完整流程</li>
+</ul>
+<hr />
+<h2 id="课程开发团队">👨‍🏫 课程开发团队</h2>
+<p><strong>江苏省东台中学 通用技术教研组</strong></p>
+<ul>
+<li>课题主持人：王华军、吴海燕</li>
+<li>项目支持：盐城市教育学会课题（编号：2024B-178）</li>
+</ul>
+<hr />
+<blockquote>
+<p><strong>“编程不是魔法，但它是离魔法最近的技能。”</strong></p>
+<p>准备好你的键盘和鼠标，开始你的造物之旅吧！✨</p>
+</blockquote>
+<hr />
+<p align="center">
+<strong>🚀 代码造物之旅，现在开始！</strong>
+</p>
+<p align="center">
+<a href="module1/lesson01.html">👉 点击开始学习第1课</a>
+</p>
+</main>
+</body>
+</html>

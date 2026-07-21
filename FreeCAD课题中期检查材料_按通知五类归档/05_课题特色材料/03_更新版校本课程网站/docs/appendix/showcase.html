@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>代码造物数字工坊</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="../site.css" />
+</head>
+<body>
+<nav><a href="../index.html">🏠 课程首页</a>　<a href="../contents.html">📚 课程目录</a></nav><main>
+<header id="title-block-header">
+<h1 class="title">代码造物数字工坊</h1>
+</header>
+<h1 id="优秀作品展示">🏆 优秀作品展示</h1>
+<p>这里展示历届高中生的疯狂创意！</p>
+<hr />
+<h2
+id="案例一python参数化可变形收纳盒">案例一：Python参数化可变形收纳盒</h2>
+<p><strong>作者</strong>：张同学（高二3班）</p>
+<p><strong>项目简介</strong>：
+通过滑动条改参数，隔板自动增加。可以自定义收纳盒的格子数量和大小，适合存放不同尺寸的物品。</p>
+<p><strong>核心功能</strong>： - 滑动条控制格子数量（1-9格） -
+自动计算每个格子的大小 - 壁厚可调 - 一键导出STL</p>
+<p><strong>技术亮点</strong>： - 使用 <code>QSlider</code>
+实现实时参数调节 - 嵌套循环生成格子阵列 - 布尔运算合并所有部件</p>
+<p><strong>展示图片</strong>： &gt; 📷 GUI界面截图 + 3D模型截图 +
+打印实物照片</p>
+<hr />
+<h2 id="案例二古诗词意境3d场景">案例二：古诗词意境3D场景</h2>
+<p><strong>作者</strong>：李同学（高二5班）</p>
+<p><strong>项目简介</strong>： 用随机函数 <code>random</code>
+生成漫天飞雪的3D场景，配合《江雪》诗句，营造出”千山鸟飞绝，万径人踪灭”的意境。</p>
+<p><strong>核心功能</strong>： - 随机生成雪花位置 - 雪花大小随机变化 -
+远山轮廓建模 - 孤舟老翁点缀</p>
+<p><strong>技术亮点</strong>： - 使用 <code>random</code> 模块生成随机数
+- 三角函数创建山脉轮廓 - 列表管理大量雪花对象</p>
+<p><strong>展示图片</strong>： &gt; 📷 3D场景渲染图 + 打印成品照片</p>
+<hr />
+<h2 id="案例三数学之美3d莫比乌斯环">案例三：数学之美——3D莫比乌斯环</h2>
+<p><strong>作者</strong>：王同学（高二1班）</p>
+<p><strong>项目简介</strong>： 用 <code>math.sin</code> 和
+<code>math.cos</code> 绘制3D莫比乌斯环和螺旋线，展示数学之美。</p>
+<p><strong>核心功能</strong>： - 参数化莫比乌斯环 -
+可调节环的半径和扭转次数 - 彩色渐变效果</p>
+<p><strong>技术亮点</strong>： - 参数方程实现莫比乌斯环 -
+B样条曲线拟合平滑曲面 - 颜色渐变算法</p>
+<p><strong>数学公式</strong>：</p>
+<pre><code>x = (R + r*cos(t/2)) * cos(t)
+y = (R + r*cos(t/2)) * sin(t)
+z = r * sin(t/2)</code></pre>
+<p><strong>展示图片</strong>： &gt; 📷 不同角度的3D渲染图 + 打印成品</p>
+<hr />
+<h2 id="案例四齿轮传动教学演示">案例四：齿轮传动教学演示</h2>
+<p><strong>作者</strong>：陈同学、刘同学（高二2班）</p>
+<p><strong>项目简介</strong>：
+带GUI控制面板的齿轮传动动画演示，可用于物理课教学。</p>
+<p><strong>核心功能</strong>： - 双齿轮啮合动画 - 转速可调 -
+实时显示传动比 - 可暂停和重置</p>
+<p><strong>技术亮点</strong>： - <code>QTimer</code> 实现平滑动画 -
+齿轮转速比精确计算 - 面向对象设计</p>
+<p><strong>展示图片</strong>： &gt; 📷 GUI界面 + 动画截图</p>
+<hr />
+<h2 id="案例五个性化笔筒设计">案例五：个性化笔筒设计</h2>
+<p><strong>作者</strong>：赵同学（高二4班）</p>
+<p><strong>项目简介</strong>：
+可以自定义名字和图案的个性化笔筒，适合作为礼物。</p>
+<p><strong>核心功能</strong>： - 输入名字自动生成浮雕 - 多种图案可选 -
+尺寸可调 - 壁厚优化（适合打印）</p>
+<p><strong>技术亮点</strong>： - 文字转3D模型 - 图案参数化设计 -
+打印优化（无需支撑）</p>
+<p><strong>展示图片</strong>： &gt; 📷 设计界面 + 成品照片</p>
+<hr />
+<h2 id="学生感言">学生感言</h2>
+<blockquote>
+<p>“以前觉得编程很难，但用代码创造3D模型的感觉太酷了！” —— 张同学</p>
+</blockquote>
+<blockquote>
+<p>“看到自己设计的模型被打印出来，那种成就感无法形容！” —— 李同学</p>
+</blockquote>
+<blockquote>
+<p>“这门课让我明白了数学不是枯燥的公式，而是创造的工具。” —— 王同学</p>
+</blockquote>
+<hr />
+<h2 id="教师点评">教师点评</h2>
+<blockquote>
+<p>“学生们的创意超出了我的预期，他们用代码实现了各种奇思妙想。” ——
+王老师</p>
+</blockquote>
+<blockquote>
+<p>“STEAM教育的魅力在于跨学科融合，看到学生将数学、物理、艺术结合在作品中，非常欣慰。”
+—— 吴老师</p>
+</blockquote>
+<hr />
+<h2 id="投稿方式">投稿方式</h2>
+<p>如果你也有优秀的作品想要展示：</p>
+<ol type="1">
+<li><strong>准备材料</strong>：
+<ul>
+<li>项目简介（100-200字）</li>
+<li>核心功能说明</li>
+<li>技术亮点</li>
+<li>截图/照片（3-5张）</li>
+</ul></li>
+<li><strong>提交方式</strong>：
+<ul>
+<li>发送邮件到：steam@dtzx.edu.cn</li>
+<li>或交给任课老师</li>
+</ul></li>
+<li><strong>评选标准</strong>：
+<ul>
+<li>创意性（30%）</li>
+<li>技术难度（30%）</li>
+<li>完成度（20%）</li>
+<li>美观度（20%）</li>
+</ul></li>
+</ol>
+<p><strong>优秀作品将</strong>： - 在本页面展示 - 获得课程证书 -
+推荐参加市级/省级比赛</p>
+<hr />
+<p align="center">
+<strong>期待看到你的作品！</strong> 🎨
+</p>
+</main>
+</body>
+</html>
