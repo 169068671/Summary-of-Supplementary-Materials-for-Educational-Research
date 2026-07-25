@@ -5,3 +5,8 @@
 *.pyc
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json
+
+# 含真实学生姓名的内部材料与OCR临时图，默认不入库
+**/05_选修课学生名单提取_内部使用.md
+**/05_学生姓名与班级_正式名单_内部使用.txt
+**/_ocr_tmp/
