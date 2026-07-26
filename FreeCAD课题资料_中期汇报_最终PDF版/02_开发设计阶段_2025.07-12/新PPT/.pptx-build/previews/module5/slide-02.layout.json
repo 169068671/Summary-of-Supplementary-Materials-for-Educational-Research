@@ -1,0 +1,458 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/v2fc1f",
+    "id": "v2fc1f",
+    "slide": 2,
+    "layoutId": "afdcbb6f-c2a9-4cc0-9416-e260c831cf86",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "26ac2484-5bb7-4663-a3d7-dd9a091af401",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#E85D75",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Microsoft YaHei"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "afdcbb6f-c2a9-4cc0-9416-e260c831cf86",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "26ac2484-5bb7-4663-a3d7-dd9a091af401",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "26ac2484-5bb7-4663-a3d7-dd9a091af401",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/et0f6d0j",
+      "id": "1",
+      "name": "top-accent",
+      "bbox": [
+        0,
+        0,
+        1280,
+        8
+      ],
+      "geometry": "rect",
+      "fillColor": "#F093FB",
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/1wry18za",
+      "id": "2",
+      "name": "slide-title",
+      "bbox": [
+        64,
+        36,
+        1060,
+        78
+      ],
+      "geometry": "rect",
+      "text": "课前预习！",
+      "textPreview": "课前预习！",
+      "resolvedFontSize": 50,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 50,
+        "typeface": "Microsoft YaHei",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4,
+          "right": 6,
+          "bottom": 4,
+          "left": 6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "课前预习！"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "课前预习！",
+          "resolvedTextStyle": {
+            "fontSize": 50,
+            "typeface": "Microsoft YaHei",
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "课前预习！",
+              "fontSize": 50,
+              "typeface": "Microsoft YaHei",
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0vix83ip",
+      "id": "3",
+      "name": "slide-icon",
+      "bbox": [
+        1140,
+        28,
+        76,
+        76
+      ],
+      "geometry": "rect",
+      "text": "⚠️",
+      "textPreview": "⚠️",
+      "resolvedFontSize": 52,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 52,
+        "typeface": "Microsoft YaHei",
+        "color": "#FFFFFF",
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4,
+          "right": 6,
+          "bottom": 4,
+          "left": 6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "⚠️"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "⚠️",
+          "resolvedTextStyle": {
+            "fontSize": 52,
+            "typeface": "Microsoft YaHei",
+            "color": "#FFFFFF",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "⚠️",
+              "fontSize": 52,
+              "typeface": "Microsoft YaHei",
+              "color": "#FFFFFF",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/nitg3ihg",
+      "id": "4",
+      "name": "footer",
+      "bbox": [
+        64,
+        676,
+        1152,
+        24
+      ],
+      "geometry": "rect",
+      "text": "模块五  ·  2",
+      "textPreview": "模块五  ·  2",
+      "resolvedFontSize": 13.33,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 15,
+        "typeface": "Microsoft YaHei",
+        "color": "#FFF5F5",
+        "alignment": "right",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.89,
+        "insets": {
+          "top": 4,
+          "right": 6,
+          "bottom": 4,
+          "left": 6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "模块五  ·  2"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "模块五  ·  2",
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "Microsoft YaHei",
+            "color": "#FFF5F5",
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "模块五  ·  2",
+              "fontSize": 15,
+              "typeface": "Microsoft YaHei",
+              "color": "#FFF5F5",
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/mxkfad0v",
+      "id": "5",
+      "name": "bullet-list",
+      "bbox": [
+        120,
+        144,
+        1040,
+        480
+      ],
+      "geometry": "roundRect",
+      "text": "确认已安装Cura切片软件\n了解STL=3D打印通用格式\n了解切片=把模型切成一层层路径\n思考桥梁结构、填充密度与承重能力的关系\n复习3D打印安全规范",
+      "textPreview": "确认已安装Cura切片软件 | 了解STL=3D打印通用格式 | 了解切片=把模型切成一层层路径 | 思考桥梁结构、填充密度与承重能力的关系 | 复习3D打印安全规范",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Microsoft YaHei",
+        "color": "#FFFFFF",
+        "alignment": "left",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 18,
+          "right": 20,
+          "bottom": 14,
+          "left": 22
+        }
+      },
+      "textLayout": {
+        "lineCount": 5,
+        "lines": [
+          {
+            "index": 1,
+            "text": "• 确认已安装Cura切片软件"
+          },
+          {
+            "index": 2,
+            "text": "• 了解STL=3D打印通用格式"
+          },
+          {
+            "index": 3,
+            "text": "• 了解切片=把模型切成一层层路径"
+          },
+          {
+            "index": 4,
+            "text": "• 思考桥梁结构、填充密度与承重能力的关系"
+          },
+          {
+            "index": 5,
+            "text": "• 复习3D打印安全规范"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "确认已安装Cura切片软件",
+          "bulletCharacter": "•",
+          "marginLeft": 28,
+          "indent": -14,
+          "spaceAfter": 8,
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "typeface": "Microsoft YaHei",
+            "color": "#FFFFFF"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "确认已安装Cura切片软件",
+              "fontSize": 24,
+              "typeface": "Microsoft YaHei",
+              "color": "#FFFFFF"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "text": "了解STL=3D打印通用格式",
+          "bulletCharacter": "•",
+          "marginLeft": 28,
+          "indent": -14,
+          "spaceAfter": 8,
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "typeface": "Microsoft YaHei",
+            "color": "#FFFFFF"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "了解STL=3D打印通用格式",
+              "fontSize": 24,
+              "typeface": "Microsoft YaHei",
+              "color": "#FFFFFF"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "text": "了解切片=把模型切成一层层路径",
+          "bulletCharacter": "•",
+          "marginLeft": 28,
+          "indent": -14,
+          "spaceAfter": 8,
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "typeface": "Microsoft YaHei",
+            "color": "#FFFFFF"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "了解切片=把模型切成一层层路径",
+              "fontSize": 24,
+              "typeface": "Microsoft YaHei",
+              "color": "#FFFFFF"
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "text": "思考桥梁结构、填充密度与承重能力的关系",
+          "bulletCharacter": "•",
+          "marginLeft": 28,
+          "indent": -14,
+          "spaceAfter": 8,
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "typeface": "Microsoft YaHei",
+            "color": "#FFFFFF"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "思考桥梁结构、填充密度与承重能力的关系",
+              "fontSize": 24,
+              "typeface": "Microsoft YaHei",
+              "color": "#FFFFFF"
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "text": "复习3D打印安全规范",
+          "bulletCharacter": "•",
+          "marginLeft": 28,
+          "indent": -14,
+          "spaceAfter": 8,
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "typeface": "Microsoft YaHei",
+            "color": "#FFFFFF"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "复习3D打印安全规范",
+              "fontSize": 24,
+              "typeface": "Microsoft YaHei",
+              "color": "#FFFFFF"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(255, 255, 255, 0.09412)",
+      "lineColor": "rgba(255, 255, 255, 0.26667)",
+      "lineWidth": 1
+    }
+  ],
+  "composeRuns": []
+}

@@ -1,0 +1,484 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/e4v09e",
+    "id": "e4v09e",
+    "slide": 4,
+    "layoutId": "d62c784d-289c-47de-af4a-6e8f88d340d1",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "13f2c4af-6720-4878-b088-e882ff5a4db7",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#667EEA",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Microsoft YaHei"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "d62c784d-289c-47de-af4a-6e8f88d340d1",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "13f2c4af-6720-4878-b088-e882ff5a4db7",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "13f2c4af-6720-4878-b088-e882ff5a4db7",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/543a1s3u",
+      "id": "1",
+      "name": "top-accent",
+      "bbox": [
+        0,
+        0,
+        1280,
+        8
+      ],
+      "geometry": "rect",
+      "fillColor": "#F093FB",
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/i1crqxkj",
+      "id": "2",
+      "name": "slide-title",
+      "bbox": [
+        64,
+        36,
+        1060,
+        78
+      ],
+      "geometry": "rect",
+      "text": "项目方案书",
+      "textPreview": "项目方案书",
+      "resolvedFontSize": 50,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 50,
+        "typeface": "Microsoft YaHei",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4,
+          "right": 6,
+          "bottom": 4,
+          "left": 6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "项目方案书"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "项目方案书",
+          "resolvedTextStyle": {
+            "fontSize": 50,
+            "typeface": "Microsoft YaHei",
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "项目方案书",
+              "fontSize": 50,
+              "typeface": "Microsoft YaHei",
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/j2l8z2l4",
+      "id": "3",
+      "name": "slide-icon",
+      "bbox": [
+        1140,
+        28,
+        76,
+        76
+      ],
+      "geometry": "rect",
+      "text": "📋",
+      "textPreview": "📋",
+      "resolvedFontSize": 52,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 52,
+        "typeface": "Microsoft YaHei",
+        "color": "#FFFFFF",
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4,
+          "right": 6,
+          "bottom": 4,
+          "left": 6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "📋"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "📋",
+          "resolvedTextStyle": {
+            "fontSize": 52,
+            "typeface": "Microsoft YaHei",
+            "color": "#FFFFFF",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "📋",
+              "fontSize": 52,
+              "typeface": "Microsoft YaHei",
+              "color": "#FFFFFF",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/sre9w72l",
+      "id": "4",
+      "name": "footer",
+      "bbox": [
+        64,
+        676,
+        1152,
+        24
+      ],
+      "geometry": "rect",
+      "text": "模块六  ·  4",
+      "textPreview": "模块六  ·  4",
+      "resolvedFontSize": 13.33,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 15,
+        "typeface": "Microsoft YaHei",
+        "color": "#E9E8FF",
+        "alignment": "right",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.89,
+        "insets": {
+          "top": 4,
+          "right": 6,
+          "bottom": 4,
+          "left": 6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "模块六  ·  4"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "模块六  ·  4",
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "Microsoft YaHei",
+            "color": "#E9E8FF",
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "模块六  ·  4",
+              "fontSize": 15,
+              "typeface": "Microsoft YaHei",
+              "color": "#E9E8FF",
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/tsna5c36",
+      "id": "5",
+      "name": "bullet-list",
+      "bbox": [
+        120,
+        144,
+        1040,
+        480
+      ],
+      "geometry": "roundRect",
+      "text": "项目名称、项目成员\n设计目的（解决什么问题）\n设计构思描述\n手绘设计草图（含尺寸）\n技术说明（用哪些技巧）\nSTEAM融合说明（只写项目真正涉及的领域，不要求五项齐全）",
+      "textPreview": "项目名称、项目成员 | 设计目的（解决什么问题） | 设计构思描述 | 手绘设计草图（含尺寸） | 技术说明（用哪些技巧） | STEAM融合说明（只写项目真正涉及的领域，不要求五项齐全）",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Microsoft YaHei",
+        "color": "#FFFFFF",
+        "alignment": "left",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 18,
+          "right": 20,
+          "bottom": 14,
+          "left": 22
+        }
+      },
+      "textLayout": {
+        "lineCount": 6,
+        "lines": [
+          {
+            "index": 1,
+            "text": "• 项目名称、项目成员"
+          },
+          {
+            "index": 2,
+            "text": "• 设计目的（解决什么问题）"
+          },
+          {
+            "index": 3,
+            "text": "• 设计构思描述"
+          },
+          {
+            "index": 4,
+            "text": "• 手绘设计草图（含尺寸）"
+          },
+          {
+            "index": 5,
+            "text": "• 技术说明（用哪些技巧）"
+          },
+          {
+            "index": 6,
+            "text": "• STEAM融合说明（只写项目真正涉及的领域，不要求五项齐全）"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "项目名称、项目成员",
+          "bulletCharacter": "•",
+          "marginLeft": 28,
+          "indent": -14,
+          "spaceAfter": 8,
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "typeface": "Microsoft YaHei",
+            "color": "#FFFFFF"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "项目名称、项目成员",
+              "fontSize": 24,
+              "typeface": "Microsoft YaHei",
+              "color": "#FFFFFF"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "text": "设计目的（解决什么问题）",
+          "bulletCharacter": "•",
+          "marginLeft": 28,
+          "indent": -14,
+          "spaceAfter": 8,
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "typeface": "Microsoft YaHei",
+            "color": "#FFFFFF"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "设计目的（解决什么问题）",
+              "fontSize": 24,
+              "typeface": "Microsoft YaHei",
+              "color": "#FFFFFF"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "text": "设计构思描述",
+          "bulletCharacter": "•",
+          "marginLeft": 28,
+          "indent": -14,
+          "spaceAfter": 8,
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "typeface": "Microsoft YaHei",
+            "color": "#FFFFFF"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "设计构思描述",
+              "fontSize": 24,
+              "typeface": "Microsoft YaHei",
+              "color": "#FFFFFF"
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "text": "手绘设计草图（含尺寸）",
+          "bulletCharacter": "•",
+          "marginLeft": 28,
+          "indent": -14,
+          "spaceAfter": 8,
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "typeface": "Microsoft YaHei",
+            "color": "#FFFFFF"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "手绘设计草图（含尺寸）",
+              "fontSize": 24,
+              "typeface": "Microsoft YaHei",
+              "color": "#FFFFFF"
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "text": "技术说明（用哪些技巧）",
+          "bulletCharacter": "•",
+          "marginLeft": 28,
+          "indent": -14,
+          "spaceAfter": 8,
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "typeface": "Microsoft YaHei",
+            "color": "#FFFFFF"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "技术说明（用哪些技巧）",
+              "fontSize": 24,
+              "typeface": "Microsoft YaHei",
+              "color": "#FFFFFF"
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "text": "STEAM融合说明（只写项目真正涉及的领域，不要求五项齐全）",
+          "bulletCharacter": "•",
+          "marginLeft": 28,
+          "indent": -14,
+          "spaceAfter": 8,
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "typeface": "Microsoft YaHei",
+            "color": "#FFFFFF"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "STEAM融合说明（只写项目真正涉及的领域，不要求五项齐全）",
+              "fontSize": 24,
+              "typeface": "Microsoft YaHei",
+              "color": "#FFFFFF"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(255, 255, 255, 0.09412)",
+      "lineColor": "rgba(255, 255, 255, 0.26667)",
+      "lineWidth": 1
+    }
+  ],
+  "composeRuns": []
+}

@@ -1,0 +1,931 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/po0css",
+    "id": "po0css",
+    "slide": 3,
+    "layoutId": "afdcbb6f-c2a9-4cc0-9416-e260c831cf86",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "26ac2484-5bb7-4663-a3d7-dd9a091af401",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#42637A",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Consolas",
+      "Microsoft YaHei"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "afdcbb6f-c2a9-4cc0-9416-e260c831cf86",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "26ac2484-5bb7-4663-a3d7-dd9a091af401",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "26ac2484-5bb7-4663-a3d7-dd9a091af401",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/sv2dsbqp",
+      "id": "1",
+      "name": "top-accent",
+      "bbox": [
+        0,
+        0,
+        1280,
+        8
+      ],
+      "geometry": "rect",
+      "fillColor": "#F093FB",
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/rutwj6p4",
+      "id": "2",
+      "name": "slide-title",
+      "bbox": [
+        64,
+        36,
+        1060,
+        78
+      ],
+      "geometry": "rect",
+      "text": "STL格式",
+      "textPreview": "STL格式",
+      "resolvedFontSize": 50,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 50,
+        "typeface": "Microsoft YaHei",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4,
+          "right": 6,
+          "bottom": 4,
+          "left": 6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "STL格式"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "STL格式",
+          "resolvedTextStyle": {
+            "fontSize": 50,
+            "typeface": "Microsoft YaHei",
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "STL格式",
+              "fontSize": 50,
+              "typeface": "Microsoft YaHei",
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qtkvq18j",
+      "id": "3",
+      "name": "slide-icon",
+      "bbox": [
+        1140,
+        28,
+        76,
+        76
+      ],
+      "geometry": "rect",
+      "text": "📄",
+      "textPreview": "📄",
+      "resolvedFontSize": 52,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 52,
+        "typeface": "Microsoft YaHei",
+        "color": "#FFFFFF",
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4,
+          "right": 6,
+          "bottom": 4,
+          "left": 6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "📄"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "📄",
+          "resolvedTextStyle": {
+            "fontSize": 52,
+            "typeface": "Microsoft YaHei",
+            "color": "#FFFFFF",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "📄",
+              "fontSize": 52,
+              "typeface": "Microsoft YaHei",
+              "color": "#FFFFFF",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/5sbehw7y",
+      "id": "4",
+      "name": "footer",
+      "bbox": [
+        64,
+        676,
+        1152,
+        24
+      ],
+      "geometry": "rect",
+      "text": "模块五  ·  3",
+      "textPreview": "模块五  ·  3",
+      "resolvedFontSize": 13.33,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 15,
+        "typeface": "Microsoft YaHei",
+        "color": "#CBD5E0",
+        "alignment": "right",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.89,
+        "insets": {
+          "top": 4,
+          "right": 6,
+          "bottom": 4,
+          "left": 6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "模块五  ·  3"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "模块五  ·  3",
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "Microsoft YaHei",
+            "color": "#CBD5E0",
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "模块五  ·  3",
+              "fontSize": 15,
+              "typeface": "Microsoft YaHei",
+              "color": "#CBD5E0",
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4r2dobqd",
+      "id": "5",
+      "name": "code-intro",
+      "bbox": [
+        68,
+        112,
+        1140,
+        34
+      ],
+      "geometry": "rect",
+      "text": "3D打印通用格式，用三角网格描述表面",
+      "textPreview": "3D打印通用格式，用三角网格描述表面",
+      "resolvedFontSize": 21,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 21,
+        "typeface": "Microsoft YaHei",
+        "color": "#CBD5E0",
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4,
+          "right": 6,
+          "bottom": 4,
+          "left": 6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "3D打印通用格式，用三角网格描述表面"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "3D打印通用格式，用三角网格描述表面",
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "typeface": "Microsoft YaHei",
+            "color": "#CBD5E0",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "3D打印通用格式，用三角网格描述表面",
+              "fontSize": 21,
+              "typeface": "Microsoft YaHei",
+              "color": "#CBD5E0",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3q9wf6ps",
+      "id": "6",
+      "name": "code-panel",
+      "bbox": [
+        56,
+        154,
+        700,
+        510
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#1E1E2E",
+      "lineColor": "#4A5568",
+      "lineWidth": 1
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/i50vm18n",
+      "id": "7",
+      "name": "editable-code",
+      "bbox": [
+        76,
+        172,
+        660,
+        474
+      ],
+      "geometry": "rect",
+      "text": "# 导出STL\nimport FreeCAD\nimport FreeCADGui\nimport Mesh\nselection = FreeCADGui.Selection.getSelection()\nMesh.export([selection[0]], '学号-姓名-钥匙扣.stl')\nprint('STL导出成功！')",
+      "textPreview": "# 导出STL | import FreeCAD | import FreeCADGui | import Mesh | selection = FreeCADGui.Selection.getSelection() | Mesh.export([selection[0]]...",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 20,
+        "typeface": "Consolas",
+        "color": "#E2E8F0",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4,
+          "right": 4,
+          "bottom": 4,
+          "left": 4
+        }
+      },
+      "textLayout": {
+        "lineCount": 7,
+        "lines": [
+          {
+            "index": 1,
+            "text": "# 导出STL"
+          },
+          {
+            "index": 2,
+            "text": "import FreeCAD"
+          },
+          {
+            "index": 3,
+            "text": "import FreeCADGui"
+          },
+          {
+            "index": 4,
+            "text": "import Mesh"
+          },
+          {
+            "index": 5,
+            "text": "selection = FreeCADGui.Selection.getSelection()"
+          },
+          {
+            "index": 6,
+            "text": "Mesh.export([selection[0]], '学号-姓名-钥匙扣.stl')"
+          },
+          {
+            "index": 7,
+            "text": "print('STL导出成功！')"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "# 导出STL",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "typeface": "Consolas",
+            "color": "#E2E8F0",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "# 导出STL",
+              "fontSize": 20,
+              "typeface": "Consolas",
+              "color": "#E2E8F0",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "import FreeCAD",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "typeface": "Consolas",
+            "color": "#E2E8F0",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "import FreeCAD",
+              "fontSize": 20,
+              "typeface": "Consolas",
+              "color": "#E2E8F0",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "import FreeCADGui",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "typeface": "Consolas",
+            "color": "#E2E8F0",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "import FreeCADGui",
+              "fontSize": 20,
+              "typeface": "Consolas",
+              "color": "#E2E8F0",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 4,
+          "text": "import Mesh",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "typeface": "Consolas",
+            "color": "#E2E8F0",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "import Mesh",
+              "fontSize": 20,
+              "typeface": "Consolas",
+              "color": "#E2E8F0",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 5,
+          "text": "selection = FreeCADGui.Selection.getSelection()",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "typeface": "Consolas",
+            "color": "#E2E8F0",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "selection = FreeCADGui.Selection.getSelection()",
+              "fontSize": 20,
+              "typeface": "Consolas",
+              "color": "#E2E8F0",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 6,
+          "text": "Mesh.export([selection[0]], '学号-姓名-钥匙扣.stl')",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "typeface": "Consolas",
+            "color": "#E2E8F0",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Mesh.export([selection[0]], '学号-姓名-钥匙扣.stl')",
+              "fontSize": 20,
+              "typeface": "Consolas",
+              "color": "#E2E8F0",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 7,
+          "text": "print('STL导出成功！')",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "typeface": "Consolas",
+            "color": "#E2E8F0",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "print('STL导出成功！')",
+              "fontSize": 20,
+              "typeface": "Consolas",
+              "color": "#E2E8F0",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/h4redw72",
+      "id": "8",
+      "name": "explain-1",
+      "bbox": [
+        784,
+        154,
+        440,
+        94
+      ],
+      "geometry": "roundRect",
+      "fillColor": "rgba(255, 255, 255, 0.07843)",
+      "lineColor": "#89B4FA",
+      "lineWidth": 2
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/g3idkrqh",
+      "id": "9",
+      "name": "explain-text-1",
+      "bbox": [
+        796,
+        160,
+        416,
+        82
+      ],
+      "geometry": "rect",
+      "text": "逐行作用\n读取对象树选择列表，取第1个对象交给Mesh.export()转换为STL三角网格。",
+      "textPreview": "逐行作用 | 读取对象树选择列表，取第1个对象交给Mesh.export()转换为STL三角网格。",
+      "resolvedFontSize": 19,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 19,
+        "typeface": "Microsoft YaHei",
+        "color": "#FFFFFF",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 2,
+          "right": 2,
+          "bottom": 2,
+          "left": 2
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "逐行作用"
+          },
+          {
+            "index": 2,
+            "text": "读取对象树选择列表，取第1个对象交给Mesh.ex"
+          },
+          {
+            "index": 3,
+            "text": "port()转换为STL三角网格。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "逐行作用",
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "typeface": "Microsoft YaHei",
+            "color": "#FFFFFF",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "逐行作用",
+              "fontSize": 19,
+              "typeface": "Microsoft YaHei",
+              "color": "#FFFFFF",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "读取对象树选择列表，取第1个对象交给Mesh.export()转换为STL三角网格。",
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "typeface": "Microsoft YaHei",
+            "color": "#FFFFFF",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "读取对象树选择列表，取第1个对象交给Mesh.export()转换为STL三角网格。",
+              "fontSize": 19,
+              "typeface": "Microsoft YaHei",
+              "color": "#FFFFFF",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/a107ixk3",
+      "id": "10",
+      "name": "explain-2",
+      "bbox": [
+        784,
+        258,
+        440,
+        94
+      ],
+      "geometry": "roundRect",
+      "fillColor": "rgba(255, 255, 255, 0.07843)",
+      "lineColor": "#89B4FA",
+      "lineWidth": 2
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/v29or2lo",
+      "id": "11",
+      "name": "explain-text-2",
+      "bbox": [
+        796,
+        264,
+        416,
+        82
+      ],
+      "geometry": "rect",
+      "text": "运行前\n在对象树中单击最终实体；导出后到文件目录确认STL实际存在。",
+      "textPreview": "运行前 | 在对象树中单击最终实体；导出后到文件目录确认STL实际存在。",
+      "resolvedFontSize": 19,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 19,
+        "typeface": "Microsoft YaHei",
+        "color": "#FFFFFF",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 2,
+          "right": 2,
+          "bottom": 2,
+          "left": 2
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "运行前"
+          },
+          {
+            "index": 2,
+            "text": "在对象树中单击最终实体；导出后到文件目录确"
+          },
+          {
+            "index": 3,
+            "text": "认STL实际存在。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "运行前",
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "typeface": "Microsoft YaHei",
+            "color": "#FFFFFF",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "运行前",
+              "fontSize": 19,
+              "typeface": "Microsoft YaHei",
+              "color": "#FFFFFF",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "在对象树中单击最终实体；导出后到文件目录确认STL实际存在。",
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "typeface": "Microsoft YaHei",
+            "color": "#FFFFFF",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "在对象树中单击最终实体；导出后到文件目录确认STL实际存在。",
+              "fontSize": 19,
+              "typeface": "Microsoft YaHei",
+              "color": "#FFFFFF",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/w32pk729",
+      "id": "12",
+      "name": "explain-3",
+      "bbox": [
+        784,
+        362,
+        440,
+        94
+      ],
+      "geometry": "roundRect",
+      "fillColor": "rgba(255, 255, 255, 0.07843)",
+      "lineColor": "#89B4FA",
+      "lineWidth": 2
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/x4b6tc3u",
+      "id": "13",
+      "name": "explain-text-3",
+      "bbox": [
+        796,
+        368,
+        416,
+        82
+      ],
+      "geometry": "rect",
+      "text": "易错点\nSTL不保存参数和历史，必须同时保留FCStd；不要误选草图或单个零件特征。",
+      "textPreview": "易错点 | STL不保存参数和历史，必须同时保留FCStd；不要误选草图或单个零件特征。",
+      "resolvedFontSize": 19,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 19,
+        "typeface": "Microsoft YaHei",
+        "color": "#FFFFFF",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 2,
+          "right": 2,
+          "bottom": 2,
+          "left": 2
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "易错点"
+          },
+          {
+            "index": 2,
+            "text": "STL不保存参数和历史，必须同时保留FCStd；"
+          },
+          {
+            "index": 3,
+            "text": "不要误选草图或单个零件特征。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "易错点",
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "typeface": "Microsoft YaHei",
+            "color": "#FFFFFF",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "易错点",
+              "fontSize": 19,
+              "typeface": "Microsoft YaHei",
+              "color": "#FFFFFF",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "STL不保存参数和历史，必须同时保留FCStd；不要误选草图或单个零件特征。",
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "typeface": "Microsoft YaHei",
+            "color": "#FFFFFF",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "STL不保存参数和历史，必须同时保留FCStd；不要误选草图或单个零件特征。",
+              "fontSize": 19,
+              "typeface": "Microsoft YaHei",
+              "color": "#FFFFFF",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

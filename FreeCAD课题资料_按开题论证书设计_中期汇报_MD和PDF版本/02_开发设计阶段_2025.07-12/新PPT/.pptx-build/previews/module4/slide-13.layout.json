@@ -1,0 +1,484 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/7ggljv",
+    "id": "7ggljv",
+    "slide": 13,
+    "layoutId": "c0ee38e9-0130-4d79-a382-21da8f414b80",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "9bfe6b54-ae7a-4ee6-8630-d860d75f3ffd",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#667EEA",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Microsoft YaHei"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "c0ee38e9-0130-4d79-a382-21da8f414b80",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "9bfe6b54-ae7a-4ee6-8630-d860d75f3ffd",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "9bfe6b54-ae7a-4ee6-8630-d860d75f3ffd",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/pkry5kf2",
+      "id": "1",
+      "name": "top-accent",
+      "bbox": [
+        0,
+        0,
+        1280,
+        8
+      ],
+      "geometry": "rect",
+      "fillColor": "#F093FB",
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2h0fapgr",
+      "id": "2",
+      "name": "slide-title",
+      "bbox": [
+        64,
+        36,
+        1060,
+        78
+      ],
+      "geometry": "rect",
+      "text": "本模块总结",
+      "textPreview": "本模块总结",
+      "resolvedFontSize": 50,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 50,
+        "typeface": "Microsoft YaHei",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4,
+          "right": 6,
+          "bottom": 4,
+          "left": 6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "本模块总结"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "本模块总结",
+          "resolvedTextStyle": {
+            "fontSize": 50,
+            "typeface": "Microsoft YaHei",
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "本模块总结",
+              "fontSize": 50,
+              "typeface": "Microsoft YaHei",
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ni9g3uxc",
+      "id": "3",
+      "name": "slide-icon",
+      "bbox": [
+        1140,
+        28,
+        76,
+        76
+      ],
+      "geometry": "rect",
+      "text": "🎯",
+      "textPreview": "🎯",
+      "resolvedFontSize": 52,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 52,
+        "typeface": "Microsoft YaHei",
+        "color": "#FFFFFF",
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4,
+          "right": 6,
+          "bottom": 4,
+          "left": 6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "🎯"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "🎯",
+          "resolvedTextStyle": {
+            "fontSize": 52,
+            "typeface": "Microsoft YaHei",
+            "color": "#FFFFFF",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "🎯",
+              "fontSize": 52,
+              "typeface": "Microsoft YaHei",
+              "color": "#FFFFFF",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0vyx8fyl",
+      "id": "4",
+      "name": "footer",
+      "bbox": [
+        64,
+        676,
+        1152,
+        24
+      ],
+      "geometry": "rect",
+      "text": "模块四  ·  13",
+      "textPreview": "模块四  ·  13",
+      "resolvedFontSize": 13.33,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 15,
+        "typeface": "Microsoft YaHei",
+        "color": "#E9E8FF",
+        "alignment": "right",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.89,
+        "insets": {
+          "top": 4,
+          "right": 6,
+          "bottom": 4,
+          "left": 6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "模块四  ·  13"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "模块四  ·  13",
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "Microsoft YaHei",
+            "color": "#E9E8FF",
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "模块四  ·  13",
+              "fontSize": 15,
+              "typeface": "Microsoft YaHei",
+              "color": "#E9E8FF",
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/1w7y1kf6",
+      "id": "5",
+      "name": "bullet-list",
+      "bbox": [
+        120,
+        144,
+        1040,
+        480
+      ],
+      "geometry": "roundRect",
+      "text": "参数化设计 = 变量控制尺寸\n布尔运算 = fuse合并/cut挖空\n多实体设计 = 盒体与盒盖保持独立\n原生装配 = 接地+固定关节+间隙检查\n完成手机支架+带盖储物盒2件作品\n👉 下一步：桥梁跨学科项目、FEM与打印验证",
+      "textPreview": "参数化设计 = 变量控制尺寸 | 布尔运算 = fuse合并/cut挖空 | 多实体设计 = 盒体与盒盖保持独立 | 原生装配 = 接地+固定关节+间隙检查 | 完成手机支架+带盖储物盒2件作品 | 👉 下一步：桥梁跨学科项目、FEM与打印验证",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Microsoft YaHei",
+        "color": "#FFFFFF",
+        "alignment": "left",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 18,
+          "right": 20,
+          "bottom": 14,
+          "left": 22
+        }
+      },
+      "textLayout": {
+        "lineCount": 6,
+        "lines": [
+          {
+            "index": 1,
+            "text": "• 参数化设计 = 变量控制尺寸"
+          },
+          {
+            "index": 2,
+            "text": "• 布尔运算 = fuse合并/cut挖空"
+          },
+          {
+            "index": 3,
+            "text": "• 多实体设计 = 盒体与盒盖保持独立"
+          },
+          {
+            "index": 4,
+            "text": "• 原生装配 = 接地+固定关节+间隙检查"
+          },
+          {
+            "index": 5,
+            "text": "• 完成手机支架+带盖储物盒2件作品"
+          },
+          {
+            "index": 6,
+            "text": "• 👉 下一步：桥梁跨学科项目、FEM与打印验证"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "参数化设计 = 变量控制尺寸",
+          "bulletCharacter": "•",
+          "marginLeft": 28,
+          "indent": -14,
+          "spaceAfter": 8,
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "typeface": "Microsoft YaHei",
+            "color": "#FFFFFF"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "参数化设计 = 变量控制尺寸",
+              "fontSize": 24,
+              "typeface": "Microsoft YaHei",
+              "color": "#FFFFFF"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "text": "布尔运算 = fuse合并/cut挖空",
+          "bulletCharacter": "•",
+          "marginLeft": 28,
+          "indent": -14,
+          "spaceAfter": 8,
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "typeface": "Microsoft YaHei",
+            "color": "#FFFFFF"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "布尔运算 = fuse合并/cut挖空",
+              "fontSize": 24,
+              "typeface": "Microsoft YaHei",
+              "color": "#FFFFFF"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "text": "多实体设计 = 盒体与盒盖保持独立",
+          "bulletCharacter": "•",
+          "marginLeft": 28,
+          "indent": -14,
+          "spaceAfter": 8,
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "typeface": "Microsoft YaHei",
+            "color": "#FFFFFF"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "多实体设计 = 盒体与盒盖保持独立",
+              "fontSize": 24,
+              "typeface": "Microsoft YaHei",
+              "color": "#FFFFFF"
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "text": "原生装配 = 接地+固定关节+间隙检查",
+          "bulletCharacter": "•",
+          "marginLeft": 28,
+          "indent": -14,
+          "spaceAfter": 8,
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "typeface": "Microsoft YaHei",
+            "color": "#FFFFFF"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "原生装配 = 接地+固定关节+间隙检查",
+              "fontSize": 24,
+              "typeface": "Microsoft YaHei",
+              "color": "#FFFFFF"
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "text": "完成手机支架+带盖储物盒2件作品",
+          "bulletCharacter": "•",
+          "marginLeft": 28,
+          "indent": -14,
+          "spaceAfter": 8,
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "typeface": "Microsoft YaHei",
+            "color": "#FFFFFF"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "完成手机支架+带盖储物盒2件作品",
+              "fontSize": 24,
+              "typeface": "Microsoft YaHei",
+              "color": "#FFFFFF"
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "text": "👉 下一步：桥梁跨学科项目、FEM与打印验证",
+          "bulletCharacter": "•",
+          "marginLeft": 28,
+          "indent": -14,
+          "spaceAfter": 8,
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "typeface": "Microsoft YaHei",
+            "color": "#FFFFFF"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "👉 下一步：桥梁跨学科项目、FEM与打印验证",
+              "fontSize": 24,
+              "typeface": "Microsoft YaHei",
+              "color": "#FFFFFF"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(255, 255, 255, 0.09412)",
+      "lineColor": "rgba(255, 255, 255, 0.26667)",
+      "lineWidth": 1
+    }
+  ],
+  "composeRuns": []
+}

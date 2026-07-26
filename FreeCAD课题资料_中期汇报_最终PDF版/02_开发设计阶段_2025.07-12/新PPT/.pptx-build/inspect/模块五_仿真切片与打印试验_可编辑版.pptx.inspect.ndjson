@@ -1,0 +1,142 @@
+{"kind":"deck","id":"pr/3cad9e","name":"Deck"}
+{"kind":"layout","layoutId":"26ac2484-5bb7-4663-a3d7-dd9a091af401","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"afdcbb6f-c2a9-4cc0-9416-e260c831cf86","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/n3jjwx","slide":1,"title":"🖨️","textShapes":5}
+{"kind":"shape","id":"sh/exs7i9k3","slide":1,"bbox":[0,0,20,720]}
+{"kind":"textbox","id":"sh/10j6d43u","slide":1,"name":"title-icon","text":"🖨️","textPreview":"🖨️","textChars":3,"textLines":1,"bbox":[850,145,280,230]}
+{"kind":"textbox","id":"sh/0zapkz29","slide":1,"name":"deck-title","text":"模块五","textPreview":"模块五","textChars":3,"textLines":1,"bbox":[80,155,700,110]}
+{"kind":"textbox","id":"sh/ruho7uls","slide":1,"name":"deck-subtitle","text":"桥梁跨学科项目、有限元分析、切片与承重试验","textPreview":"桥梁跨学科项目、有限元分析、切片与承重试验","textChars":21,"textLines":1,"bbox":[84,278,760,92]}
+{"kind":"textbox","id":"sh/qt87epk7","slide":1,"name":"deck-meta","text":"4课时 · 第14-17课 · 技术实践","textPreview":"4课时 · 第14-17课 · 技术实践","textChars":20,"textLines":1,"bbox":[84,420,900,52]}
+{"kind":"textbox","id":"sh/dwj6943y","slide":1,"name":"editable-label","text":"可编辑PowerPoint课件","textPreview":"可编辑PowerPoint课件","textChars":15,"textLines":1,"bbox":[84,610,420,32]}
+{"kind":"notes","id":"nt/n3jjwx","slide":1,"text":""}
+{"kind":"slide","id":"sl/v2fc1f","slide":2,"title":"课前预习！","textShapes":4}
+{"kind":"shape","id":"sh/et0f6d0j","slide":2,"name":"top-accent","bbox":[0,0,1280,8]}
+{"kind":"textbox","id":"sh/1wry18za","slide":2,"name":"slide-title","text":"课前预习！","textPreview":"课前预习！","textChars":5,"textLines":1,"bbox":[64,36,1060,78]}
+{"kind":"textbox","id":"sh/0vix83ip","slide":2,"name":"slide-icon","text":"⚠️","textPreview":"⚠️","textChars":2,"textLines":1,"bbox":[1140,28,76,76]}
+{"kind":"textbox","id":"sh/nitg3ihg","slide":2,"name":"footer","text":"模块五  ·  2","textPreview":"模块五  ·  2","textChars":9,"textLines":1,"bbox":[64,676,1152,24]}
+{"kind":"textbox","id":"sh/mxkfad0v","slide":2,"name":"bullet-list","text":"确认已安装Cura切片软件\n了解STL=3D打印通用格式\n了解切片=把模型切成一层层路径\n思考桥梁结构、填充密度与承重能力的关系\n复习3D打印安全规范","textPreview":"确认已安装Cura切片软件 | 了解STL=3D打印通用格式 | 了解切片=把模型切成一层层路径 | 思考桥梁结构、填充密度与承重能力的关系 | 复习3D打印安全规范","textChars":75,"textLines":5,"bbox":[120,144,1040,480]}
+{"kind":"notes","id":"nt/v2fc1f","slide":2,"text":""}
+{"kind":"slide","id":"sl/po0css","slide":3,"title":"STL格式","textShapes":8}
+{"kind":"shape","id":"sh/sv2dsbqp","slide":3,"name":"top-accent","bbox":[0,0,1280,8]}
+{"kind":"textbox","id":"sh/rutwj6p4","slide":3,"name":"slide-title","text":"STL格式","textPreview":"STL格式","textChars":5,"textLines":1,"bbox":[64,36,1060,78]}
+{"kind":"textbox","id":"sh/qtkvq18j","slide":3,"name":"slide-icon","text":"📄","textPreview":"📄","textChars":2,"textLines":1,"bbox":[1140,28,76,76]}
+{"kind":"textbox","id":"sh/5sbehw7y","slide":3,"name":"footer","text":"模块五  ·  3","textPreview":"模块五  ·  3","textChars":9,"textLines":1,"bbox":[64,676,1152,24]}
+{"kind":"textbox","id":"sh/4r2dobqd","slide":3,"name":"code-intro","text":"3D打印通用格式，用三角网格描述表面","textPreview":"3D打印通用格式，用三角网格描述表面","textChars":18,"textLines":1,"bbox":[68,112,1140,34]}
+{"kind":"shape","id":"sh/3q9wf6ps","slide":3,"name":"code-panel","bbox":[56,154,700,510]}
+{"kind":"textbox","id":"sh/i50vm18n","slide":3,"name":"editable-code","text":"# 导出STL\nimport FreeCAD\nimport FreeCADGui\nimport Mesh\nselection = FreeCADGui.Selection.getSelection()\nMesh.export([selection[0]], '学号-姓名-钥匙扣.stl')\nprint('STL导出成功！')","textPreview":"# 导出STL | import FreeCAD | import FreeCADGui | import Mesh | selection = FreeCADGui.Selection.getSelection() | Mesh.export([selection[0]]...","textChars":163,"textLines":7,"bbox":[76,172,660,474]}
+{"kind":"shape","id":"sh/h4redw72","slide":3,"name":"explain-1","bbox":[784,154,440,94]}
+{"kind":"textbox","id":"sh/g3idkrqh","slide":3,"name":"explain-text-1","text":"逐行作用\n读取对象树选择列表，取第1个对象交给Mesh.export()转换为STL三角网格。","textPreview":"逐行作用 | 读取对象树选择列表，取第1个对象交给Mesh.export()转换为STL三角网格。","textChars":47,"textLines":2,"bbox":[796,160,416,82]}
+{"kind":"shape","id":"sh/a107ixk3","slide":3,"name":"explain-2","bbox":[784,258,440,94]}
+{"kind":"textbox","id":"sh/v29or2lo","slide":3,"name":"explain-text-2","text":"运行前\n在对象树中单击最终实体；导出后到文件目录确认STL实际存在。","textPreview":"运行前 | 在对象树中单击最终实体；导出后到文件目录确认STL实际存在。","textChars":34,"textLines":2,"bbox":[796,264,416,82]}
+{"kind":"shape","id":"sh/w32pk729","slide":3,"name":"explain-3","bbox":[784,362,440,94]}
+{"kind":"textbox","id":"sh/x4b6tc3u","slide":3,"name":"explain-text-3","text":"易错点\nSTL不保存参数和历史，必须同时保留FCStd；不要误选草图或单个零件特征。","textPreview":"易错点 | STL不保存参数和历史，必须同时保留FCStd；不要误选草图或单个零件特征。","textChars":42,"textLines":2,"bbox":[796,368,416,82]}
+{"kind":"notes","id":"nt/po0css","slide":3,"text":""}
+{"kind":"slide","id":"sl/fknif0","slide":4,"title":"模型检查","textShapes":4}
+{"kind":"shape","id":"sh/a9gnqls3","slide":4,"name":"top-accent","bbox":[0,0,1280,8]}
+{"kind":"textbox","id":"sh/xcrm10ru","slide":4,"name":"slide-title","text":"模型检查","textPreview":"模型检查","textChars":4,"textLines":1,"bbox":[64,36,1060,78]}
+{"kind":"textbox","id":"sh/wbi5sva9","slide":4,"name":"slide-icon","text":"🔍","textPreview":"🔍","textChars":2,"textLines":1,"bbox":[1140,28,76,76]}
+{"kind":"textbox","id":"sh/n6p4v6ts","slide":4,"name":"footer","text":"模块五  ·  4","textPreview":"模块五  ·  4","textChars":9,"textLines":1,"bbox":[64,676,1152,24]}
+{"kind":"textbox","id":"sh/m5g3mls7","slide":4,"name":"bullet-list","text":"破面（非流形）：面片有缺口\n反转面：法线方向错误\n零厚度：壁厚为0\nCura导入时自动检查并提示","textPreview":"破面（非流形）：面片有缺口 | 反转面：法线方向错误 | 零厚度：壁厚为0 | Cura导入时自动检查并提示","textChars":48,"textLines":4,"bbox":[120,144,1040,480]}
+{"kind":"notes","id":"nt/fknif0","slide":4,"text":""}
+{"kind":"slide","id":"sl/rnqiaw","slide":5,"title":"Cura切片","textShapes":5}
+{"kind":"shape","id":"sh/k36xg7y9","slide":5,"name":"top-accent","bbox":[0,0,1280,8]}
+{"kind":"textbox","id":"sh/z2xgnmho","slide":5,"name":"slide-title","text":"Cura切片","textPreview":"Cura切片","textChars":6,"textLines":1,"bbox":[64,36,1060,78]}
+{"kind":"textbox","id":"sh/y1ofehgj","slide":5,"name":"slide-icon","text":"⚙️","textPreview":"⚙️","textChars":2,"textLines":1,"bbox":[1140,28,76,76]}
+{"kind":"textbox","id":"sh/9szytwz6","slide":5,"name":"footer","text":"模块五  ·  5","textPreview":"模块五  ·  5","textChars":9,"textLines":1,"bbox":[64,676,1152,24]}
+{"kind":"textbox","id":"sh/876hkryl","slide":5,"name":"list-intro","text":"把3D模型切成一层层2D路径","textPreview":"把3D模型切成一层层2D路径","textChars":14,"textLines":1,"bbox":[86,116,1108,54]}
+{"kind":"textbox","id":"sh/76xgrmh0","slide":5,"name":"bullet-list","text":"1. 导入STL\n2. 设置参数（层高/填充/支撑）\n3. 点『切片』\n4. 保存G-code到SD卡","textPreview":"1. 导入STL | 2. 设置参数（层高/填充/支撑） | 3. 点『切片』 | 4. 保存G-code到SD卡","textChars":51,"textLines":4,"bbox":[120,176,1040,480]}
+{"kind":"notes","id":"nt/rnqiaw","slide":5,"text":""}
+{"kind":"slide","id":"sl/39j7qb","slide":6,"title":"层高","textShapes":9}
+{"kind":"shape","id":"sh/e9s3a5gn","slide":6,"name":"top-accent","bbox":[0,0,1280,8]}
+{"kind":"textbox","id":"sh/1c3m5kfy","slide":6,"name":"slide-title","text":"层高","textPreview":"层高","textChars":2,"textLines":1,"bbox":[64,36,1060,78]}
+{"kind":"textbox","id":"sh/0balcfyd","slide":6,"name":"slide-icon","text":"📏","textPreview":"📏","textChars":2,"textLines":1,"bbox":[1140,28,76,76]}
+{"kind":"textbox","id":"sh/rm14zqxw","slide":6,"name":"footer","text":"模块五  ·  6","textPreview":"模块五  ·  6","textChars":9,"textLines":1,"bbox":[64,676,1152,24]}
+{"kind":"shape","id":"sh/qls365gb","slide":6,"name":"card-1","bbox":[72,154,556,234]}
+{"kind":"textbox","id":"sh/d8jm10f2","slide":6,"name":"card-title-1","text":"0.1mm","textPreview":"0.1mm","textChars":5,"textLines":1,"bbox":[90,168,520,42]}
+{"kind":"textbox","id":"sh/snal8vyh","slide":6,"name":"card-body-1","text":"精细·慢·表面光滑","textPreview":"精细·慢·表面光滑","textChars":9,"textLines":1,"bbox":[90,216,520,156]}
+{"kind":"shape","id":"sh/3ih4vqx0","slide":6,"name":"card-2","bbox":[652,154,556,234]}
+{"kind":"textbox","id":"sh/ih832lgf","slide":6,"name":"card-title-2","text":"0.2mm","textPreview":"0.2mm","textChars":5,"textLines":1,"bbox":[670,168,520,42]}
+{"kind":"textbox","id":"sh/k7i9gjat","slide":6,"name":"card-body-2","text":"标准·推荐·平衡","textPreview":"标准·推荐·平衡","textChars":8,"textLines":1,"bbox":[670,216,520,156]}
+{"kind":"shape","id":"sh/l8rqpore","slide":6,"name":"card-3","bbox":[72,406,556,234]}
+{"kind":"textbox","id":"sh/y5grets3","slide":6,"name":"card-title-3","text":"0.3mm","textPreview":"0.3mm","textChars":5,"textLines":1,"bbox":[90,420,520,42]}
+{"kind":"textbox","id":"sh/z698ny98","slide":6,"name":"card-body-3","text":"快速·粗糙·有层纹","textPreview":"快速·粗糙·有层纹","textChars":9,"textLines":1,"bbox":[90,468,520,156]}
+{"kind":"notes","id":"nt/39j7qb","slide":6,"text":""}
+{"kind":"slide","id":"sl/1256bt","slide":7,"title":"填充","textShapes":9}
+{"kind":"shape","id":"sh/kfe5ojat","slide":7,"name":"top-accent","bbox":[0,0,1280,8]}
+{"kind":"textbox","id":"sh/jelovet8","slide":7,"name":"slide-title","text":"填充","textPreview":"填充","textChars":2,"textLines":1,"bbox":[64,36,1060,78]}
+{"kind":"textbox","id":"sh/ydcnm9s3","slide":7,"name":"slide-icon","text":"🔲","textPreview":"🔲","textChars":2,"textLines":1,"bbox":[1140,28,76,76]}
+{"kind":"textbox","id":"sh/xc36tobi","slide":7,"name":"footer","text":"模块五  ·  7","textPreview":"模块五  ·  7","textChars":9,"textLines":1,"bbox":[64,676,1152,24]}
+{"kind":"shape","id":"sh/wru5kjax","slide":7,"name":"card-1","bbox":[72,154,556,234]}
+{"kind":"textbox","id":"sh/bql4retc","slide":7,"name":"card-title-1","text":"20%","textPreview":"20%","textChars":3,"textLines":1,"bbox":[90,168,520,42]}
+{"kind":"textbox","id":"sh/apcni9sr","slide":7,"name":"card-body-1","text":"常用·够强度·省时省料","textPreview":"常用·够强度·省时省料","textChars":11,"textLines":1,"bbox":[90,216,520,156]}
+{"kind":"shape","id":"sh/9o3mp4b6","slide":7,"name":"card-2","bbox":[652,154,556,234]}
+{"kind":"textbox","id":"sh/ona5gzal","slide":7,"name":"card-title-2","text":"50%","textPreview":"50%","textChars":3,"textLines":1,"bbox":[670,168,520,42]}
+{"kind":"textbox","id":"sh/6tcrm1o3","slide":7,"name":"card-body-2","text":"较高强度·受力件","textPreview":"较高强度·受力件","textChars":8,"textLines":1,"bbox":[670,216,520,156]}
+{"kind":"shape","id":"sh/7ulsf658","slide":7,"name":"card-3","bbox":[72,406,556,234]}
+{"kind":"textbox","id":"sh/8vu9ob6t","slide":7,"name":"card-title-3","text":"100%","textPreview":"100%","textChars":4,"textLines":1,"bbox":[90,420,520,42]}
+{"kind":"textbox","id":"sh/tg3ahgne","slide":7,"name":"card-body-3","text":"实心·最结实·最慢","textPreview":"实心·最结实·最慢","textChars":9,"textLines":1,"bbox":[90,468,520,156]}
+{"kind":"notes","id":"nt/1256bt","slide":7,"text":""}
+{"kind":"slide","id":"sl/pd907g","slide":8,"title":"支撑","textShapes":4}
+{"kind":"shape","id":"sh/nilsnmtc","slide":8,"name":"top-accent","bbox":[0,0,1280,8]}
+{"kind":"textbox","id":"sh/oju9g7ux","slide":8,"name":"slide-title","text":"支撑","textPreview":"支撑","textChars":2,"textLines":1,"bbox":[64,36,1060,78]}
+{"kind":"textbox","id":"sh/9k3apcbi","slide":8,"name":"slide-icon","text":"🏗️","textPreview":"🏗️","textChars":3,"textLines":1,"bbox":[1140,28,76,76]}
+{"kind":"textbox","id":"sh/edsraxcv","slide":8,"name":"footer","text":"模块五  ·  8","textPreview":"模块五  ·  8","textChars":9,"textLines":1,"bbox":[64,676,1152,24]}
+{"kind":"textbox","id":"sh/0fa9c7ul","slide":8,"name":"image-caption","text":"悬空>45°需要支撑\n支撑打印后需拆除","textPreview":"悬空>45°需要支撑 | 支撑打印后需拆除","textChars":19,"textLines":2,"bbox":[90,578,1100,80]}
+{"kind":"image","id":"im/exgni1gf","slide":8,"name":"","geometry":"roundRect","alt":"作品","bbox":[315,136,650,432]}
+{"kind":"notes","id":"nt/pd907g","slide":8,"text":""}
+{"kind":"slide","id":"sl/1t7ktd","slide":9,"title":"安全规范","textShapes":7}
+{"kind":"shape","id":"sh/bahgf6hc","slide":9,"name":"top-accent","bbox":[0,0,1280,8]}
+{"kind":"textbox","id":"sh/wvqxobix","slide":9,"name":"slide-title","text":"安全规范","textPreview":"安全规范","textChars":4,"textLines":1,"bbox":[64,36,1060,78]}
+{"kind":"textbox","id":"sh/xwzyhgzi","slide":9,"name":"slide-icon","text":"⚠️","textPreview":"⚠️","textChars":2,"textLines":1,"bbox":[1140,28,76,76]}
+{"kind":"textbox","id":"sh/yxsfqlg3","slide":9,"name":"footer","text":"模块五  ·  9","textPreview":"模块五  ·  9","textChars":9,"textLines":1,"bbox":[64,676,1152,24]}
+{"kind":"shape","id":"sh/jy1gjqho","slide":9,"name":"card-1","bbox":[72,154,556,486]}
+{"kind":"textbox","id":"sh/kzahsvy9","slide":9,"name":"card-title-1","text":"❌ 禁止","textPreview":"❌ 禁止","textChars":4,"textLines":1,"bbox":[90,168,520,42]}
+{"kind":"textbox","id":"sh/l0jyl0zu","slide":9,"name":"card-body-1","text":"触摸喷嘴200℃·打印中开门·手取热模型","textPreview":"触摸喷嘴200℃·打印中开门·手取热模型","textChars":20,"textLines":1,"bbox":[90,216,520,408]}
+{"kind":"shape","id":"sh/e1ofe10z","slide":9,"name":"card-2","bbox":[652,154,556,486]}
+{"kind":"textbox","id":"sh/z2xg7mhk","slide":9,"name":"card-title-2","text":"✅ 必须","textPreview":"✅ 必须","textChars":4,"textLines":1,"bbox":[670,168,520,42]}
+{"kind":"textbox","id":"sh/nepgfixk","slide":9,"name":"card-body-2","text":"等冷却用铲刀取·异常断电报告·保持整洁","textPreview":"等冷却用铲刀取·异常断电报告·保持整洁","textChars":19,"textLines":1,"bbox":[670,216,520,408]}
+{"kind":"notes","id":"nt/1t7ktd","slide":9,"text":""}
+{"kind":"slide","id":"sl/hgh97f","slide":10,"title":"打印流程","textShapes":4}
+{"kind":"shape","id":"sh/vmdgnu1k","slide":10,"name":"top-accent","bbox":[0,0,1280,8]}
+{"kind":"textbox","id":"sh/gn6hgzi5","slide":10,"name":"slide-title","text":"打印流程","textPreview":"打印流程","textChars":4,"textLines":1,"bbox":[64,36,1060,78]}
+{"kind":"textbox","id":"sh/hofyp4jq","slide":10,"name":"slide-icon","text":"🖨️","textPreview":"🖨️","textChars":3,"textLines":1,"bbox":[1140,28,76,76]}
+{"kind":"textbox","id":"sh/6x4zapk3","slide":10,"name":"footer","text":"模块五  ·  10","textPreview":"模块五  ·  10","textChars":10,"textLines":1,"bbox":[64,676,1152,24]}
+{"kind":"textbox","id":"sh/7ydgju18","slide":10,"name":"bullet-list","text":"1. 开机→预热（喷嘴200℃·热床60℃）\n2. 进料：PLA丝送入挤出机\n3. 传输G-code→开始打印\n4. 观察第一层是否贴牢\n5. 完成→等冷却→铲刀取下","textPreview":"1. 开机→预热（喷嘴200℃·热床60℃） | 2. 进料：PLA丝送入挤出机 | 3. 传输G-code→开始打印 | 4. 观察第一层是否贴牢 | 5. 完成→等冷却→铲刀取下","textChars":83,"textLines":5,"bbox":[120,144,1040,480]}
+{"kind":"notes","id":"nt/hgh97f","slide":10,"text":""}
+{"kind":"slide","id":"sl/tj198u","slide":11,"title":"正弦拱桁架桥","textShapes":3}
+{"kind":"shape","id":"sh/ne1kne50","slide":11,"name":"top-accent","bbox":[0,0,1280,8]}
+{"kind":"textbox","id":"sh/8zalgj6l","slide":11,"name":"slide-title","text":"正弦拱桁架桥","textPreview":"正弦拱桁架桥","textChars":6,"textLines":1,"bbox":[64,36,1060,78]}
+{"kind":"textbox","id":"sh/90j2ponq","slide":11,"name":"slide-icon","text":"🌉","textPreview":"🌉","textChars":2,"textLines":1,"bbox":[1140,28,76,76]}
+{"kind":"textbox","id":"sh/a1c3i9ob","slide":11,"name":"footer","text":"模块五  ·  11","textPreview":"模块五  ·  11","textChars":10,"textLines":1,"bbox":[64,676,1152,24]}
+{"kind":"image","id":"im/al8vup03","slide":11,"name":"","geometry":"roundRect","alt":"正弦拱桁架桥","bbox":[315,136,650,432]}
+{"kind":"notes","id":"nt/tj198u","slide":11,"text":""}
+{"kind":"slide","id":"sl/dos28g","slide":12,"title":"第15课：FreeCAD FEM有限元分析","textShapes":4}
+{"kind":"shape","id":"sh/9oj654bi","slide":12,"name":"top-accent","bbox":[0,0,1280,8]}
+{"kind":"textbox","id":"sh/ml87u9sr","slide":12,"name":"slide-title","text":"第15课：FreeCAD FEM有限元分析","textPreview":"第15课：FreeCAD FEM有限元分析","textChars":21,"textLines":1,"bbox":[64,36,1060,78]}
+{"kind":"textbox","id":"sh/nm1o3utc","slide":12,"name":"slide-icon","text":"📊","textPreview":"📊","textChars":2,"textLines":1,"bbox":[1140,28,76,76]}
+{"kind":"textbox","id":"sh/0jq5sza1","slide":12,"name":"footer","text":"模块五  ·  12","textPreview":"模块五  ·  12","textChars":10,"textLines":1,"bbox":[64,676,1152,24]}
+{"kind":"textbox","id":"sh/ex8nqpsv","slide":12,"name":"image-caption","text":"100N · 28节点 · 88个B31梁单元 · 最大位移0.0464mm · 最大等效应力1.31MPa","textPreview":"100N · 28节点 · 88个B31梁单元 · 最大位移0.0464mm · 最大等效应力1.31MPa","textChars":54,"textLines":1,"bbox":[90,578,1100,80]}
+{"kind":"image","id":"im/4z2do36p","slide":12,"name":"","geometry":"roundRect","alt":"桥梁FEM变形对比","bbox":[315,136,650,432]}
+{"kind":"notes","id":"nt/dos28g","slide":12,"text":""}
+{"kind":"slide","id":"sl/704d0c","slide":13,"title":"桥梁跨学科承重验证","textShapes":9}
+{"kind":"shape","id":"sh/w7upob69","slide":13,"name":"top-accent","bbox":[0,0,1280,8]}
+{"kind":"textbox","id":"sh/b6lov6po","slide":13,"name":"slide-title","text":"桥梁跨学科承重验证","textPreview":"桥梁跨学科承重验证","textChars":9,"textLines":1,"bbox":[64,36,1060,78]}
+{"kind":"textbox","id":"sh/a5c7m1oj","slide":13,"name":"slide-icon","text":"🌉","textPreview":"🌉","textChars":2,"textLines":1,"bbox":[1140,28,76,76]}
+{"kind":"textbox","id":"sh/9436tw7y","slide":13,"name":"footer","text":"模块五  ·  13","textPreview":"模块五  ·  13","textChars":10,"textLines":1,"bbox":[64,676,1152,24]}
+{"kind":"shape","id":"sh/o3upkb6d","slide":13,"name":"card-1","bbox":[72,154,556,234]}
+{"kind":"textbox","id":"sh/n2lor6ps","slide":13,"name":"card-title-1","text":"结构","textPreview":"结构","textChars":2,"textLines":1,"bbox":[90,168,520,42]}
+{"kind":"textbox","id":"sh/21c7i1o7","slide":13,"name":"card-body-1","text":"桥拱、桥面、支撑共同分散载荷","textPreview":"桥拱、桥面、支撑共同分散载荷","textChars":14,"textLines":1,"bbox":[90,216,520,156]}
+{"kind":"shape","id":"sh/1036pw7m","slide":13,"name":"card-2","bbox":[652,154,556,234]}
+{"kind":"textbox","id":"sh/0zapgr61","slide":13,"name":"card-title-2","text":"打印","textPreview":"打印","textChars":2,"textLines":1,"bbox":[670,168,520,42]}
+{"kind":"textbox","id":"sh/qhwvy1w7","slide":13,"name":"card-body-2","text":"对比层高、填充和打印方向","textPreview":"对比层高、填充和打印方向","textChars":12,"textLines":1,"bbox":[670,216,520,156]}
+{"kind":"shape","id":"sh/bi5wr6ds","slide":13,"name":"card-3","bbox":[72,406,556,234]}
+{"kind":"textbox","id":"sh/cjed0rex","slide":13,"name":"card-title-3","text":"验证","textPreview":"验证","textChars":2,"textLines":1,"bbox":[90,420,520,42]}
+{"kind":"textbox","id":"sh/dknetwvi","slide":13,"name":"card-body-3","text":"逐级加载并记录最大承重","textPreview":"逐级加载并记录最大承重","textChars":11,"textLines":1,"bbox":[90,468,520,156]}
+{"kind":"notes","id":"nt/704d0c","slide":13,"text":""}
+{"kind":"slide","id":"sl/pq4nfa","slide":14,"title":"本模块总结","textShapes":4}
+{"kind":"shape","id":"sh/2dg72147","slide":14,"name":"top-accent","bbox":[0,0,1280,8]}
+{"kind":"textbox","id":"sh/pg76dg3y","slide":14,"name":"slide-title","text":"本模块总结","textPreview":"本模块总结","textChars":5,"textLines":1,"bbox":[64,36,1060,78]}
+{"kind":"textbox","id":"sh/ofyp4bmd","slide":14,"name":"slide-icon","text":"🎯","textPreview":"🎯","textChars":2,"textLines":1,"bbox":[1140,28,76,76]}
+{"kind":"textbox","id":"sh/fapo7mlw","slide":14,"name":"footer","text":"模块五  ·  14","textPreview":"模块五  ·  14","textChars":10,"textLines":1,"bbox":[64,676,1152,24]}
+{"kind":"textbox","id":"sh/epg7yh4b","slide":14,"name":"bullet-list","text":"STL导出 = Mesh.export\nCura切片 = 层高+填充+支撑\n打印实操 = 预热→进料→打印→取件\n桥梁融合点 = S/T/E/M：函数建模→FEM→切片→打印→承重验证\n安全第一！\n👉 下一步：结课综合项目","textPreview":"STL导出 = Mesh.export | Cura切片 = 层高+填充+支撑 | 打印实操 = 预热→进料→打印→取件 | 桥梁融合点 = S/T/E/M：函数建模→FEM→切片→打印→承重验证 | 安全第一！ | 👉 下一步：结课综合项目","textChars":112,"textLines":6,"bbox":[120,144,1040,480]}
+{"kind":"notes","id":"nt/pq4nfa","slide":14,"text":""}

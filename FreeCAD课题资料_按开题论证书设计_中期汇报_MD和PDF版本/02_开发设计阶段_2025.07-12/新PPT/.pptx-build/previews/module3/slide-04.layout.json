@@ -1,0 +1,722 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/ogqcm1",
+    "id": "ogqcm1",
+    "slide": 4,
+    "layoutId": "bc0919a4-994a-4d52-bbd9-0a0d2c50ab77",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "25885ba7-517f-4352-aab3-1c76690165ee",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#F8F9FE",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Consolas",
+      "Microsoft YaHei"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "bc0919a4-994a-4d52-bbd9-0a0d2c50ab77",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "25885ba7-517f-4352-aab3-1c76690165ee",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "25885ba7-517f-4352-aab3-1c76690165ee",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/e14bepsz",
+      "id": "1",
+      "name": "top-accent",
+      "bbox": [
+        0,
+        0,
+        1280,
+        8
+      ],
+      "geometry": "rect",
+      "fillColor": "#667EEA",
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/14fap4ba",
+      "id": "2",
+      "name": "slide-title",
+      "bbox": [
+        64,
+        36,
+        1140,
+        78
+      ],
+      "geometry": "rect",
+      "text": "数据类型",
+      "textPreview": "数据类型",
+      "resolvedFontSize": 50,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 50,
+        "typeface": "Microsoft YaHei",
+        "color": "#2D3748",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4,
+          "right": 6,
+          "bottom": 4,
+          "left": 6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "数据类型"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "数据类型",
+          "resolvedTextStyle": {
+            "fontSize": 50,
+            "typeface": "Microsoft YaHei",
+            "color": "#2D3748",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "数据类型",
+              "fontSize": 50,
+              "typeface": "Microsoft YaHei",
+              "color": "#2D3748",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/03mtgzap",
+      "id": "3",
+      "name": "footer",
+      "bbox": [
+        64,
+        676,
+        1152,
+        24
+      ],
+      "geometry": "rect",
+      "text": "模块三  ·  4",
+      "textPreview": "模块三  ·  4",
+      "resolvedFontSize": 13.33,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 15,
+        "typeface": "Microsoft YaHei",
+        "color": "#718096",
+        "alignment": "right",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.89,
+        "insets": {
+          "top": 4,
+          "right": 6,
+          "bottom": 4,
+          "left": 6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "模块三  ·  4"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "模块三  ·  4",
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "Microsoft YaHei",
+            "color": "#718096",
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "模块三  ·  4",
+              "fontSize": 15,
+              "typeface": "Microsoft YaHei",
+              "color": "#718096",
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/rydsjut8",
+      "id": "4",
+      "name": "code-panel",
+      "bbox": [
+        56,
+        132,
+        700,
+        510
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#1E1E2E",
+      "lineColor": "#4A5568",
+      "lineWidth": 1
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qx4bapsn",
+      "id": "5",
+      "name": "editable-code",
+      "bbox": [
+        76,
+        150,
+        660,
+        474
+      ],
+      "geometry": "rect",
+      "text": "# 用type()查看数据类型\nprint(type(25)) # <class 'int'> 整数\nprint(type(3.14)) # <class 'float'> 浮点数\nprint(type('hello')) # <class 'str'> 字符串",
+      "textPreview": "# 用type()查看数据类型 | print(type(25)) # <class 'int'> 整数 | print(type(3.14)) # <class 'float'> 浮点数 | print(type('hello')) # <class 'str'> 字符串",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 20,
+        "typeface": "Consolas",
+        "color": "#E2E8F0",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4,
+          "right": 4,
+          "bottom": 4,
+          "left": 4
+        }
+      },
+      "textLayout": {
+        "lineCount": 4,
+        "lines": [
+          {
+            "index": 1,
+            "text": "# 用type()查看数据类型"
+          },
+          {
+            "index": 2,
+            "text": "print(type(25)) # <class 'int'> 整数"
+          },
+          {
+            "index": 3,
+            "text": "print(type(3.14)) # <class 'float'> 浮点数"
+          },
+          {
+            "index": 4,
+            "text": "print(type('hello')) # <class 'str'> 字符串"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "# 用type()查看数据类型",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "typeface": "Consolas",
+            "color": "#E2E8F0",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "# 用type()查看数据类型",
+              "fontSize": 20,
+              "typeface": "Consolas",
+              "color": "#E2E8F0",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "print(type(25)) # <class 'int'> 整数",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "typeface": "Consolas",
+            "color": "#E2E8F0",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "print(type(25)) # <class 'int'> 整数",
+              "fontSize": 20,
+              "typeface": "Consolas",
+              "color": "#E2E8F0",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "print(type(3.14)) # <class 'float'> 浮点数",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "typeface": "Consolas",
+            "color": "#E2E8F0",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "print(type(3.14)) # <class 'float'> 浮点数",
+              "fontSize": 20,
+              "typeface": "Consolas",
+              "color": "#E2E8F0",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 4,
+          "text": "print(type('hello')) # <class 'str'> 字符串",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "typeface": "Consolas",
+            "color": "#E2E8F0",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "print(type('hello')) # <class 'str'> 字符串",
+              "fontSize": 20,
+              "typeface": "Consolas",
+              "color": "#E2E8F0",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/d0valkbe",
+      "id": "6",
+      "name": "explain-1",
+      "bbox": [
+        784,
+        132,
+        440,
+        94
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#89B4FA",
+      "lineWidth": 2
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/szmtczat",
+      "id": "7",
+      "name": "explain-text-1",
+      "bbox": [
+        796,
+        138,
+        416,
+        82
+      ],
+      "geometry": "rect",
+      "text": "作用\ntype(值)返回数据类型；print()把类型结果显示到控制台。",
+      "textPreview": "作用 | type(值)返回数据类型；print()把类型结果显示到控制台。",
+      "resolvedFontSize": 19,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 19,
+        "typeface": "Microsoft YaHei",
+        "color": "#2D3748",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 2,
+          "right": 2,
+          "bottom": 2,
+          "left": 2
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "作用"
+          },
+          {
+            "index": 2,
+            "text": "type(值)返回数据类型；print()把类型结果显示到"
+          },
+          {
+            "index": 3,
+            "text": "控制台。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "作用",
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "typeface": "Microsoft YaHei",
+            "color": "#2D3748",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "作用",
+              "fontSize": 19,
+              "typeface": "Microsoft YaHei",
+              "color": "#2D3748",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "type(值)返回数据类型；print()把类型结果显示到控制台。",
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "typeface": "Microsoft YaHei",
+            "color": "#2D3748",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "type(值)返回数据类型；print()把类型结果显示到控制台。",
+              "fontSize": 19,
+              "typeface": "Microsoft YaHei",
+              "color": "#2D3748",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/buxcvetc",
+      "id": "8",
+      "name": "explain-2",
+      "bbox": [
+        784,
+        236,
+        440,
+        94
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#89B4FA",
+      "lineWidth": 2
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/atobm9s7",
+      "id": "9",
+      "name": "explain-text-2",
+      "bbox": [
+        796,
+        242,
+        416,
+        82
+      ],
+      "geometry": "rect",
+      "text": "为什么重要\nint/float能参与计算，str用于文字；引号会把数字也变成字符串。",
+      "textPreview": "为什么重要 | int/float能参与计算，str用于文字；引号会把数字也变成字符串。",
+      "resolvedFontSize": 19,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 19,
+        "typeface": "Microsoft YaHei",
+        "color": "#2D3748",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 2,
+          "right": 2,
+          "bottom": 2,
+          "left": 2
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "为什么重要"
+          },
+          {
+            "index": 2,
+            "text": "int/float能参与计算，str用于文字；引号会把数"
+          },
+          {
+            "index": 3,
+            "text": "字也变成字符串。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "为什么重要",
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "typeface": "Microsoft YaHei",
+            "color": "#2D3748",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "为什么重要",
+              "fontSize": 19,
+              "typeface": "Microsoft YaHei",
+              "color": "#2D3748",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "int/float能参与计算，str用于文字；引号会把数字也变成字符串。",
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "typeface": "Microsoft YaHei",
+            "color": "#2D3748",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "int/float能参与计算，str用于文字；引号会把数字也变成字符串。",
+              "fontSize": 19,
+              "typeface": "Microsoft YaHei",
+              "color": "#2D3748",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wn258jm1",
+      "id": "10",
+      "name": "explain-3",
+      "bbox": [
+        784,
+        340,
+        440,
+        94
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#89B4FA",
+      "lineWidth": 2
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xob6honm",
+      "id": "11",
+      "name": "explain-text-3",
+      "bbox": [
+        796,
+        346,
+        416,
+        82
+      ],
+      "geometry": "rect",
+      "text": "易错点\n'25'是str，不是int；字符串与数字不能直接相加。",
+      "textPreview": "易错点 | '25'是str，不是int；字符串与数字不能直接相加。",
+      "resolvedFontSize": 19,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 19,
+        "typeface": "Microsoft YaHei",
+        "color": "#2D3748",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 2,
+          "right": 2,
+          "bottom": 2,
+          "left": 2
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "易错点"
+          },
+          {
+            "index": 2,
+            "text": "'25'是str，不是int；字符串与数字不能直接相加"
+          },
+          {
+            "index": 3,
+            "text": "。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "易错点",
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "typeface": "Microsoft YaHei",
+            "color": "#2D3748",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "易错点",
+              "fontSize": 19,
+              "typeface": "Microsoft YaHei",
+              "color": "#2D3748",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "'25'是str，不是int；字符串与数字不能直接相加。",
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "typeface": "Microsoft YaHei",
+            "color": "#2D3748",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "'25'是str，不是int；字符串与数字不能直接相加。",
+              "fontSize": 19,
+              "typeface": "Microsoft YaHei",
+              "color": "#2D3748",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

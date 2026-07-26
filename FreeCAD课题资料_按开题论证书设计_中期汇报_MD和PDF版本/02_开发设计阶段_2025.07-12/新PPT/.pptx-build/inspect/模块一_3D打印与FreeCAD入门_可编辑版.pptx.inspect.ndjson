@@ -1,0 +1,107 @@
+{"kind":"deck","id":"pr/rbm5kv","name":"Deck"}
+{"kind":"layout","layoutId":"cec48409-de62-4745-a07f-d8f2525feda5","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"f1d60a1b-d128-48d9-84c7-697d85fd56af","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/rn5okc","slide":1,"title":"🌍","textShapes":5}
+{"kind":"shape","id":"sh/sj2d8vi1","slide":1,"bbox":[0,0,20,720]}
+{"kind":"textbox","id":"sh/7itcfq1g","slide":1,"name":"title-icon","text":"🌍","textPreview":"🌍","textChars":2,"textLines":1,"bbox":[850,145,280,230]}
+{"kind":"textbox","id":"sh/6hkv6l0v","slide":1,"name":"deck-title","text":"模块一","textPreview":"模块一","textChars":3,"textLines":1,"bbox":[80,155,700,110]}
+{"kind":"textbox","id":"sh/h8vulkji","slide":1,"name":"deck-subtitle","text":"3D打印新视界与STEAM启蒙","textPreview":"3D打印新视界与STEAM启蒙","textChars":15,"textLines":1,"bbox":[84,278,760,92]}
+{"kind":"textbox","id":"sh/g7mdcfix","slide":1,"name":"deck-meta","text":"2课时 · 第1-2课 · 基础启蒙阶段","textPreview":"2课时 · 第1-2课 · 基础启蒙阶段","textChars":20,"textLines":1,"bbox":[84,420,900,52]}
+{"kind":"textbox","id":"sh/f6tcja1c","slide":1,"name":"editable-label","text":"可编辑PowerPoint课件","textPreview":"可编辑PowerPoint课件","textChars":15,"textLines":1,"bbox":[84,610,420,32]}
+{"kind":"notes","id":"nt/rn5okc","slide":1,"text":""}
+{"kind":"slide","id":"sl/pgl6ta","slide":2,"title":"课前预习！","textShapes":4}
+{"kind":"shape","id":"sh/itgvyxwv","slide":2,"name":"top-accent","bbox":[0,0,1280,8]}
+{"kind":"textbox","id":"sh/5w7u9cf6","slide":2,"name":"slide-title","text":"课前预习！","textPreview":"课前预习！","textChars":5,"textLines":1,"bbox":[64,36,1060,78]}
+{"kind":"textbox","id":"sh/4vyd07el","slide":2,"name":"slide-icon","text":"⚠️","textPreview":"⚠️","textChars":2,"textLines":1,"bbox":[1140,28,76,76]}
+{"kind":"textbox","id":"sh/rypcb2xc","slide":2,"name":"footer","text":"模块一  ·  2","textPreview":"模块一  ·  2","textChars":9,"textLines":1,"bbox":[64,676,1152,24]}
+{"kind":"textbox","id":"sh/6xgv2xwr","slide":2,"name":"bullet-list","text":"搜索\"3D打印\"，了解基本概念\n看1个3D打印视频（B站搜索FDM打印过程）\n了解STEAM是哪五个学科\n安装FreeCAD软件","textPreview":"搜索\"3D打印\"，了解基本概念 | 看1个3D打印视频（B站搜索FDM打印过程） | 了解STEAM是哪五个学科 | 安装FreeCAD软件","textChars":64,"textLines":4,"bbox":[120,144,1040,480]}
+{"kind":"notes","id":"nt/pgl6ta","slide":2,"text":""}
+{"kind":"slide","id":"sl/mg7w3p","slide":3,"title":"3D打印原理","textShapes":8}
+{"kind":"shape","id":"sh/18ryt0bu","slide":3,"name":"top-accent","bbox":[0,0,1280,8]}
+{"kind":"textbox","id":"sh/el0fi5s3","slide":3,"name":"slide-title","text":"3D打印原理","textPreview":"3D打印原理","textChars":6,"textLines":1,"bbox":[64,36,1060,78]}
+{"kind":"textbox","id":"sh/z69grato","slide":3,"name":"slide-icon","text":"🔬","textPreview":"🔬","textChars":2,"textLines":1,"bbox":[1140,28,76,76]}
+{"kind":"textbox","id":"sh/obihofal","slide":3,"name":"footer","text":"模块一  ·  3","textPreview":"模块一  ·  3","textChars":9,"textLines":1,"bbox":[64,676,1152,24]}
+{"kind":"textbox","id":"sh/9cryxkbq","slide":3,"name":"cards-intro","text":"3D打印 = 增材制造 = 逐层堆积材料","textPreview":"3D打印 = 增材制造 = 逐层堆积材料","textChars":20,"textLines":1,"bbox":[80,116,1120,62]}
+{"kind":"shape","id":"sh/m90zm5sf","slide":3,"name":"card-1","bbox":[72,194,556,486]}
+{"kind":"textbox","id":"sh/na9gvat0","slide":3,"name":"card-title-1","text":"🔪 传统加工","textPreview":"🔪 传统加工","textChars":7,"textLines":1,"bbox":[90,208,520,42]}
+{"kind":"textbox","id":"sh/4fyxcvu1","slide":3,"name":"card-body-1","text":"减材制造\n从大块材料上切掉多余\n像\"切豆腐\"","textPreview":"减材制造 | 从大块材料上切掉多余 | 像\"切豆腐\"","textChars":22,"textLines":3,"bbox":[90,256,520,408]}
+{"kind":"shape","id":"sh/pg7ylgbm","slide":3,"name":"card-2","bbox":[652,194,556,486]}
+{"kind":"textbox","id":"sh/547at0v2","slide":3,"name":"card-title-2","text":"🧱 3D打印","textPreview":"🧱 3D打印","textChars":7,"textLines":1,"bbox":[670,208,520,42]}
+{"kind":"textbox","id":"sh/43y9kveh","slide":3,"name":"card-body-2","text":"增材制造\n一层一层往上堆\n像\"堆乐高\"","textPreview":"增材制造 | 一层一层往上堆 | 像\"堆乐高\"","textChars":19,"textLines":3,"bbox":[670,256,520,408]}
+{"kind":"notes","id":"nt/mg7w3p","slide":3,"text":""}
+{"kind":"slide","id":"sl/2k98j7","slide":4,"title":"3D打印三大类型","textShapes":8}
+{"kind":"shape","id":"sh/l8fml0vu","slide":4,"name":"top-accent","bbox":[0,0,1280,8]}
+{"kind":"textbox","id":"sh/y543a5wj","slide":4,"name":"slide-title","text":"3D打印三大类型","textPreview":"3D打印三大类型","textChars":8,"textLines":1,"bbox":[64,36,1140,78]}
+{"kind":"textbox","id":"sh/j6dkjqd4","slide":4,"name":"footer","text":"模块一  ·  4","textPreview":"模块一  ·  4","textChars":9,"textLines":1,"bbox":[64,676,1152,24]}
+{"kind":"shape","id":"sh/w3ml8ved","slide":4,"name":"card-1","bbox":[72,154,556,234]}
+{"kind":"textbox","id":"sh/x4v2h0vy","slide":4,"name":"card-title-1","text":"🔴 FDM","textPreview":"🔴 FDM","textChars":6,"textLines":1,"bbox":[90,168,520,42]}
+{"kind":"textbox","id":"sh/a1436lw7","slide":4,"name":"card-body-1","text":"熔融沉积","textPreview":"熔融沉积","textChars":4,"textLines":1,"bbox":[90,216,520,156]}
+{"kind":"shape","id":"sh/b2dkfqds","slide":4,"name":"card-2","bbox":[652,154,556,234]}
+{"kind":"textbox","id":"sh/gzqlkfeh","slide":4,"name":"card-title-2","text":"🔵 SLA","textPreview":"🔵 SLA","textChars":6,"textLines":1,"bbox":[670,168,520,42]}
+{"kind":"textbox","id":"sh/h0zmtkv2","slide":4,"name":"card-body-2","text":"光固化","textPreview":"光固化","textChars":3,"textLines":1,"bbox":[670,216,520,156]}
+{"kind":"shape","id":"sh/1w36hkvy","slide":4,"name":"card-3","bbox":[72,406,556,234]}
+{"kind":"textbox","id":"sh/gbu58fed","slide":4,"name":"card-title-3","text":"🟢 SLS","textPreview":"🟢 SLS","textChars":6,"textLines":1,"bbox":[90,420,520,42]}
+{"kind":"textbox","id":"sh/fa1ofads","slide":4,"name":"card-body-3","text":"激光烧结","textPreview":"激光烧结","textChars":4,"textLines":1,"bbox":[90,468,520,156]}
+{"kind":"notes","id":"nt/2k98j7","slide":4,"text":""}
+{"kind":"slide","id":"sl/nz3gcc","slide":5,"title":"3D打印能做什么","textShapes":11}
+{"kind":"shape","id":"sh/2lgvud4f","slide":5,"name":"top-accent","bbox":[0,0,1280,8]}
+{"kind":"textbox","id":"sh/po7e58nq","slide":5,"name":"slide-title","text":"3D打印能做什么","textPreview":"3D打印能做什么","textChars":8,"textLines":1,"bbox":[64,36,1060,78]}
+{"kind":"textbox","id":"sh/onydwnm5","slide":5,"name":"slide-icon","text":"🚀","textPreview":"🚀","textChars":2,"textLines":1,"bbox":[1140,28,76,76]}
+{"kind":"textbox","id":"sh/bq9w7i5w","slide":5,"name":"footer","text":"模块一  ·  5","textPreview":"模块一  ·  5","textChars":9,"textLines":1,"bbox":[64,676,1152,24]}
+{"kind":"shape","id":"sh/qp0vyd4b","slide":5,"name":"card-1","bbox":[72,154,556,234]}
+{"kind":"textbox","id":"sh/dsre9sn2","slide":5,"name":"card-title-1","text":"🏥 医疗","textPreview":"🏥 医疗","textChars":5,"textLines":1,"bbox":[90,168,520,42]}
+{"kind":"textbox","id":"sh/crid0nmh","slide":5,"name":"card-body-1","text":"假肢·牙模·手术导板","textPreview":"假肢·牙模·手术导板","textChars":10,"textLines":1,"bbox":[90,216,520,156]}
+{"kind":"shape","id":"sh/zu9wb25s","slide":5,"name":"card-2","bbox":[652,154,556,234]}
+{"kind":"textbox","id":"sh/yt0v2x47","slide":5,"name":"card-title-2","text":"🏗️ 建筑","textPreview":"🏗️ 建筑","textChars":6,"textLines":1,"bbox":[670,168,520,42]}
+{"kind":"textbox","id":"sh/4r2dwvyp","slide":5,"name":"card-body-2","text":"房屋·建筑模型","textPreview":"房屋·建筑模型","textChars":7,"textLines":1,"bbox":[670,216,520,156]}
+{"kind":"shape","id":"sh/5sbe50fa","slide":5,"name":"card-3","bbox":[72,406,556,234]}
+{"kind":"textbox","id":"sh/ip0vulgj","slide":5,"name":"card-title-3","text":"🏭 制造","textPreview":"🏭 制造","textChars":5,"textLines":1,"bbox":[90,420,520,42]}
+{"kind":"textbox","id":"sh/3qtw3qx4","slide":5,"name":"card-body-3","text":"快速原型·小批量","textPreview":"快速原型·小批量","textChars":8,"textLines":1,"bbox":[90,468,520,156]}
+{"kind":"shape","id":"sh/cv2x0vyl","slide":5,"name":"card-4","bbox":[652,406,556,234]}
+{"kind":"textbox","id":"sh/dwbe90f6","slide":5,"name":"card-title-4","text":"📚 教育","textPreview":"📚 教育","textChars":5,"textLines":1,"bbox":[670,420,520,42]}
+{"kind":"textbox","id":"sh/qtkfy5gf","slide":5,"name":"card-body-4","text":"STEAM教学模型（我们在做！）","textPreview":"STEAM教学模型（我们在做！）","textChars":16,"textLines":1,"bbox":[670,468,520,156]}
+{"kind":"notes","id":"nt/nz3gcc","slide":5,"text":""}
+{"kind":"slide","id":"sl/2akmte","slide":6,"title":"STEAM理念","textShapes":11}
+{"kind":"shape","id":"sh/4nu94rm1","slide":6,"name":"top-accent","bbox":[0,0,1280,8]}
+{"kind":"textbox","id":"sh/jmlsbm5w","slide":6,"name":"slide-title","text":"STEAM理念","textPreview":"STEAM理念","textChars":7,"textLines":1,"bbox":[64,36,1060,78]}
+{"kind":"textbox","id":"sh/ilcr2h4b","slide":6,"name":"slide-icon","text":"🧩","textPreview":"🧩","textChars":2,"textLines":1,"bbox":[1140,28,76,76]}
+{"kind":"textbox","id":"sh/hk3a9cnq","slide":6,"name":"footer","text":"模块一  ·  6","textPreview":"模块一  ·  6","textChars":9,"textLines":1,"bbox":[64,676,1152,24]}
+{"kind":"shape","id":"sh/wju907m5","slide":6,"name":"card-1","bbox":[72,154,556,234]}
+{"kind":"textbox","id":"sh/vils725k","slide":6,"name":"card-title-1","text":"🔬 Science","textPreview":"🔬 Science","textChars":10,"textLines":1,"bbox":[90,168,520,42]}
+{"kind":"textbox","id":"sh/uhcryx4z","slide":6,"name":"card-body-1","text":"材料特性·结构力学","textPreview":"材料特性·结构力学","textChars":9,"textLines":1,"bbox":[90,216,520,156]}
+{"kind":"shape","id":"sh/1g7alwnu","slide":6,"name":"card-2","bbox":[652,154,556,234]}
+{"kind":"textbox","id":"sh/gfetcbm9","slide":6,"name":"card-title-2","text":"💻 Technology","textPreview":"💻 Technology","textChars":13,"textLines":1,"bbox":[670,168,520,42]}
+{"kind":"textbox","id":"sh/qp0zqd4b","slide":6,"name":"card-body-2","text":"Python编程·FreeCAD","textPreview":"Python编程·FreeCAD","textChars":16,"textLines":1,"bbox":[670,216,520,156]}
+{"kind":"shape","id":"sh/rqt0ji5g","slide":6,"name":"card-3","bbox":[72,406,556,234]}
+{"kind":"textbox","id":"sh/cr2hsnm1","slide":6,"name":"card-title-3","text":"⚙️ Engineering","textPreview":"⚙️ Engineering","textChars":14,"textLines":1,"bbox":[90,420,520,42]}
+{"kind":"textbox","id":"sh/dsbilsnm","slide":6,"name":"card-body-3","text":"设计→建模→打印→迭代","textPreview":"设计→建模→打印→迭代","textChars":11,"textLines":1,"bbox":[90,468,520,156]}
+{"kind":"shape","id":"sh/2l0zmdoz","slide":6,"name":"card-4","bbox":[652,406,556,234]}
+{"kind":"textbox","id":"sh/3m90fy5k","slide":6,"name":"card-title-4","text":"🎨 Arts","textPreview":"🎨 Arts","textChars":7,"textLines":1,"bbox":[670,420,520,42]}
+{"kind":"textbox","id":"sh/4niho3m5","slide":6,"name":"card-body-4","text":"造型设计·美学","textPreview":"造型设计·美学","textChars":7,"textLines":1,"bbox":[670,468,520,156]}
+{"kind":"notes","id":"nt/2akmte","slide":6,"text":""}
+{"kind":"slide","id":"sl/38hvi1","slide":7,"title":"编程思维启蒙","textShapes":7}
+{"kind":"shape","id":"sh/vy5gfulo","slide":7,"name":"top-accent","bbox":[0,0,1280,8]}
+{"kind":"textbox","id":"sh/gzex8z29","slide":7,"name":"slide-title","text":"编程思维启蒙","textPreview":"编程思维启蒙","textChars":6,"textLines":1,"bbox":[64,36,1060,78]}
+{"kind":"textbox","id":"sh/hk7yh43u","slide":7,"name":"slide-icon","text":"💻","textPreview":"💻","textChars":2,"textLines":1,"bbox":[1140,28,76,76]}
+{"kind":"textbox","id":"sh/ilgfa9kf","slide":7,"name":"footer","text":"模块一  ·  7","textPreview":"模块一  ·  7","textChars":9,"textLines":1,"bbox":[64,676,1152,24]}
+{"kind":"shape","id":"sh/3mpgjel0","slide":7,"name":"code-panel","bbox":[56,132,700,510]}
+{"kind":"textbox","id":"sh/4nyhcj2l","slide":7,"name":"editable-code","text":"# 用三步代码创建立方体并读取体积\nimport Part\nbox = Part.makeBox(25, 25, 25)\nprint(\"体积 =\", box.Volume, \"mm³\")","textPreview":"# 用三步代码创建立方体并读取体积 | import Part | box = Part.makeBox(25, 25, 25) | print(\"体积 =\", box.Volume, \"mm³\")","textChars":93,"textLines":4,"bbox":[76,150,660,474]}
+{"kind":"shape","id":"sh/5o7ylo3q","slide":7,"name":"explain-1","bbox":[784,132,440,94]}
+{"kind":"textbox","id":"sh/ypcfy54v","slide":7,"name":"explain-text-1","text":"逐行作用\n导入Part → 用长、宽、高创建立方体 → 读取Volume并输出。","textPreview":"逐行作用 | 导入Part → 用长、宽、高创建立方体 → 读取Volume并输出。","textChars":40,"textLines":2,"bbox":[796,138,416,82]}
+{"kind":"shape","id":"sh/jqlg7alg","slide":7,"name":"explain-2","bbox":[784,236,440,94]}
+{"kind":"textbox","id":"sh/za1wnm90","slide":7,"name":"explain-text-2","text":"运行结果\n体积=25×25×25=15625mm³；本段未show，所以3D视图暂不显示。","textPreview":"运行结果 | 体积=25×25×25=15625mm³；本段未show，所以3D视图暂不显示。","textChars":45,"textLines":2,"bbox":[796,242,416,82]}
+{"kind":"shape","id":"sh/ypsvehsf","slide":7,"name":"explain-3","bbox":[784,340,440,94]}
+{"kind":"textbox","id":"sh/lcjepwrq","slide":7,"name":"explain-text-3","text":"易错点\nPart和Volume区分大小写；三个尺寸必须为正数。","textPreview":"易错点 | Part和Volume区分大小写；三个尺寸必须为正数。","textChars":31,"textLines":2,"bbox":[796,346,416,82]}
+{"kind":"notes","id":"nt/38hvi1","slide":7,"text":""}
+{"kind":"slide","id":"sl/mvpv4g","slide":8,"title":"3D打印安全规范","textShapes":7}
+{"kind":"shape","id":"sh/a9w3e1ob","slide":8,"name":"top-accent","bbox":[0,0,1280,8]}
+{"kind":"textbox","id":"sh/xc729gn2","slide":8,"name":"slide-title","text":"3D打印安全规范","textPreview":"3D打印安全规范","textChars":8,"textLines":1,"bbox":[64,36,1060,78]}
+{"kind":"textbox","id":"sh/wbylgb6h","slide":8,"name":"slide-icon","text":"⚠️","textPreview":"⚠️","textChars":2,"textLines":1,"bbox":[1140,28,76,76]}
+{"kind":"textbox","id":"sh/n65k3650","slide":8,"name":"footer","text":"模块一  ·  8","textPreview":"模块一  ·  8","textChars":9,"textLines":1,"bbox":[64,676,1152,24]}
+{"kind":"shape","id":"sh/m5w3a1of","slide":8,"name":"card-1","bbox":[72,154,556,486]}
+{"kind":"textbox","id":"sh/98n25wnq","slide":8,"name":"card-title-1","text":"❌ 禁止","textPreview":"❌ 禁止","textChars":4,"textLines":1,"bbox":[90,168,520,42]}
+{"kind":"textbox","id":"sh/o7elcb65","slide":8,"name":"card-body-1","text":"触摸喷嘴（200℃+）\n打印中开门/移平台\n用手直接取热模型","textPreview":"触摸喷嘴（200℃+） | 打印中开门/移平台 | 用手直接取热模型","textChars":30,"textLines":3,"bbox":[90,216,520,408]}
+{"kind":"shape","id":"sh/zilkzm5o","slide":8,"name":"card-2","bbox":[652,154,556,486]}
+{"kind":"textbox","id":"sh/ehcj6ho3","slide":8,"name":"card-title-2","text":"✅ 必须","textPreview":"✅ 必须","textChars":4,"textLines":1,"bbox":[670,168,520,42]}
+{"kind":"textbox","id":"sh/cjihwnm1","slide":8,"name":"card-body-2","text":"等冷却后用铲刀取件\n异常立即断电报告\n保持区域整洁","textPreview":"等冷却后用铲刀取件 | 异常立即断电报告 | 保持区域整洁","textChars":25,"textLines":3,"bbox":[670,216,520,408]}
+{"kind":"notes","id":"nt/mvpv4g","slide":8,"text":""}

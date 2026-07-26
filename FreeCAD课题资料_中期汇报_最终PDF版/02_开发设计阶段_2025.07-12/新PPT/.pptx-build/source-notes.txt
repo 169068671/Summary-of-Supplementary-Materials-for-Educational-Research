@@ -1,0 +1,6 @@
+Source basis
+
+- All visible course copy comes from the six local HTML slide decks in 新PPT.
+- All embedded media comes from the local 新PPT/assets/images directory.
+- No external claims, images, websites, or generated visual assets were added.
+- Web HTML files remain unchanged and are preserved alongside the new editable PPTX files.

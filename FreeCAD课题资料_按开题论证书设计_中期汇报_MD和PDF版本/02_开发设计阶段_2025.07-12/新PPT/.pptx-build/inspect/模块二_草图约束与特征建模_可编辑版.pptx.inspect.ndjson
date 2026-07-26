@@ -1,0 +1,147 @@
+{"kind":"deck","id":"pr/nlpun8","name":"Deck"}
+{"kind":"layout","layoutId":"c20e24e5-eb01-461b-ae8f-e26adc897cb7","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"9b272dba-deac-4e49-a39f-4e0adef59c7c","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/sk1fvv","slide":1,"title":"✏️","textShapes":5}
+{"kind":"shape","id":"sh/psnudcf2","slide":1,"bbox":[0,0,20,720]}
+{"kind":"textbox","id":"sh/25cb2hwb","slide":1,"name":"title-icon","text":"✏️","textPreview":"✏️","textChars":2,"textLines":1,"bbox":[850,145,280,230]}
+{"kind":"textbox","id":"sh/365cbmxw","slide":1,"name":"deck-title","text":"模块二","textPreview":"模块二","textChars":3,"textLines":1,"bbox":[80,155,700,110]}
+{"kind":"textbox","id":"sh/g3ut07e5","slide":1,"name":"deck-subtitle","text":"手动建模基础与实践（FreeCAD）","textPreview":"手动建模基础与实践（FreeCAD）","textChars":18,"textLines":1,"bbox":[84,278,760,92]}
+{"kind":"textbox","id":"sh/h43u9cfq","slide":1,"name":"deck-meta","text":"3课时 · 第3-5课 · 技术实践","textPreview":"3课时 · 第3-5课 · 技术实践","textChars":18,"textLines":1,"bbox":[84,420,900,52]}
+{"kind":"textbox","id":"sh/u1cbyxwf","slide":1,"name":"editable-label","text":"可编辑PowerPoint课件","textPreview":"可编辑PowerPoint课件","textChars":15,"textLines":1,"bbox":[84,610,420,32]}
+{"kind":"notes","id":"nt/sk1fvv","slide":1,"text":""}
+{"kind":"slide","id":"sl/p98txm","slide":2,"title":"课前预习！","textShapes":4}
+{"kind":"shape","id":"sh/ipsned0j","slide":2,"name":"top-accent","bbox":[0,0,1280,8]}
+{"kind":"textbox","id":"sh/5sj69sza","slide":2,"name":"slide-title","text":"课前预习！","textPreview":"课前预习！","textChars":5,"textLines":1,"bbox":[64,36,1060,78]}
+{"kind":"textbox","id":"sh/4rapgnip","slide":2,"name":"slide-icon","text":"⚠️","textPreview":"⚠️","textChars":2,"textLines":1,"bbox":[1140,28,76,76]}
+{"kind":"textbox","id":"sh/relob2hg","slide":2,"name":"footer","text":"模块二  ·  2","textPreview":"模块二  ·  2","textChars":9,"textLines":1,"bbox":[64,676,1152,24]}
+{"kind":"textbox","id":"sh/qtc7ix0v","slide":2,"name":"bullet-list","text":"复习模块一FreeCAD界面\n切换到Sketcher工作台浏览工具\n了解『草图』概念：2D平面上的线段组合\n思考：画矩形需要几条线？","textPreview":"复习模块一FreeCAD界面 | 切换到Sketcher工作台浏览工具 | 了解『草图』概念：2D平面上的线段组合 | 思考：画矩形需要几条线？","textChars":66,"textLines":4,"bbox":[120,144,1040,480]}
+{"kind":"notes","id":"nt/p98txm","slide":2,"text":""}
+{"kind":"slide","id":"sl/ven8r2","slide":3,"title":"文件管理","textShapes":8}
+{"kind":"shape","id":"sh/va1sbu5o","slide":3,"name":"top-accent","bbox":[0,0,1280,8]}
+{"kind":"textbox","id":"sh/wba94zm9","slide":3,"name":"slide-title","text":"文件管理","textPreview":"文件管理","textChars":4,"textLines":1,"bbox":[64,36,1060,78]}
+{"kind":"textbox","id":"sh/xc3ad4nu","slide":3,"name":"slide-icon","text":"📁","textPreview":"📁","textChars":2,"textLines":1,"bbox":[1140,28,76,76]}
+{"kind":"textbox","id":"sh/mlsryp47","slide":3,"name":"footer","text":"模块二  ·  3","textPreview":"模块二  ·  3","textChars":9,"textLines":1,"bbox":[64,676,1152,24]}
+{"kind":"textbox","id":"sh/n6187a5c","slide":3,"name":"code-intro","text":"新建(Ctrl+N) · 保存(Ctrl+S) · 命名规范","textPreview":"新建(Ctrl+N) · 保存(Ctrl+S) · 命名规范","textChars":30,"textLines":1,"bbox":[68,112,1140,34]}
+{"kind":"shape","id":"sh/87a90fmx","slide":3,"name":"code-panel","bbox":[56,154,700,510]}
+{"kind":"textbox","id":"sh/98ja9kni","slide":3,"name":"editable-code","text":"# Python控制台新建文档\nimport FreeCAD\ndoc = FreeCAD.newDocument('MySketch')\nprint('文档已创建：', doc.Name)","textPreview":"# Python控制台新建文档 | import FreeCAD | doc = FreeCAD.newDocument('MySketch') | print('文档已创建：', doc.Name)","textChars":94,"textLines":4,"bbox":[76,172,660,474]}
+{"kind":"shape","id":"sh/eh8ru54v","slide":3,"name":"explain-1","bbox":[784,154,440,94]}
+{"kind":"textbox","id":"sh/zih83a5g","slide":3,"name":"explain-text-1","text":"作用\nnewDocument()新建文档，返回值存入doc，后续草图和实体都添加到doc。","textPreview":"作用 | newDocument()新建文档，返回值存入doc，后续草图和实体都添加到doc。","textChars":45,"textLines":2,"bbox":[796,160,416,82]}
+{"kind":"shape","id":"sh/fi5or69s","slide":3,"name":"explain-2","bbox":[784,258,440,94]}
+{"kind":"textbox","id":"sh/uhwni187","slide":3,"name":"explain-text-2","text":"结果\n对象树出现MySketch；控制台输出文档名，但尚未保存成FCStd。","textPreview":"结果 | 对象树出现MySketch；控制台输出文档名，但尚未保存成FCStd。","textChars":38,"textLines":2,"bbox":[796,264,416,82]}
+{"kind":"shape","id":"sh/hkn6tgri","slide":3,"name":"explain-3","bbox":[784,362,440,94]}
+{"kind":"textbox","id":"sh/gje5kbqx","slide":3,"name":"explain-text-3","text":"易错点\n同名文档可能冲突；运行后仍要Ctrl+S并按规范命名。","textPreview":"易错点 | 同名文档可能冲突；运行后仍要Ctrl+S并按规范命名。","textChars":31,"textLines":2,"bbox":[796,368,416,82]}
+{"kind":"notes","id":"nt/ven8r2","slide":3,"text":""}
+{"kind":"slide","id":"sl/p8zzri","slide":4,"title":"Sketcher草图工作台","textShapes":5}
+{"kind":"shape","id":"sh/l4zmpsji","slide":4,"name":"top-accent","bbox":[0,0,1280,8]}
+{"kind":"textbox","id":"sh/y183uxkr","slide":4,"name":"slide-title","text":"Sketcher草图工作台","textPreview":"Sketcher草图工作台","textChars":13,"textLines":1,"bbox":[64,36,1060,78]}
+{"kind":"textbox","id":"sh/z2h4nilc","slide":4,"name":"slide-icon","text":"✏️","textPreview":"✏️","textChars":2,"textLines":1,"bbox":[1140,28,76,76]}
+{"kind":"textbox","id":"sh/cz6lsn21","slide":4,"name":"footer","text":"模块二  ·  4","textPreview":"模块二  ·  4","textChars":9,"textLines":1,"bbox":[64,676,1152,24]}
+{"kind":"textbox","id":"sh/d0zmls36","slide":4,"name":"list-intro","text":"切换：工作台选择器 → Sketcher","textPreview":"切换：工作台选择器 → Sketcher","textChars":20,"textLines":1,"bbox":[86,116,1108,54]}
+{"kind":"textbox","id":"sh/qxo3qdkv","slide":4,"name":"bullet-list","text":"📏 线段：画直线\n⭕ 圆：画圆\n🌙 圆弧：画弧\n📐 矩形：画矩形","textPreview":"📏 线段：画直线 | ⭕ 圆：画圆 | 🌙 圆弧：画弧 | 📐 矩形：画矩形","textChars":35,"textLines":4,"bbox":[120,176,1040,480]}
+{"kind":"notes","id":"nt/p8zzri","slide":4,"text":""}
+{"kind":"slide","id":"sl/uqv26u","slide":5,"title":"创建草图步骤","textShapes":4}
+{"kind":"shape","id":"sh/fi5gryp4","slide":5,"name":"top-accent","bbox":[0,0,1280,8]}
+{"kind":"textbox","id":"sh/gjehkjqp","slide":5,"name":"slide-title","text":"创建草图步骤","textPreview":"创建草图步骤","textChars":6,"textLines":1,"bbox":[64,36,1060,78]}
+{"kind":"textbox","id":"sh/hknyto7a","slide":5,"name":"slide-icon","text":"📋","textPreview":"📋","textChars":2,"textLines":1,"bbox":[1140,28,76,76]}
+{"kind":"textbox","id":"sh/6dcfe98n","slide":5,"name":"footer","text":"模块二  ·  5","textPreview":"模块二  ·  5","textChars":9,"textLines":1,"bbox":[64,676,1152,24]}
+{"kind":"textbox","id":"sh/7e5gne98","slide":5,"name":"bullet-list","text":"1. 切换到Sketcher工作台\n2. 点击『创建草图』\n3. 选择平面（XY/XZ/YZ）\n4. 用工具绘制图形\n5. 添加约束（下页）","textPreview":"1. 切换到Sketcher工作台 | 2. 点击『创建草图』 | 3. 选择平面（XY/XZ/YZ） | 4. 用工具绘制图形 | 5. 添加约束（下页）","textChars":70,"textLines":5,"bbox":[120,144,1040,480]}
+{"kind":"notes","id":"nt/uqv26u","slide":5,"text":""}
+{"kind":"slide","id":"sl/okxbdd","slide":6,"title":"几何约束","textShapes":12}
+{"kind":"shape","id":"sh/qpsbe9cr","slide":6,"name":"top-accent","bbox":[0,0,1280,8]}
+{"kind":"textbox","id":"sh/dsja94vi","slide":6,"name":"slide-title","text":"几何约束","textPreview":"几何约束","textChars":4,"textLines":1,"bbox":[64,36,1060,78]}
+{"kind":"textbox","id":"sh/sratgzux","slide":6,"name":"slide-icon","text":"🔗","textPreview":"🔗","textChars":2,"textLines":1,"bbox":[1140,28,76,76]}
+{"kind":"textbox","id":"sh/3m1s3udg","slide":6,"name":"footer","text":"模块二  ·  6","textPreview":"模块二  ·  6","textChars":9,"textLines":1,"bbox":[64,676,1152,24]}
+{"kind":"textbox","id":"sh/il8bapcv","slide":6,"name":"cards-intro","text":"管形状关系，不管大小","textPreview":"管形状关系，不管大小","textChars":10,"textLines":1,"bbox":[80,116,1120,62]}
+{"kind":"shape","id":"sh/5oja54vm","slide":6,"name":"card-1","bbox":[72,194,556,234]}
+{"kind":"textbox","id":"sh/4natczu1","slide":6,"name":"card-title-1","text":"📏 水平","textPreview":"📏 水平","textChars":5,"textLines":1,"bbox":[90,208,520,42]}
+{"kind":"textbox","id":"sh/nilcfedk","slide":6,"name":"card-body-1","text":"线段保持水平","textPreview":"线段保持水平","textChars":6,"textLines":1,"bbox":[90,256,520,156]}
+{"kind":"shape","id":"sh/2hcbmtcz","slide":6,"name":"card-2","bbox":[652,194,556,234]}
+{"kind":"textbox","id":"sh/8vqlwvm5","slide":6,"name":"card-title-2","text":"📐 垂直","textPreview":"📐 垂直","textChars":5,"textLines":1,"bbox":[670,208,520,42]}
+{"kind":"textbox","id":"sh/9wzm503q","slide":6,"name":"card-body-2","text":"线段保持垂直","textPreview":"线段保持垂直","textChars":6,"textLines":1,"bbox":[670,256,520,156]}
+{"kind":"shape","id":"sh/mt83u54f","slide":6,"name":"card-3","bbox":[72,446,556,234]}
+{"kind":"textbox","id":"sh/nuh43qlk","slide":6,"name":"card-title-3","text":"🔵 重合","textPreview":"🔵 重合","textChars":5,"textLines":1,"bbox":[90,460,520,42]}
+{"kind":"textbox","id":"sh/0rqlsvm9","slide":6,"name":"card-body-3","text":"两点重合（角点）","textPreview":"两点重合（角点）","textChars":8,"textLines":1,"bbox":[90,508,520,156]}
+{"kind":"shape","id":"sh/lszm10nu","slide":6,"name":"card-4","bbox":[652,446,556,234]}
+{"kind":"textbox","id":"sh/ypo3ql43","slide":6,"name":"card-title-4","text":"Tangent 相切","textPreview":"Tangent 相切","textChars":10,"textLines":1,"bbox":[670,460,520,42]}
+{"kind":"textbox","id":"sh/zqhkzq5o","slide":6,"name":"card-body-4","text":"线与弧相切","textPreview":"线与弧相切","textChars":5,"textLines":1,"bbox":[670,508,520,156]}
+{"kind":"notes","id":"nt/okxbdd","slide":6,"text":""}
+{"kind":"slide","id":"sl/y7ydd9","slide":7,"title":"尺寸约束","textShapes":12}
+{"kind":"shape","id":"sh/kf6l8bu1","slide":7,"name":"top-accent","bbox":[0,0,1280,8]}
+{"kind":"textbox","id":"sh/juxkz6dg","slide":7,"name":"slide-title","text":"尺寸约束","textPreview":"尺寸约束","textChars":4,"textLines":1,"bbox":[64,36,1060,78]}
+{"kind":"textbox","id":"sh/ito361cv","slide":7,"name":"slide-icon","text":"📏","textPreview":"📏","textChars":2,"textLines":1,"bbox":[1140,28,76,76]}
+{"kind":"textbox","id":"sh/xsf2xwva","slide":7,"name":"footer","text":"模块二  ·  7","textPreview":"模块二  ·  7","textChars":9,"textLines":1,"bbox":[64,676,1152,24]}
+{"kind":"textbox","id":"sh/wrm14rup","slide":7,"name":"cards-intro","text":"管具体数值","textPreview":"管具体数值","textChars":5,"textLines":1,"bbox":[80,116,1120,62]}
+{"kind":"shape","id":"sh/vqdkvmd4","slide":7,"name":"card-1","bbox":[72,194,556,234]}
+{"kind":"textbox","id":"sh/ap4j21cz","slide":7,"name":"card-title-1","text":"↔️ 水平距离","textPreview":"↔️ 水平距离","textChars":7,"textLines":1,"bbox":[90,208,520,42]}
+{"kind":"textbox","id":"sh/9ov2twve","slide":7,"name":"card-body-1","text":"底边长度60mm","textPreview":"底边长度60mm","textChars":8,"textLines":1,"bbox":[90,256,520,156]}
+{"kind":"shape","id":"sh/8nm10rut","slide":7,"name":"card-2","bbox":[652,194,556,234]}
+{"kind":"textbox","id":"sh/idgvm1sz","slide":7,"name":"card-title-2","text":"↕️ 垂直距离","textPreview":"↕️ 垂直距离","textChars":7,"textLines":1,"bbox":[670,208,520,42]}
+{"kind":"textbox","id":"sh/3epwf69k","slide":7,"name":"card-body-2","text":"高度18mm","textPreview":"高度18mm","textChars":6,"textLines":1,"bbox":[670,256,520,156]}
+{"kind":"shape","id":"sh/4fidoba5","slide":7,"name":"card-3","bbox":[72,446,556,234]}
+{"kind":"textbox","id":"sh/5grehgrq","slide":7,"name":"card-title-3","text":"🔄 角度","textPreview":"🔄 角度","textChars":5,"textLines":1,"bbox":[90,460,520,42]}
+{"kind":"textbox","id":"sh/upgvi1s3","slide":7,"name":"card-body-3","text":"两线夹角","textPreview":"两线夹角","textChars":4,"textLines":1,"bbox":[90,508,520,156]}
+{"kind":"shape","id":"sh/vqpwb69o","slide":7,"name":"card-4","bbox":[652,446,556,234]}
+{"kind":"textbox","id":"sh/grydkba9","slide":7,"name":"card-title-4","text":"⭕ 半径","textPreview":"⭕ 半径","textChars":4,"textLines":1,"bbox":[670,460,520,42]}
+{"kind":"textbox","id":"sh/hc7edwru","slide":7,"name":"card-body-4","text":"圆半径2.5mm","textPreview":"圆半径2.5mm","textChars":8,"textLines":1,"bbox":[670,508,520,156]}
+{"kind":"notes","id":"nt/y7ydd9","slide":7,"text":""}
+{"kind":"slide","id":"sl/cc04ba","slide":8,"title":"完全约束","textShapes":10}
+{"kind":"shape","id":"sh/j65cru54","slide":8,"name":"top-accent","bbox":[0,0,1280,8]}
+{"kind":"textbox","id":"sh/kred0z6p","slide":8,"name":"slide-title","text":"完全约束","textPreview":"完全约束","textChars":4,"textLines":1,"bbox":[64,36,1060,78]}
+{"kind":"textbox","id":"sh/lsnutkna","slide":8,"name":"slide-icon","text":"✅","textPreview":"✅","textChars":1,"textLines":1,"bbox":[1140,28,76,76]}
+{"kind":"textbox","id":"sh/a1cbu5on","slide":8,"name":"footer","text":"模块二  ·  8","textPreview":"模块二  ·  8","textChars":9,"textLines":1,"bbox":[64,676,1152,24]}
+{"kind":"textbox","id":"sh/b2lcna58","slide":8,"name":"cards-intro","text":"所有自由度被约束，图形不能变形","textPreview":"所有自由度被约束，图形不能变形","textChars":15,"textLines":1,"bbox":[80,116,1120,62]}
+{"kind":"shape","id":"sh/w3udwf6d","slide":8,"name":"card-1","bbox":[72,194,556,234]}
+{"kind":"textbox","id":"sh/x43upkny","slide":8,"name":"card-title-1","text":"🔴 欠约束","textPreview":"🔴 欠约束","textChars":6,"textLines":1,"bbox":[90,208,520,42]}
+{"kind":"textbox","id":"sh/mxcbq5ob","slide":8,"name":"card-body-1","text":"白色·可变形·需加约束","textPreview":"白色·可变形·需加约束","textChars":11,"textLines":1,"bbox":[90,256,520,156]}
+{"kind":"shape","id":"sh/nylcja5w","slide":8,"name":"card-2","bbox":[652,194,556,234]}
+{"kind":"textbox","id":"sh/b21crq9c","slide":8,"name":"card-title-2","text":"🟢 完全约束","textPreview":"🟢 完全约束","textChars":7,"textLines":1,"bbox":[670,208,520,42]}
+{"kind":"textbox","id":"sh/q1svy5sr","slide":8,"name":"card-body-2","text":"绿色·固定·理想状态","textPreview":"绿色·固定·理想状态","textChars":10,"textLines":1,"bbox":[670,256,520,156]}
+{"kind":"shape","id":"sh/d4jut0ri","slide":8,"name":"card-3","bbox":[72,446,556,234]}
+{"kind":"textbox","id":"sh/c3ad0vax","slide":8,"name":"card-title-3","text":"🔴 过约束","textPreview":"🔴 过约束","textChars":6,"textLines":1,"bbox":[90,460,520,42]}
+{"kind":"textbox","id":"sh/z61cva9o","slide":8,"name":"card-body-3","text":"红色·冲突·需删约束","textPreview":"红色·冲突·需删约束","textChars":10,"textLines":1,"bbox":[90,508,520,156]}
+{"kind":"notes","id":"nt/cc04ba","slide":8,"text":""}
+{"kind":"slide","id":"sl/sfbhnb","slide":9,"title":"约束口诀","textShapes":6}
+{"kind":"shape","id":"sh/fmhs7uhc","slide":9,"name":"top-accent","bbox":[0,0,1280,8]}
+{"kind":"textbox","id":"sh/gnqt0zyx","slide":9,"name":"slide-title","text":"约束口诀","textPreview":"约束口诀","textChars":4,"textLines":1,"bbox":[64,36,1060,78]}
+{"kind":"textbox","id":"sh/1ozu94z2","slide":9,"name":"slide-icon","text":"🔑","textPreview":"🔑","textChars":2,"textLines":1,"bbox":[1140,28,76,76]}
+{"kind":"textbox","id":"sh/6hobupgf","slide":9,"name":"footer","text":"模块二  ·  9","textPreview":"模块二  ·  9","textChars":9,"textLines":1,"bbox":[64,676,1152,24]}
+{"kind":"textbox","id":"sh/rixs3uh0","slide":9,"name":"body-1","text":"先几何 后尺寸","textPreview":"先几何 后尺寸","textChars":7,"textLines":1,"bbox":[150,156,980,130]}
+{"kind":"textbox","id":"sh/sj6twzyl","slide":9,"name":"body-2","text":"先形状 后大小","textPreview":"先形状 后大小","textChars":7,"textLines":1,"bbox":[150,306,980,130]}
+{"kind":"textbox","id":"sh/tkfa54z6","slide":9,"name":"body-3","text":"看颜色 判状态","textPreview":"看颜色 判状态","textChars":7,"textLines":1,"bbox":[150,456,980,130]}
+{"kind":"notes","id":"nt/sfbhnb","slide":9,"text":""}
+{"kind":"slide","id":"sl/zgbe45","slide":10,"title":"Pad拉伸特征","textShapes":8}
+{"kind":"shape","id":"sh/dkf6xsfm","slide":10,"name":"top-accent","bbox":[0,0,1280,8]}
+{"kind":"textbox","id":"sh/qh4n2xgv","slide":10,"name":"slide-title","text":"Pad拉伸特征","textPreview":"Pad拉伸特征","textChars":7,"textLines":1,"bbox":[64,36,1060,78]}
+{"kind":"textbox","id":"sh/bix4v2xg","slide":10,"name":"slide-icon","text":"📦","textPreview":"📦","textChars":2,"textLines":1,"bbox":[1140,28,76,76]}
+{"kind":"textbox","id":"sh/0n6587yd","slide":10,"name":"footer","text":"模块二  ·  10","textPreview":"模块二  ·  10","textChars":10,"textLines":1,"bbox":[64,676,1152,24]}
+{"kind":"textbox","id":"sh/lof61cfi","slide":10,"name":"code-intro","text":"把2D草图拉成3D实体","textPreview":"把2D草图拉成3D实体","textChars":11,"textLines":1,"bbox":[68,112,1140,34]}
+{"kind":"shape","id":"sh/ylon6xg7","slide":10,"name":"code-panel","bbox":[56,154,700,510]}
+{"kind":"textbox","id":"sh/zmxoz2xs","slide":10,"name":"editable-code","text":"# 创建Pad\npad = body.newObject('PartDesign::Pad', 'Pad')\npad.Profile = sketch\npad.Length = 3.0 # 拉伸3mm\ndoc.recompute()","textPreview":"# 创建Pad | pad = body.newObject('PartDesign::Pad', 'Pad') | pad.Profile = sketch | pad.Length = 3.0 # 拉伸3mm | doc.recompute()","textChars":116,"textLines":5,"bbox":[76,172,660,474]}
+{"kind":"shape","id":"sh/grm5wnyt","slide":10,"name":"explain-1","bbox":[784,154,440,94]}
+{"kind":"textbox","id":"sh/1svmp8ze","slide":10,"name":"explain-text-1","text":"逐行作用\n新建Pad → 指定闭合草图Profile → 设置3mm高度 → recompute生成实体。","textPreview":"逐行作用 | 新建Pad → 指定闭合草图Profile → 设置3mm高度 → recompute生成实体。","textChars":53,"textLines":2,"bbox":[796,160,416,82]}
+{"kind":"shape","id":"sh/t4f6p4za","slide":10,"name":"explain-2","bbox":[784,258,440,94]}
+{"kind":"textbox","id":"sh/sj6pgzip","slide":10,"name":"explain-text-2","text":"前置条件\nbody和sketch必须已存在，且sketch是Body内无缺口、无自交的闭合轮廓。","textPreview":"前置条件 | body和sketch必须已存在，且sketch是Body内无缺口、无自交的闭合轮廓。","textChars":48,"textLines":2,"bbox":[796,264,416,82]}
+{"kind":"shape","id":"sh/rixonuh4","slide":10,"name":"explain-3","bbox":[784,362,440,94]}
+{"kind":"textbox","id":"sh/6honep0j","slide":10,"name":"explain-text-3","text":"易错点\n草图未闭合或Profile指错时Pad失败；Length单位为mm。","textPreview":"易错点 | 草图未闭合或Profile指错时Pad失败；Length单位为mm。","textChars":38,"textLines":2,"bbox":[796,368,416,82]}
+{"kind":"notes","id":"nt/zgbe45","slide":10,"text":""}
+{"kind":"slide","id":"sl/6n5vl7","slide":11,"title":"Pocket挖孔特征","textShapes":5}
+{"kind":"shape","id":"sh/obqpgjml","slide":11,"name":"top-accent","bbox":[0,0,1280,8]}
+{"kind":"textbox","id":"sh/nax87el0","slide":11,"name":"slide-title","text":"Pocket挖孔特征","textPreview":"Pocket挖孔特征","textChars":10,"textLines":1,"bbox":[64,36,1060,78]}
+{"kind":"textbox","id":"sh/29o7e94f","slide":11,"name":"slide-icon","text":"🕳️","textPreview":"🕳️","textChars":3,"textLines":1,"bbox":[1140,28,76,76]}
+{"kind":"textbox","id":"sh/18fq543u","slide":11,"name":"footer","text":"模块二  ·  11","textPreview":"模块二  ·  11","textChars":10,"textLines":1,"bbox":[64,676,1152,24]}
+{"kind":"textbox","id":"sh/g76pczm9","slide":11,"name":"list-intro","text":"在实体上挖孔（反向Pad）","textPreview":"在实体上挖孔（反向Pad）","textChars":13,"textLines":1,"bbox":[86,116,1108,54]}
+{"kind":"textbox","id":"sh/fmxo3ul4","slide":11,"name":"bullet-list","text":"1. 在实体表面创建新草图\n2. 画孔的形状（圆/矩形）\n3. 点击Pocket按钮\n4. 设置深度→确认","textPreview":"1. 在实体表面创建新草图 | 2. 画孔的形状（圆/矩形） | 3. 点击Pocket按钮 | 4. 设置深度→确认","textChars":53,"textLines":4,"bbox":[120,176,1040,480]}
+{"kind":"notes","id":"nt/6n5vl7","slide":11,"text":""}
+{"kind":"slide","id":"sl/e5uyzr","slide":12,"title":"实践作业1：钥匙扣","textShapes":8}
+{"kind":"shape","id":"sh/a18rupgn","slide":12,"name":"top-accent","bbox":[0,0,1280,8]}
+{"kind":"textbox","id":"sh/xoza5kze","slide":12,"name":"slide-title","text":"实践作业1：钥匙扣","textPreview":"实践作业1：钥匙扣","textChars":9,"textLines":1,"bbox":[64,36,1060,78]}
+{"kind":"textbox","id":"sh/wnq9wzyt","slide":12,"name":"slide-icon","text":"🔑","textPreview":"🔑","textChars":2,"textLines":1,"bbox":[1140,28,76,76]}
+{"kind":"textbox","id":"sh/nyxszahw","slide":12,"name":"footer","text":"模块二  ·  12","textPreview":"模块二  ·  12","textChars":10,"textLines":1,"bbox":[64,676,1152,24]}
+{"kind":"textbox","id":"sh/mxorq5gr","slide":12,"name":"cards-intro","text":"设计要求：个性化·完全约束·含穿绳孔","textPreview":"设计要求：个性化·完全约束·含穿绳孔","textChars":18,"textLines":1,"bbox":[80,116,1120,62]}
+{"kind":"shape","id":"sh/90fa1kz2","slide":12,"name":"card-1","bbox":[72,194,556,486]}
+{"kind":"textbox","id":"sh/8z69sfyh","slide":12,"name":"card-title-1","text":"📐 参数","textPreview":"📐 参数","textChars":5,"textLines":1,"bbox":[90,208,520,42]}
+{"kind":"textbox","id":"sh/7u1sbehg","slide":12,"name":"card-body-1","text":"主体45×20×3mm 挂环R7/R3.5","textPreview":"主体45×20×3mm 挂环R7/R3.5","textChars":21,"textLines":1,"bbox":[90,256,520,408]}
+{"kind":"shape","id":"sh/6tsb29gv","slide":12,"name":"card-2","bbox":[652,194,556,486]}
+{"kind":"textbox","id":"sh/gn6ponq9","slide":12,"name":"card-title-2","text":"📝 评分","textPreview":"📝 评分","textChars":5,"textLines":1,"bbox":[670,208,520,42]}
+{"kind":"textbox","id":"sh/hof6hsre","slide":12,"name":"card-body-2","text":"完成度40% + 技术性40% + 规范性20%","textPreview":"完成度40% + 技术性40% + 规范性20%","textChars":24,"textLines":1,"bbox":[670,256,520,408]}
+{"kind":"notes","id":"nt/e5uyzr","slide":12,"text":""}

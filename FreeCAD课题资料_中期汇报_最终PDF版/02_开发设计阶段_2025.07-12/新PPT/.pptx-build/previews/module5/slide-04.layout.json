@@ -1,0 +1,432 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/fknif0",
+    "id": "fknif0",
+    "slide": 4,
+    "layoutId": "afdcbb6f-c2a9-4cc0-9416-e260c831cf86",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "26ac2484-5bb7-4663-a3d7-dd9a091af401",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#F8F9FE",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Microsoft YaHei"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "afdcbb6f-c2a9-4cc0-9416-e260c831cf86",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "26ac2484-5bb7-4663-a3d7-dd9a091af401",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "26ac2484-5bb7-4663-a3d7-dd9a091af401",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/a9gnqls3",
+      "id": "1",
+      "name": "top-accent",
+      "bbox": [
+        0,
+        0,
+        1280,
+        8
+      ],
+      "geometry": "rect",
+      "fillColor": "#667EEA",
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xcrm10ru",
+      "id": "2",
+      "name": "slide-title",
+      "bbox": [
+        64,
+        36,
+        1060,
+        78
+      ],
+      "geometry": "rect",
+      "text": "模型检查",
+      "textPreview": "模型检查",
+      "resolvedFontSize": 50,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 50,
+        "typeface": "Microsoft YaHei",
+        "color": "#2D3748",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4,
+          "right": 6,
+          "bottom": 4,
+          "left": 6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "模型检查"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "模型检查",
+          "resolvedTextStyle": {
+            "fontSize": 50,
+            "typeface": "Microsoft YaHei",
+            "color": "#2D3748",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "模型检查",
+              "fontSize": 50,
+              "typeface": "Microsoft YaHei",
+              "color": "#2D3748",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wbi5sva9",
+      "id": "3",
+      "name": "slide-icon",
+      "bbox": [
+        1140,
+        28,
+        76,
+        76
+      ],
+      "geometry": "rect",
+      "text": "🔍",
+      "textPreview": "🔍",
+      "resolvedFontSize": 52,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 52,
+        "typeface": "Microsoft YaHei",
+        "color": "#2D3748",
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 4,
+          "right": 6,
+          "bottom": 4,
+          "left": 6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "🔍"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "🔍",
+          "resolvedTextStyle": {
+            "fontSize": 52,
+            "typeface": "Microsoft YaHei",
+            "color": "#2D3748",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "🔍",
+              "fontSize": 52,
+              "typeface": "Microsoft YaHei",
+              "color": "#2D3748",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/n6p4v6ts",
+      "id": "4",
+      "name": "footer",
+      "bbox": [
+        64,
+        676,
+        1152,
+        24
+      ],
+      "geometry": "rect",
+      "text": "模块五  ·  4",
+      "textPreview": "模块五  ·  4",
+      "resolvedFontSize": 13.33,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 15,
+        "typeface": "Microsoft YaHei",
+        "color": "#718096",
+        "alignment": "right",
+        "verticalAlignment": "top",
+        "autoFit": "shrinkText",
+        "autoFitScale": 0.89,
+        "insets": {
+          "top": 4,
+          "right": 6,
+          "bottom": 4,
+          "left": 6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "模块五  ·  4"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "模块五  ·  4",
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "typeface": "Microsoft YaHei",
+            "color": "#718096",
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "模块五  ·  4",
+              "fontSize": 15,
+              "typeface": "Microsoft YaHei",
+              "color": "#718096",
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/m5g3mls7",
+      "id": "5",
+      "name": "bullet-list",
+      "bbox": [
+        120,
+        144,
+        1040,
+        480
+      ],
+      "geometry": "roundRect",
+      "text": "破面（非流形）：面片有缺口\n反转面：法线方向错误\n零厚度：壁厚为0\nCura导入时自动检查并提示",
+      "textPreview": "破面（非流形）：面片有缺口 | 反转面：法线方向错误 | 零厚度：壁厚为0 | Cura导入时自动检查并提示",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Microsoft YaHei",
+        "color": "#2D3748",
+        "alignment": "left",
+        "autoFit": "shrinkText",
+        "autoFitScale": 1,
+        "insets": {
+          "top": 18,
+          "right": 20,
+          "bottom": 14,
+          "left": 22
+        }
+      },
+      "textLayout": {
+        "lineCount": 4,
+        "lines": [
+          {
+            "index": 1,
+            "text": "• 破面（非流形）：面片有缺口"
+          },
+          {
+            "index": 2,
+            "text": "• 反转面：法线方向错误"
+          },
+          {
+            "index": 3,
+            "text": "• 零厚度：壁厚为0"
+          },
+          {
+            "index": 4,
+            "text": "• Cura导入时自动检查并提示"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "破面（非流形）：面片有缺口",
+          "bulletCharacter": "•",
+          "marginLeft": 28,
+          "indent": -14,
+          "spaceAfter": 8,
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "typeface": "Microsoft YaHei",
+            "color": "#2D3748"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "破面（非流形）：面片有缺口",
+              "fontSize": 24,
+              "typeface": "Microsoft YaHei",
+              "color": "#2D3748"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "text": "反转面：法线方向错误",
+          "bulletCharacter": "•",
+          "marginLeft": 28,
+          "indent": -14,
+          "spaceAfter": 8,
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "typeface": "Microsoft YaHei",
+            "color": "#2D3748"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "反转面：法线方向错误",
+              "fontSize": 24,
+              "typeface": "Microsoft YaHei",
+              "color": "#2D3748"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "text": "零厚度：壁厚为0",
+          "bulletCharacter": "•",
+          "marginLeft": 28,
+          "indent": -14,
+          "spaceAfter": 8,
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "typeface": "Microsoft YaHei",
+            "color": "#2D3748"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "零厚度：壁厚为0",
+              "fontSize": 24,
+              "typeface": "Microsoft YaHei",
+              "color": "#2D3748"
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "text": "Cura导入时自动检查并提示",
+          "bulletCharacter": "•",
+          "marginLeft": 28,
+          "indent": -14,
+          "spaceAfter": 8,
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "typeface": "Microsoft YaHei",
+            "color": "#2D3748"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Cura导入时自动检查并提示",
+              "fontSize": 24,
+              "typeface": "Microsoft YaHei",
+              "color": "#2D3748"
+            }
+          ]
+        }
+      ],
+      "fillColor": "#FFFFFF",
+      "lineColor": "#D8E0ED",
+      "lineWidth": 1
+    }
+  ],
+  "composeRuns": []
+}

@@ -1,7 +1,0 @@
-# 第11课课堂最小代码
-# 已在 FreeCAD 26.3 中实际运行通过
-
-from PySide import QtWidgets
-
-button = QtWidgets.QPushButton("创建方块")
-button.show()

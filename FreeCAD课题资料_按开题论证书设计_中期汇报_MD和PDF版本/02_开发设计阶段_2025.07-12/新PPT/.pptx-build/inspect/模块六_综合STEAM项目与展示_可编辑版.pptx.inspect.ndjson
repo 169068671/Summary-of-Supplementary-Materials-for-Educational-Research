@@ -1,0 +1,130 @@
+{"kind":"deck","id":"pr/w67y9z","name":"Deck"}
+{"kind":"layout","layoutId":"13f2c4af-6720-4878-b088-e882ff5a4db7","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"d62c784d-289c-47de-af4a-6e8f88d340d1","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/y0qw0y","slide":1,"title":"🏆","textShapes":5}
+{"kind":"shape","id":"sh/gr6lsvq9","slide":1,"bbox":[0,0,20,720]}
+{"kind":"textbox","id":"sh/vqx4jq9o","slide":1,"name":"title-icon","text":"🏆","textPreview":"🏆","textChars":2,"textLines":1,"bbox":[850,145,280,230]}
+{"kind":"textbox","id":"sh/upo3ql83","slide":1,"name":"deck-title","text":"模块六","textPreview":"模块六","textChars":3,"textLines":1,"bbox":[80,155,700,110]}
+{"kind":"textbox","id":"sh/tofmhgry","slide":1,"name":"deck-subtitle","text":"综合STEAM项目设计与成果展示","textPreview":"综合STEAM项目设计与成果展示","textChars":16,"textLines":1,"bbox":[84,278,760,92]}
+{"kind":"textbox","id":"sh/8n6lobqd","slide":1,"name":"deck-meta","text":"4课时 · 第18-21课 · 综合创新 · 占40%成绩","textPreview":"4课时 · 第18-21课 · 综合创新 · 占40%成绩","textChars":29,"textLines":1,"bbox":[84,420,900,52]}
+{"kind":"textbox","id":"sh/7mxkf69s","slide":1,"name":"editable-label","text":"可编辑PowerPoint课件","textPreview":"可编辑PowerPoint课件","textChars":15,"textLines":1,"bbox":[84,610,420,32]}
+{"kind":"notes","id":"nt/y0qw0y","slide":1,"text":""}
+{"kind":"slide","id":"sl/tbmhb1","slide":2,"title":"课前预习！","textShapes":4}
+{"kind":"shape","id":"sh/0fm9sjql","slide":2,"name":"top-accent","bbox":[0,0,1280,8]}
+{"kind":"textbox","id":"sh/fed8zep0","slide":2,"name":"slide-title","text":"课前预习！","textPreview":"课前预习！","textChars":5,"textLines":1,"bbox":[64,36,1060,78]}
+{"kind":"textbox","id":"sh/ed4rqt8f","slide":2,"name":"slide-icon","text":"⚠️","textPreview":"⚠️","textChars":2,"textLines":1,"bbox":[1140,28,76,76]}
+{"kind":"textbox","id":"sh/dcvqxo7u","slide":2,"name":"footer","text":"模块六  ·  2","textPreview":"模块六  ·  2","textChars":9,"textLines":1,"bbox":[64,676,1152,24]}
+{"kind":"textbox","id":"sh/sbm9ojq9","slide":2,"name":"bullet-list","text":"回顾模块一到五所有技能\n准备2-3个候选选题\n画1-2个设计草图\n了解PBL：问题→方案→建模→测试→展示","textPreview":"回顾模块一到五所有技能 | 准备2-3个候选选题 | 画1-2个设计草图 | 了解PBL：问题→方案→建模→测试→展示","textChars":53,"textLines":4,"bbox":[120,144,1040,480]}
+{"kind":"notes","id":"nt/tbmhb1","slide":2,"text":""}
+{"kind":"slide","id":"sl/n9hxwf","slide":3,"title":"选题方向","textShapes":11}
+{"kind":"shape","id":"sh/a5g725oz","slide":3,"name":"top-accent","bbox":[0,0,1280,8]}
+{"kind":"textbox","id":"sh/x87qdk7q","slide":3,"name":"slide-title","text":"选题方向","textPreview":"选题方向","textChars":4,"textLines":1,"bbox":[64,36,1060,78]}
+{"kind":"textbox","id":"sh/w7y94f65","slide":3,"name":"slide-icon","text":"💡","textPreview":"💡","textChars":2,"textLines":1,"bbox":[1140,28,76,76]}
+{"kind":"textbox","id":"sh/ni587apo","slide":3,"name":"footer","text":"模块六  ·  3","textPreview":"模块六  ·  3","textChars":9,"textLines":1,"bbox":[64,676,1152,24]}
+{"kind":"shape","id":"sh/mhw7y5o3","slide":3,"name":"card-1","bbox":[72,154,556,234]}
+{"kind":"textbox","id":"sh/94nq907e","slide":3,"name":"card-title-1","text":"📚 学习辅助","textPreview":"📚 学习辅助","textChars":7,"textLines":1,"bbox":[90,168,520,42]}
+{"kind":"textbox","id":"sh/83ep0f6t","slide":3,"name":"card-body-1","text":"定制笔筒·文具盒·书立·平板支架","textPreview":"定制笔筒·文具盒·书立·平板支架","textChars":16,"textLines":1,"bbox":[90,216,520,156]}
+{"kind":"shape","id":"sh/7e98ju5s","slide":3,"name":"card-2","bbox":[652,154,556,234]}
+{"kind":"textbox","id":"sh/6d0rapo7","slide":3,"name":"card-title-2","text":"🎨 生活创意","textPreview":"🎨 生活创意","textChars":7,"textLines":1,"bbox":[670,168,520,42]}
+{"kind":"textbox","id":"sh/ovy183m5","slide":3,"name":"card-body-2","text":"手机壳·耳机绕线器·桌面盆栽","textPreview":"手机壳·耳机绕线器·桌面盆栽","textChars":14,"textLines":1,"bbox":[670,216,520,156]}
+{"kind":"shape","id":"sh/9w72183q","slide":3,"name":"card-3","bbox":[72,406,556,234]}
+{"kind":"textbox","id":"sh/mtgj6d4f","slide":3,"name":"card-title-3","text":"🏫 校园文化","textPreview":"🏫 校园文化","textChars":7,"textLines":1,"bbox":[90,420,520,42]}
+{"kind":"textbox","id":"sh/nupkzylk","slide":3,"name":"card-body-3","text":"建筑模型·班牌·纪念品","textPreview":"建筑模型·班牌·纪念品","textChars":11,"textLines":1,"bbox":[90,468,520,156]}
+{"kind":"shape","id":"sh/0ry143m9","slide":3,"name":"card-4","bbox":[652,406,556,234]}
+{"kind":"textbox","id":"sh/1s72x83u","slide":3,"name":"card-title-4","text":"⚙️ 机械挑战","textPreview":"⚙️ 机械挑战","textChars":7,"textLines":1,"bbox":[670,420,520,42]}
+{"kind":"textbox","id":"sh/e5wj2t43","slide":3,"name":"card-body-4","text":"手摇风扇·齿轮传动·玩具小车","textPreview":"手摇风扇·齿轮传动·玩具小车","textChars":14,"textLines":1,"bbox":[670,468,520,156]}
+{"kind":"notes","id":"nt/n9hxwf","slide":3,"text":""}
+{"kind":"slide","id":"sl/e4v09e","slide":4,"title":"项目方案书","textShapes":4}
+{"kind":"shape","id":"sh/543a1s3u","slide":4,"name":"top-accent","bbox":[0,0,1280,8]}
+{"kind":"textbox","id":"sh/i1crqxkj","slide":4,"name":"slide-title","text":"项目方案书","textPreview":"项目方案书","textChars":5,"textLines":1,"bbox":[64,36,1060,78]}
+{"kind":"textbox","id":"sh/j2l8z2l4","slide":4,"name":"slide-icon","text":"📋","textPreview":"📋","textChars":2,"textLines":1,"bbox":[1140,28,76,76]}
+{"kind":"textbox","id":"sh/sre9w72l","slide":4,"name":"footer","text":"模块六  ·  4","textPreview":"模块六  ·  4","textChars":9,"textLines":1,"bbox":[64,676,1152,24]}
+{"kind":"textbox","id":"sh/tsna5c36","slide":4,"name":"bullet-list","text":"项目名称、项目成员\n设计目的（解决什么问题）\n设计构思描述\n手绘设计草图（含尺寸）\n技术说明（用哪些技巧）\nSTEAM融合说明（只写项目真正涉及的领域，不要求五项齐全）","textPreview":"项目名称、项目成员 | 设计目的（解决什么问题） | 设计构思描述 | 手绘设计草图（含尺寸） | 技术说明（用哪些技巧） | STEAM融合说明（只写项目真正涉及的领域，不要求五项齐全）","textChars":84,"textLines":6,"bbox":[120,144,1040,480]}
+{"kind":"notes","id":"nt/e4v09e","slide":4,"text":""}
+{"kind":"slide","id":"sl/rcv24x","slide":5,"title":"PBL五阶段","textShapes":4}
+{"kind":"shape","id":"sh/bu5svypw","slide":5,"name":"top-accent","bbox":[0,0,1280,8]}
+{"kind":"textbox","id":"sh/wveto36h","slide":5,"name":"slide-title","text":"PBL五阶段","textPreview":"PBL五阶段","textChars":6,"textLines":1,"bbox":[64,36,1060,78]}
+{"kind":"textbox","id":"sh/xwnax872","slide":5,"name":"slide-icon","text":"🔄","textPreview":"🔄","textChars":2,"textLines":1,"bbox":[1140,28,76,76]}
+{"kind":"textbox","id":"sh/yhwbqdon","slide":5,"name":"footer","text":"模块六  ·  5","textPreview":"模块六  ·  5","textChars":9,"textLines":1,"bbox":[64,676,1152,24]}
+{"kind":"textbox","id":"sh/ji5szi58","slide":5,"name":"bullet-list","text":"1. 驱动问题：要解决什么？\n2. 方案设计：草图·参数\n3. 建模实践：FreeCAD编程建模\n4. 测试优化：切片→打印→改进\n5. 成果展示：方案书+PPT答辩","textPreview":"1. 驱动问题：要解决什么？ | 2. 方案设计：草图·参数 | 3. 建模实践：FreeCAD编程建模 | 4. 测试优化：切片→打印→改进 | 5. 成果展示：方案书+PPT答辩","textChars":83,"textLines":5,"bbox":[120,144,1040,480]}
+{"kind":"notes","id":"nt/rcv24x","slide":5,"text":""}
+{"kind":"slide","id":"sl/7cp8fg","slide":6,"title":"建模流程","textShapes":4}
+{"kind":"shape","id":"sh/t03yt47a","slide":6,"name":"top-accent","bbox":[0,0,1280,8]}
+{"kind":"textbox","id":"sh/6xcfip8j","slide":6,"name":"slide-title","text":"建模流程","textPreview":"建模流程","textChars":4,"textLines":1,"bbox":[64,36,1060,78]}
+{"kind":"textbox","id":"sh/rylgrup4","slide":6,"name":"slide-icon","text":"🔧","textPreview":"🔧","textChars":2,"textLines":1,"bbox":[1140,28,76,76]}
+{"kind":"textbox","id":"sh/4baxgzqt","slide":6,"name":"footer","text":"模块六  ·  6","textPreview":"模块六  ·  6","textChars":9,"textLines":1,"bbox":[64,676,1152,24]}
+{"kind":"textbox","id":"sh/5c3ypk7y","slide":6,"name":"bullet-list","text":"1. 定义参数（所有尺寸变量化）\n2. 创建主体（makeBox/makeCylinder）\n3. 添加特征（布尔/圆角/挖槽）\n4. 检查模型（体积>0·无破面）\n5. 迭代优化（改参数→看结果→调整）","textPreview":"1. 定义参数（所有尺寸变量化） | 2. 创建主体（makeBox/makeCylinder） | 3. 添加特征（布尔/圆角/挖槽） | 4. 检查模型（体积>0·无破面） | 5. 迭代优化（改参数→看结果→调整）","textChars":102,"textLines":5,"bbox":[120,144,1040,480]}
+{"kind":"notes","id":"nt/7cp8fg","slide":6,"text":""}
+{"kind":"slide","id":"sl/0ruijq","slide":7,"title":"迭代思维","textShapes":6}
+{"kind":"shape","id":"sh/lwnqxsvq","slide":7,"name":"top-accent","bbox":[0,0,1280,8]}
+{"kind":"textbox","id":"sh/ytcr2xwf","slide":7,"name":"slide-title","text":"迭代思维","textPreview":"迭代思维","textChars":4,"textLines":1,"bbox":[64,36,1060,78]}
+{"kind":"textbox","id":"sh/zu58v2d0","slide":7,"name":"slide-icon","text":"🔄","textPreview":"🔄","textChars":2,"textLines":1,"bbox":[1140,28,76,76]}
+{"kind":"textbox","id":"sh/8ze987uh","slide":7,"name":"footer","text":"模块六  ·  7","textPreview":"模块六  ·  7","textChars":9,"textLines":1,"bbox":[64,676,1152,24]}
+{"kind":"textbox","id":"sh/90nq1cv2","slide":7,"name":"body-1","text":"第一次建模通常不完美——这是正常的！","textPreview":"第一次建模通常不完美——这是正常的！","textChars":18,"textLines":1,"bbox":[150,156,980,130]}
+{"kind":"textbox","id":"sh/mxwr6xcb","slide":7,"name":"body-2","text":"发现问题→分析原因→修改→再测试","textPreview":"发现问题→分析原因→修改→再测试","textChars":16,"textLines":1,"bbox":[150,306,980,130]}
+{"kind":"textbox","id":"sh/ny58z2dw","slide":7,"name":"body-3","text":"工程思维核心：设计→验证→修正→再验证","textPreview":"工程思维核心：设计→验证→修正→再验证","textChars":19,"textLines":1,"bbox":[150,456,980,130]}
+{"kind":"notes","id":"nt/0ruijq","slide":7,"text":""}
+{"kind":"slide","id":"sl/8g0w61","slide":8,"title":"切片打印与文档","textShapes":4}
+{"kind":"shape","id":"sh/t0nut4nm","slide":8,"name":"top-accent","bbox":[0,0,1280,8]}
+{"kind":"textbox","id":"sh/6xwvip4v","slide":8,"name":"slide-title","text":"切片打印与文档","textPreview":"切片打印与文档","textChars":7,"textLines":1,"bbox":[64,36,1060,78]}
+{"kind":"textbox","id":"sh/7y5cru5g","slide":8,"name":"slide-icon","text":"📄","textPreview":"📄","textChars":2,"textLines":1,"bbox":[1140,28,76,76]}
+{"kind":"textbox","id":"sh/kvudgzmp","slide":8,"name":"footer","text":"模块六  ·  8","textPreview":"模块六  ·  8","textChars":9,"textLines":1,"bbox":[64,676,1152,24]}
+{"kind":"textbox","id":"sh/lw3upkna","slide":8,"name":"bullet-list","text":"导出STL→Cura切片→设置参数\n打印实物（耐心等待）\n同步写方案书\n拍照记录成品","textPreview":"导出STL→Cura切片→设置参数 | 打印实物（耐心等待） | 同步写方案书 | 拍照记录成品","textChars":42,"textLines":4,"bbox":[120,144,1040,480]}
+{"kind":"notes","id":"nt/8g0w61","slide":8,"text":""}
+{"kind":"slide","id":"sl/n1bn5n","slide":9,"title":"结课综合项目参考","textShapes":4}
+{"kind":"shape","id":"sh/wf6h43ad","slide":9,"name":"top-accent","bbox":[0,0,1280,8]}
+{"kind":"textbox","id":"sh/bexgby9s","slide":9,"name":"slide-title","text":"结课综合项目参考","textPreview":"结课综合项目参考","textChars":8,"textLines":1,"bbox":[64,36,1060,78]}
+{"kind":"textbox","id":"sh/ad4z2ds7","slide":9,"name":"slide-icon","text":"🏆","textPreview":"🏆","textChars":2,"textLines":1,"bbox":[1140,28,76,76]}
+{"kind":"textbox","id":"sh/9cvy98bm","slide":9,"name":"footer","text":"模块六  ·  9","textPreview":"模块六  ·  9","textChars":9,"textLines":1,"bbox":[64,676,1152,24]}
+{"kind":"textbox","id":"sh/nadg7ytw","slide":9,"name":"image-caption","text":"桌面学习站：笔具收纳+手机停放+小物浅盘+充电走线","textPreview":"桌面学习站：笔具收纳+手机停放+小物浅盘+充电走线","textChars":25,"textLines":1,"bbox":[90,578,1100,80]}
+{"kind":"image","id":"im/ho7658zq","slide":9,"name":"","geometry":"roundRect","alt":"作品","bbox":[315,136,650,432]}
+{"kind":"notes","id":"nt/n1bn5n","slide":9,"text":""}
+{"kind":"slide","id":"sl/j7xygx","slide":10,"title":"四站并行展评","textShapes":5}
+{"kind":"shape","id":"sh/vutwz25k","slide":10,"name":"top-accent","bbox":[0,0,1280,8]}
+{"kind":"textbox","id":"sh/wv2xsnm5","slide":10,"name":"slide-title","text":"四站并行展评","textPreview":"四站并行展评","textChars":6,"textLines":1,"bbox":[64,36,1060,78]}
+{"kind":"textbox","id":"sh/hwbe1snq","slide":10,"name":"slide-icon","text":"🎤","textPreview":"🎤","textChars":2,"textLines":1,"bbox":[1140,28,76,76]}
+{"kind":"textbox","id":"sh/ixkfux4v","slide":10,"name":"footer","text":"模块六  ·  10","textPreview":"模块六  ·  10","textChars":10,"textLines":1,"bbox":[64,676,1152,24]}
+{"kind":"textbox","id":"sh/jitw325g","slide":10,"name":"list-intro","text":"每轮8分钟：90秒陈述+2分钟问答+同伴评分与轮转","textPreview":"每轮8分钟：90秒陈述+2分钟问答+同伴评分与轮转","textChars":25,"textLines":1,"bbox":[86,116,1108,54]}
+{"kind":"textbox","id":"sh/4jmxw7m1","slide":10,"name":"bullet-list","text":"1. 项目介绍（名称·灵感·目标）\n2. 设计过程（草图·建模截图）\n3. 技术亮点（用了哪些技巧·困难与解决）\n4. 成果展示（打印实物+个人贡献证据卡）","textPreview":"1. 项目介绍（名称·灵感·目标） | 2. 设计过程（草图·建模截图） | 3. 技术亮点（用了哪些技巧·困难与解决） | 4. 成果展示（打印实物+个人贡献证据卡）","textChars":78,"textLines":4,"bbox":[120,176,1040,480]}
+{"kind":"notes","id":"nt/j7xygx","slide":10,"text":""}
+{"kind":"slide","id":"sl/66vgt3","slide":11,"title":"评分标准","textShapes":9}
+{"kind":"shape","id":"sh/oj25g3mx","slide":11,"name":"top-accent","bbox":[0,0,1280,8]}
+{"kind":"textbox","id":"sh/nit4ni5c","slide":11,"name":"slide-title","text":"评分标准","textPreview":"评分标准","textChars":4,"textLines":1,"bbox":[64,36,1060,78]}
+{"kind":"textbox","id":"sh/mhkned47","slide":11,"name":"slide-icon","text":"📊","textPreview":"📊","textChars":2,"textLines":1,"bbox":[1140,28,76,76]}
+{"kind":"textbox","id":"sh/1gbml8nm","slide":11,"name":"footer","text":"模块六  ·  11","textPreview":"模块六  ·  11","textChars":10,"textLines":1,"bbox":[64,676,1152,24]}
+{"kind":"shape","id":"sh/0f25c3m1","slide":11,"name":"card-1","bbox":[72,154,556,234]}
+{"kind":"textbox","id":"sh/zet4jy5g","slide":11,"name":"card-title-1","text":"💡 创意与设计 30%","textPreview":"💡 创意与设计 30%","textChars":12,"textLines":1,"bbox":[90,168,520,42]}
+{"kind":"textbox","id":"sh/edknat4v","slide":11,"name":"card-body-1","text":"选题新颖·构思巧妙","textPreview":"选题新颖·构思巧妙","textChars":9,"textLines":1,"bbox":[90,216,520,156]}
+{"kind":"shape","id":"sh/dcbmhona","slide":11,"name":"card-2","bbox":[652,154,556,234]}
+{"kind":"textbox","id":"sh/cri58jmp","slide":11,"name":"card-title-2","text":"⚙️ 技术实现 40%","textPreview":"⚙️ 技术实现 40%","textChars":11,"textLines":1,"bbox":[670,168,520,42]}
+{"kind":"textbox","id":"sh/q98zu5sn","slide":11,"name":"card-body-2","text":"综合运用建模技巧·模型合理","textPreview":"综合运用建模技巧·模型合理","textChars":13,"textLines":1,"bbox":[670,216,520,156]}
+{"kind":"shape","id":"sh/bahg3at8","slide":11,"name":"card-3","bbox":[72,406,556,234]}
+{"kind":"textbox","id":"sh/cbqhwvat","slide":11,"name":"card-title-3","text":"📄 文档与展示 30%","textPreview":"📄 文档与展示 30%","textChars":12,"textLines":1,"bbox":[90,420,520,42]}
+{"kind":"textbox","id":"sh/dcjy50be","slide":11,"name":"card-body-3","text":"方案书完整·PPT清晰·答辩流利","textPreview":"方案书完整·PPT清晰·答辩流利","textChars":16,"textLines":1,"bbox":[90,468,520,156]}
+{"kind":"notes","id":"nt/66vgt3","slide":11,"text":""}
+{"kind":"slide","id":"sl/7j042b","slide":12,"title":"项目反思","textShapes":5}
+{"kind":"shape","id":"sh/pgn290vy","slide":12,"name":"top-accent","bbox":[0,0,1280,8]}
+{"kind":"textbox","id":"sh/2dwje5c7","slide":12,"name":"slide-title","text":"项目反思","textPreview":"项目反思","textChars":4,"textLines":1,"bbox":[64,36,1060,78]}
+{"kind":"textbox","id":"sh/3e5k7ads","slide":12,"name":"slide-icon","text":"🤔","textPreview":"🤔","textChars":2,"textLines":1,"bbox":[1140,28,76,76]}
+{"kind":"textbox","id":"sh/gbu1cvu1","slide":12,"name":"footer","text":"模块六  ·  12","textPreview":"模块六  ·  12","textChars":10,"textLines":1,"bbox":[64,676,1152,24]}
+{"kind":"textbox","id":"sh/1cn250vm","slide":12,"name":"list-intro","text":"反思是学习的重要环节","textPreview":"反思是学习的重要环节","textChars":10,"textLines":1,"bbox":[86,116,1108,54]}
+{"kind":"textbox","id":"sh/epcjalcb","slide":12,"name":"bullet-list","text":"学到了什么？\n下次会怎么做？\n如果再做一次，会改进什么？","textPreview":"学到了什么？ | 下次会怎么做？ | 如果再做一次，会改进什么？","textChars":28,"textLines":3,"bbox":[120,176,1040,480]}
+{"kind":"notes","id":"nt/7j042b","slide":12,"text":""}
+{"kind":"slide","id":"sl/1u8s9j","slide":13,"title":"恭喜完成课程！","textShapes":5}
+{"kind":"shape","id":"sh/2lwvy1s7","slide":13,"name":"top-accent","bbox":[0,0,1280,8]}
+{"kind":"textbox","id":"sh/p87e9wri","slide":13,"name":"slide-title","text":"恭喜完成课程！","textPreview":"恭喜完成课程！","textChars":7,"textLines":1,"bbox":[64,36,1060,78]}
+{"kind":"textbox","id":"sh/4nyd0rax","slide":13,"name":"slide-icon","text":"🎉","textPreview":"🎉","textChars":2,"textLines":1,"bbox":[1140,28,76,76]}
+{"kind":"textbox","id":"sh/rapwb69o","slide":13,"name":"footer","text":"模块六  ·  13","textPreview":"模块六  ·  13","textChars":10,"textLines":1,"bbox":[64,676,1152,24]}
+{"kind":"textbox","id":"sh/q9gv21s3","slide":13,"name":"list-intro","text":"你已掌握：","textPreview":"你已掌握：","textChars":5,"textLines":1,"bbox":[86,116,1108,54]}
+{"kind":"textbox","id":"sh/dc7edgru","slide":13,"name":"bullet-list","text":"✏️ 手动建模（草图·约束·拉伸）\n🐍 编程建模（Python·循环·函数）\n📐 参数化设计（变量·布尔·数学函数）\n🖨️ 3D打印（切片·参数·实操）\n🏆 综合项目（PBL·答辩）","textPreview":"✏️ 手动建模（草图·约束·拉伸） | 🐍 编程建模（Python·循环·函数） | 📐 参数化设计（变量·布尔·数学函数） | 🖨️ 3D打印（切片·参数·实操） | 🏆 综合项目（PBL·答辩）","textChars":95,"textLines":5,"bbox":[120,176,1040,480]}
+{"kind":"notes","id":"nt/1u8s9j","slide":13,"text":""}
+{"kind":"slide","id":"sl/w3x8pp","slide":14,"title":"课程回顾","textShapes":7}
+{"kind":"shape","id":"sh/s72pg3eh","slide":14,"name":"top-accent","bbox":[0,0,1280,8]}
+{"kind":"textbox","id":"sh/r6t87yxc","slide":14,"name":"slide-title","text":"课程回顾","textPreview":"课程回顾","textChars":4,"textLines":1,"bbox":[64,36,1060,78]}
+{"kind":"textbox","id":"sh/q5k7edwr","slide":14,"name":"slide-icon","text":"📚","textPreview":"📚","textChars":2,"textLines":1,"bbox":[1140,28,76,76]}
+{"kind":"textbox","id":"sh/54bq58f6","slide":14,"name":"footer","text":"模块六  ·  14","textPreview":"模块六  ·  14","textChars":10,"textLines":1,"bbox":[64,676,1152,24]}
+{"kind":"textbox","id":"sh/432pc3el","slide":14,"name":"body-1","text":"21课时 · 6模块 · 6件学生作品","textPreview":"21课时 · 6模块 · 6件学生作品","textChars":19,"textLines":1,"bbox":[150,156,980,102.5]}
+{"kind":"textbox","id":"sh/32t83yx0","slide":14,"name":"body-2","text":"从3D打印启蒙到结课综合项目展评","textPreview":"从3D打印启蒙到结课综合项目展评","textChars":16,"textLines":1,"bbox":[150,278.5,980,102.5]}
+{"kind":"textbox","id":"sh/i1k7atwf","slide":14,"name":"body-3","text":"STEAM理念 × 编程建模 × 3D打印","textPreview":"STEAM理念 × 编程建模 × 3D打印","textChars":21,"textLines":1,"bbox":[150,401,980,102.5]}
+{"kind":"textbox","id":"sh/p0fqhsva","slide":14,"name":"body-4","text":"江苏省东台中学 · 课题编号 2024B-178 · 王华军 吴海燕","textPreview":"江苏省东台中学 · 课题编号 2024B-178 · 王华军 吴海燕","textChars":34,"textLines":1,"bbox":[150,523.5,980,102.5]}
+{"kind":"notes","id":"nt/w3x8pp","slide":14,"text":""}

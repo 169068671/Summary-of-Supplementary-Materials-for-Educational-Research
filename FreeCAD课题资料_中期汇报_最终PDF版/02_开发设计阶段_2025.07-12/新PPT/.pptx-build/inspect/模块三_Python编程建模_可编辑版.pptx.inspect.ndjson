@@ -1,0 +1,182 @@
+{"kind":"deck","id":"pr/4jiz1p","name":"Deck"}
+{"kind":"layout","layoutId":"25885ba7-517f-4352-aab3-1c76690165ee","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"bc0919a4-994a-4d52-bbd9-0a0d2c50ab77","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/uk2lzn","slide":1,"title":"🐍","textShapes":5}
+{"kind":"shape","id":"sh/sf6507u5","slide":1,"bbox":[0,0,20,720]}
+{"kind":"textbox","id":"sh/7ex472dk","slide":1,"name":"title-icon","text":"🐍","textPreview":"🐍","textChars":2,"textLines":1,"bbox":[850,145,280,230]}
+{"kind":"textbox","id":"sh/6donyhwz","slide":1,"name":"deck-title","text":"模块三","textPreview":"模块三","textChars":3,"textLines":1,"bbox":[80,155,700,110]}
+{"kind":"textbox","id":"sh/5cfm5cve","slide":1,"name":"deck-subtitle","text":"编程建模入门与逻辑构建","textPreview":"编程建模入门与逻辑构建","textChars":11,"textLines":1,"bbox":[84,278,760,92]}
+{"kind":"textbox","id":"sh/kb65w7et","slide":1,"name":"deck-meta","text":"4课时 · 第6-9课 · 技术实践","textPreview":"4课时 · 第6-9课 · 技术实践","textChars":18,"textLines":1,"bbox":[84,420,900,52]}
+{"kind":"textbox","id":"sh/jax432d8","slide":1,"name":"editable-label","text":"可编辑PowerPoint课件","textPreview":"可编辑PowerPoint课件","textChars":15,"textLines":1,"bbox":[84,610,420,32]}
+{"kind":"notes","id":"nt/uk2lzn","slide":1,"text":""}
+{"kind":"slide","id":"sl/eycr1n","slide":2,"title":"课前预习！","textShapes":4}
+{"kind":"shape","id":"sh/610bi5kv","slide":2,"name":"top-accent","bbox":[0,0,1280,8]}
+{"kind":"textbox","id":"sh/t4rutkjm","slide":2,"name":"slide-title","text":"课前预习！","textPreview":"课前预习！","textChars":5,"textLines":1,"bbox":[64,36,1060,78]}
+{"kind":"textbox","id":"sh/s3itkf21","slide":2,"name":"slide-icon","text":"⚠️","textPreview":"⚠️","textChars":2,"textLines":1,"bbox":[1140,28,76,76]}
+{"kind":"textbox","id":"sh/f6tcvu1c","slide":2,"name":"footer","text":"模块三  ·  2","textPreview":"模块三  ·  2","textChars":9,"textLines":1,"bbox":[64,676,1152,24]}
+{"kind":"textbox","id":"sh/e5kbmpk7","slide":2,"name":"bullet-list","text":"确认Python控制台可用（视图→面板→Python控制台）\n了解Python是最流行的编程语言\n了解变量=存数据的容器\n了解print()=输出文字\n在控制台输入 print('Hello FreeCAD') 试试","textPreview":"确认Python控制台可用（视图→面板→Python控制台） | 了解Python是最流行的编程语言 | 了解变量=存数据的容器 | 了解print()=输出文字 | 在控制台输入 print('Hello FreeCAD') 试试","textChars":108,"textLines":5,"bbox":[120,144,1040,480]}
+{"kind":"notes","id":"nt/eycr1n","slide":2,"text":""}
+{"kind":"slide","id":"sl/kpapzg","slide":3,"title":"变量","textShapes":9}
+{"kind":"shape","id":"sh/hkzm9kv2","slide":3,"name":"top-accent","bbox":[0,0,1280,8]}
+{"kind":"textbox","id":"sh/uhonepcr","slide":3,"name":"slide-title","text":"变量","textPreview":"变量","textChars":2,"textLines":1,"bbox":[64,36,1060,78]}
+{"kind":"textbox","id":"sh/vih47udc","slide":3,"name":"slide-icon","text":"📦","textPreview":"📦","textChars":2,"textLines":1,"bbox":[1140,28,76,76]}
+{"kind":"textbox","id":"sh/4nq5kzut","slide":3,"name":"footer","text":"模块三  ·  3","textPreview":"模块三  ·  3","textChars":9,"textLines":1,"bbox":[64,676,1152,24]}
+{"kind":"textbox","id":"sh/5ozmd4ve","slide":3,"name":"code-intro","text":"变量 = 存数据的容器，给数据起个名字","textPreview":"变量 = 存数据的容器，给数据起个名字","textChars":19,"textLines":1,"bbox":[68,112,1140,34]}
+{"kind":"shape","id":"sh/il8nipcn","slide":3,"name":"code-panel","bbox":[56,154,700,510]}
+{"kind":"textbox","id":"sh/3mh4bud8","slide":3,"name":"editable-code","text":"name = 'FreeCAD'\nversion = 26\nheight = 80.0\nprint(name, version)","textPreview":"name = 'FreeCAD' | version = 26 | height = 80.0 | print(name, version)","textChars":64,"textLines":4,"bbox":[76,172,660,474]}
+{"kind":"shape","id":"sh/sba5ojup","slide":3,"name":"explain-1","bbox":[784,154,440,94]}
+{"kind":"textbox","id":"sh/dcj6h4va","slide":3,"name":"explain-text-1","text":"name = 'FreeCAD'\n把字符串'FreeCAD'存入变量name。字符串必须用引号","textPreview":"name = 'FreeCAD' | 把字符串'FreeCAD'存入变量name。字符串必须用引号","textChars":47,"textLines":2,"bbox":[796,160,416,82]}
+{"kind":"shape","id":"sh/dor6l4je","slide":3,"name":"explain-2","bbox":[784,258,440,94]}
+{"kind":"textbox","id":"sh/sni5sz29","slide":3,"name":"explain-text-2","text":"version = 26\n把整数26存入变量version。整数不用引号","textPreview":"version = 26 | 把整数26存入变量version。整数不用引号","textChars":36,"textLines":2,"bbox":[796,264,416,82]}
+{"kind":"shape","id":"sh/rm94je1o","slide":3,"name":"explain-3","bbox":[784,362,440,94]}
+{"kind":"textbox","id":"sh/qlgnq9k3","slide":3,"name":"explain-text-3","text":"height = 80.0\n把浮点数80.0存入变量height。带小数点的数","textPreview":"height = 80.0 | 把浮点数80.0存入变量height。带小数点的数","textChars":39,"textLines":2,"bbox":[796,368,416,82]}
+{"kind":"shape","id":"sh/1sr6pojq","slide":3,"name":"explain-4","bbox":[784,466,440,94]}
+{"kind":"textbox","id":"sh/0ri5wji5","slide":3,"name":"explain-text-4","text":"print(name, version)\n输出变量内容：FreeCAD 26","textPreview":"print(name, version) | 输出变量内容：FreeCAD 26","textChars":38,"textLines":2,"bbox":[796,472,416,82]}
+{"kind":"notes","id":"nt/kpapzg","slide":3,"text":""}
+{"kind":"slide","id":"sl/ogqcm1","slide":4,"title":"数据类型","textShapes":6}
+{"kind":"shape","id":"sh/e14bepsz","slide":4,"name":"top-accent","bbox":[0,0,1280,8]}
+{"kind":"textbox","id":"sh/14fap4ba","slide":4,"name":"slide-title","text":"数据类型","textPreview":"数据类型","textChars":4,"textLines":1,"bbox":[64,36,1140,78]}
+{"kind":"textbox","id":"sh/03mtgzap","slide":4,"name":"footer","text":"模块三  ·  4","textPreview":"模块三  ·  4","textChars":9,"textLines":1,"bbox":[64,676,1152,24]}
+{"kind":"shape","id":"sh/rydsjut8","slide":4,"name":"code-panel","bbox":[56,132,700,510]}
+{"kind":"textbox","id":"sh/qx4bapsn","slide":4,"name":"editable-code","text":"# 用type()查看数据类型\nprint(type(25)) # <class 'int'> 整数\nprint(type(3.14)) # <class 'float'> 浮点数\nprint(type('hello')) # <class 'str'> 字符串","textPreview":"# 用type()查看数据类型 | print(type(25)) # <class 'int'> 整数 | print(type(3.14)) # <class 'float'> 浮点数 | print(type('hello')) # <class 'str'> 字符串","textChars":131,"textLines":4,"bbox":[76,150,660,474]}
+{"kind":"shape","id":"sh/d0valkbe","slide":4,"name":"explain-1","bbox":[784,132,440,94]}
+{"kind":"textbox","id":"sh/szmtczat","slide":4,"name":"explain-text-1","text":"作用\ntype(值)返回数据类型；print()把类型结果显示到控制台。","textPreview":"作用 | type(值)返回数据类型；print()把类型结果显示到控制台。","textChars":36,"textLines":2,"bbox":[796,138,416,82]}
+{"kind":"shape","id":"sh/buxcvetc","slide":4,"name":"explain-2","bbox":[784,236,440,94]}
+{"kind":"textbox","id":"sh/atobm9s7","slide":4,"name":"explain-text-2","text":"为什么重要\nint/float能参与计算，str用于文字；引号会把数字也变成字符串。","textPreview":"为什么重要 | int/float能参与计算，str用于文字；引号会把数字也变成字符串。","textChars":42,"textLines":2,"bbox":[796,242,416,82]}
+{"kind":"shape","id":"sh/wn258jm1","slide":4,"name":"explain-3","bbox":[784,340,440,94]}
+{"kind":"textbox","id":"sh/xob6honm","slide":4,"name":"explain-text-3","text":"易错点\n'25'是str，不是int；字符串与数字不能直接相加。","textPreview":"易错点 | '25'是str，不是int；字符串与数字不能直接相加。","textChars":32,"textLines":2,"bbox":[796,346,416,82]}
+{"kind":"notes","id":"nt/ogqcm1","slide":4,"text":""}
+{"kind":"slide","id":"sl/9juq16","slide":5,"title":"print() 与注释","textShapes":8}
+{"kind":"shape","id":"sh/ofmxc3q1","slide":5,"name":"top-accent","bbox":[0,0,1280,8]}
+{"kind":"textbox","id":"sh/nedwjypg","slide":5,"name":"slide-title","text":"print() 与注释","textPreview":"print() 与注释","textChars":11,"textLines":1,"bbox":[64,36,1060,78]}
+{"kind":"textbox","id":"sh/md4fat8v","slide":5,"name":"slide-icon","text":"📤","textPreview":"📤","textChars":2,"textLines":1,"bbox":[1140,28,76,76]}
+{"kind":"textbox","id":"sh/1cveho7a","slide":5,"name":"footer","text":"模块三  ·  5","textPreview":"模块三  ·  5","textChars":9,"textLines":1,"bbox":[64,676,1152,24]}
+{"kind":"shape","id":"sh/0b2d8jqp","slide":5,"name":"code-panel","bbox":[56,132,700,510]}
+{"kind":"textbox","id":"sh/zatwfep4","slide":5,"name":"editable-code","text":"# 这是注释，Python不执行\nlength = 60 # 行末注释\nwidth = 18\nprint('长度:', length)\nprint('宽度:', width)\nprint('面积:', length * width)","textPreview":"# 这是注释，Python不执行 | length = 60 # 行末注释 | width = 18 | print('长度:', length) | print('宽度:', width) | print('面积:', length * width)","textChars":116,"textLines":6,"bbox":[76,150,660,474]}
+{"kind":"shape","id":"sh/e9kv698z","slide":5,"name":"explain-1","bbox":[784,132,440,94]}
+{"kind":"textbox","id":"sh/l8fet87e","slide":5,"name":"explain-text-1","text":"# 这是注释\n#开头是注释，给人看的，Python忽略不执行","textPreview":"# 这是注释 | #开头是注释，给人看的，Python忽略不执行","textChars":30,"textLines":2,"bbox":[796,138,416,82]}
+{"kind":"shape","id":"sh/k76xknq9","slide":5,"name":"explain-2","bbox":[784,236,440,94]}
+{"kind":"textbox","id":"sh/2ps729sr","slide":5,"name":"explain-text-2","text":"length = 60\n创建变量length，值为60","textPreview":"length = 60 | 创建变量length，值为60","textChars":27,"textLines":2,"bbox":[796,242,416,82]}
+{"kind":"shape","id":"sh/nq1ove9c","slide":5,"name":"explain-3","bbox":[784,340,440,94]}
+{"kind":"textbox","id":"sh/orup4jax","slide":5,"name":"explain-text-3","text":"print('长度:', length)\n输出：长度: 60。字符串和变量用逗号隔开","textPreview":"print('长度:', length) | 输出：长度: 60。字符串和变量用逗号隔开","textChars":42,"textLines":2,"bbox":[796,346,416,82]}
+{"kind":"shape","id":"sh/ps36x4ri","slide":5,"name":"explain-4","bbox":[784,444,440,94]}
+{"kind":"textbox","id":"sh/e1s7ypsv","slide":5,"name":"explain-text-4","text":"length * width\n乘法运算：60×18=1080。Python可以直接算术","textPreview":"length * width | 乘法运算：60×18=1080。Python可以直接算术","textChars":43,"textLines":2,"bbox":[796,450,416,82]}
+{"kind":"notes","id":"nt/9juq16","slide":5,"text":""}
+{"kind":"slide","id":"sl/spxl9q","slide":6,"title":"用代码创建3D模型","textShapes":9}
+{"kind":"shape","id":"sh/x0jqlk76","slide":6,"name":"top-accent","bbox":[0,0,1280,8]}
+{"kind":"textbox","id":"sh/ax87q5of","slide":6,"name":"slide-title","text":"用代码创建3D模型","textPreview":"用代码创建3D模型","textChars":9,"textLines":1,"bbox":[64,36,1060,78]}
+{"kind":"textbox","id":"sh/vyh8jap0","slide":6,"name":"slide-icon","text":"⚙️","textPreview":"⚙️","textChars":2,"textLines":1,"bbox":[1140,28,76,76]}
+{"kind":"textbox","id":"sh/8vqpovq9","slide":6,"name":"footer","text":"模块三  ·  6","textPreview":"模块三  ·  6","textChars":9,"textLines":1,"bbox":[64,676,1152,24]}
+{"kind":"textbox","id":"sh/9wzqh07u","slide":6,"name":"code-intro","text":"import Part → 导入Part模块 → 用代码创建几何体","textPreview":"import Part → 导入Part模块 → 用代码创建几何体","textChars":33,"textLines":1,"bbox":[68,112,1140,34]}
+{"kind":"shape","id":"sh/m987m58j","slide":6,"name":"code-panel","bbox":[56,154,700,510]}
+{"kind":"textbox","id":"sh/nahofqp4","slide":6,"name":"editable-code","text":"import Part\n\nbox = Part.makeBox(60, 18, 3)\nPart.show(box)\nprint('体积 =', box.Volume)","textPreview":"import Part |  | box = Part.makeBox(60, 18, 3) | Part.show(box) | print('体积 =', box.Volume)","textChars":83,"textLines":5,"bbox":[76,172,660,474]}
+{"kind":"shape","id":"sh/srap0z6t","slide":6,"name":"explain-1","bbox":[784,154,440,94]}
+{"kind":"textbox","id":"sh/ts3qt47e","slide":6,"name":"explain-text-1","text":"import Part\n导入FreeCAD的Part模块，提供创建3D几何体的函数","textPreview":"import Part | 导入FreeCAD的Part模块，提供创建3D几何体的函数","textChars":41,"textLines":2,"bbox":[796,160,416,82]}
+{"kind":"shape","id":"sh/tg7u9cf6","slide":6,"name":"explain-2","bbox":[784,258,440,94]}
+{"kind":"textbox","id":"sh/sfyd07y1","slide":6,"name":"explain-text-2","text":"Part.makeBox(60,18,3)\n创建立方体：长60×宽18×高3mm。三个参数=X/Y/Z","textPreview":"Part.makeBox(60,18,3) | 创建立方体：长60×宽18×高3mm。三个参数=X/Y/Z","textChars":51,"textLines":2,"bbox":[796,264,416,82]}
+{"kind":"shape","id":"sh/7epc72xg","slide":6,"name":"explain-3","bbox":[784,362,440,94]}
+{"kind":"textbox","id":"sh/6dgvyhgv","slide":6,"name":"explain-text-3","text":"Part.show(box)\n把立方体显示在3D视图中。不show就看不到","textPreview":"Part.show(box) | 把立方体显示在3D视图中。不show就看不到","textChars":37,"textLines":2,"bbox":[796,368,416,82]}
+{"kind":"shape","id":"sh/5s7u5cfa","slide":6,"name":"explain-4","bbox":[784,466,440,94]}
+{"kind":"textbox","id":"sh/krydw7yp","slide":6,"name":"explain-text-4","text":"box.Volume\n获取体积属性：60×18×3=3240mm³","textPreview":"box.Volume | 获取体积属性：60×18×3=3240mm³","textChars":33,"textLines":2,"bbox":[796,472,416,82]}
+{"kind":"notes","id":"nt/spxl9q","slide":6,"text":""}
+{"kind":"slide","id":"sl/6ayrsd","slide":7,"title":"makeCylinder 创建圆柱","textShapes":8}
+{"kind":"shape","id":"sh/psre1gbq","slide":7,"name":"top-accent","bbox":[0,0,1280,8]}
+{"kind":"textbox","id":"sh/25gv61sf","slide":7,"name":"slide-title","text":"makeCylinder 创建圆柱","textPreview":"makeCylinder 创建圆柱","textChars":17,"textLines":1,"bbox":[64,36,1060,78]}
+{"kind":"textbox","id":"sh/36pwz6t0","slide":7,"name":"slide-icon","text":"🥫","textPreview":"🥫","textChars":2,"textLines":1,"bbox":[1140,28,76,76]}
+{"kind":"textbox","id":"sh/g3yd4ra9","slide":7,"name":"footer","text":"模块三  ·  7","textPreview":"模块三  ·  7","textChars":9,"textLines":1,"bbox":[64,676,1152,24]}
+{"kind":"shape","id":"sh/h47exwbu","slide":7,"name":"code-panel","bbox":[56,132,700,510]}
+{"kind":"textbox","id":"sh/u1gv2hs3","slide":7,"name":"editable-code","text":"import Part\n\ncyl = Part.makeCylinder(\n15, # 半径\n40, # 高度\nFreeCAD.Vector(0, 0, 0) # 圆心\n)\nPart.show(cyl)\nprint('体积 =', round(cyl.Volume, 1))","textPreview":"import Part |  | cyl = Part.makeCylinder( | 15, # 半径 | 40, # 高度 | FreeCAD.Vector(0, 0, 0) # 圆心 | ) | Part.show(cyl) | print('体积 =', round...","textChars":137,"textLines":9,"bbox":[76,150,660,474]}
+{"kind":"shape","id":"sh/f2pwvmto","slide":7,"name":"explain-1","bbox":[784,132,440,94]}
+{"kind":"textbox","id":"sh/0z2xgvad","slide":7,"name":"explain-text-1","text":"makeCylinder(15, 40, ...)\n参数1=半径15mm，参数2=高度40mm","textPreview":"makeCylinder(15, 40, ...) | 参数1=半径15mm，参数2=高度40mm","textChars":47,"textLines":2,"bbox":[796,138,416,82]}
+{"kind":"shape","id":"sh/10be90ry","slide":7,"name":"explain-2","bbox":[784,236,440,94]}
+{"kind":"textbox","id":"sh/h4361kja","slide":7,"name":"explain-text-2","text":"FreeCAD.Vector(0,0,0)\n参数3=圆心坐标(X,Y,Z)，(0,0,0)是原点","textPreview":"FreeCAD.Vector(0,0,0) | 参数3=圆心坐标(X,Y,Z)，(0,0,0)是原点","textChars":48,"textLines":2,"bbox":[796,242,416,82]}
+{"kind":"shape","id":"sh/g3a5sfip","slide":7,"name":"explain-3","bbox":[784,340,440,94]}
+{"kind":"textbox","id":"sh/f21oza14","slide":7,"name":"explain-text-3","text":"round(cyl.Volume, 1)\nround()四舍五入保留1位小数","textPreview":"round(cyl.Volume, 1) | round()四舍五入保留1位小数","textChars":38,"textLines":2,"bbox":[796,346,416,82]}
+{"kind":"shape","id":"sh/u1snq50z","slide":7,"name":"explain-4","bbox":[784,444,440,94]}
+{"kind":"textbox","id":"sh/tgj6x0je","slide":7,"name":"explain-text-4","text":"# 半径 / # 高度\n参数后加注释说明含义，代码更易读","textPreview":"# 半径 / # 高度 | 参数后加注释说明含义，代码更易读","textChars":28,"textLines":2,"bbox":[796,450,416,82]}
+{"kind":"notes","id":"nt/6ayrsd","slide":7,"text":""}
+{"kind":"slide","id":"sl/hpp81f","slide":8,"title":"for循环 — 批量创建","textShapes":9}
+{"kind":"shape","id":"sh/zu50ry18","slide":8,"name":"top-accent","bbox":[0,0,1280,8]}
+{"kind":"textbox","id":"sh/kvyhk3it","slide":8,"name":"slide-title","text":"for循环 — 批量创建","textPreview":"for循环 — 批量创建","textChars":12,"textLines":1,"bbox":[64,36,1060,78]}
+{"kind":"textbox","id":"sh/lg7it8je","slide":8,"name":"slide-icon","text":"🔁","textPreview":"🔁","textChars":2,"textLines":1,"bbox":[1140,28,76,76]}
+{"kind":"textbox","id":"sh/mhgzmd0z","slide":8,"name":"footer","text":"模块三  ·  8","textPreview":"模块三  ·  8","textChars":9,"textLines":1,"bbox":[64,676,1152,24]}
+{"kind":"textbox","id":"sh/7ip0vi1k","slide":8,"name":"code-intro","text":"重复执行代码，不用复制粘贴","textPreview":"重复执行代码，不用复制粘贴","textChars":13,"textLines":1,"bbox":[68,112,1140,34]}
+{"kind":"shape","id":"sh/8jyho3i5","slide":8,"name":"code-panel","bbox":[56,154,700,510]}
+{"kind":"textbox","id":"sh/9k7ix8jq","slide":8,"name":"editable-code","text":"import Part\n\nfor i in range(5):\nx = i * 10\ncyl = Part.makeCylinder(\n3, 5, FreeCAD.Vector(x, 0, 0))\nPart.show(cyl)\nprint('创建了5个圆柱')","textPreview":"import Part |  | for i in range(5): | x = i * 10 | cyl = Part.makeCylinder( | 3, 5, FreeCAD.Vector(x, 0, 0)) | Part.show(cyl) | print('创建...","textChars":130,"textLines":8,"bbox":[76,172,660,474]}
+{"kind":"shape","id":"sh/2lcza90v","slide":8,"name":"explain-1","bbox":[784,154,440,94]}
+{"kind":"textbox","id":"sh/nmlgje1g","slide":8,"name":"explain-text-1","text":"for i in range(5):\n循环5次，i从0到4。注意末尾冒号","textPreview":"for i in range(5): | 循环5次，i从0到4。注意末尾冒号","textChars":36,"textLines":2,"bbox":[796,160,416,82]}
+{"kind":"shape","id":"sh/7y54nu9g","slide":8,"name":"explain-2","bbox":[784,258,440,94]}
+{"kind":"textbox","id":"sh/6xwnupsv","slide":8,"name":"explain-text-2","text":"x = i * 10\n每次x变化：0,10,20,30,40。圆柱间距10mm","textPreview":"x = i * 10 | 每次x变化：0,10,20,30,40。圆柱间距10mm","textChars":39,"textLines":2,"bbox":[796,264,416,82]}
+{"kind":"shape","id":"sh/t07mp4rm","slide":8,"name":"explain-3","bbox":[784,362,440,94]}
+{"kind":"textbox","id":"sh/szy5wza1","slide":8,"name":"explain-text-3","text":"缩进4格\n循环体代码必须缩进（4空格），表示属于for","textPreview":"缩进4格 | 循环体代码必须缩进（4空格），表示属于for","textChars":27,"textLines":2,"bbox":[796,368,416,82]}
+{"kind":"shape","id":"sh/ju54ja9k","slide":8,"name":"explain-4","bbox":[784,466,440,94]}
+{"kind":"textbox","id":"sh/itwnqpsz","slide":8,"name":"explain-text-4","text":"Part.show(cyl)\n每次循环创建+显示1个圆柱，5次=5个","textPreview":"Part.show(cyl) | 每次循环创建+显示1个圆柱，5次=5个","textChars":34,"textLines":2,"bbox":[796,472,416,82]}
+{"kind":"notes","id":"nt/hpp81f","slide":8,"text":""}
+{"kind":"slide","id":"sl/1ga8kf","slide":9,"title":"for循环应用 — 乐高积木8圆柱","textShapes":7}
+{"kind":"shape","id":"sh/epgbixsr","slide":9,"name":"top-accent","bbox":[0,0,1280,8]}
+{"kind":"textbox","id":"sh/1s7utcr2","slide":9,"name":"slide-title","text":"for循环应用 — 乐高积木8圆柱","textPreview":"for循环应用 — 乐高积木8圆柱","textChars":17,"textLines":1,"bbox":[64,36,1140,78]}
+{"kind":"textbox","id":"sh/0rytk7ax","slide":9,"name":"footer","text":"模块三  ·  9","textPreview":"模块三  ·  9","textChars":9,"textLines":1,"bbox":[64,676,1152,24]}
+{"kind":"shape","id":"sh/r2pcn290","slide":9,"name":"code-panel","bbox":[56,132,700,510]}
+{"kind":"textbox","id":"sh/q1gbexsf","slide":9,"name":"editable-code","text":"import Part\n\nbox = Part.makeBox(31.8, 15.8, 9.6)\nshape = box\n\nfor c in range(4): # 4列\nfor r in range(2): # 2行\nx = 3.9 + c * 8\ny = 3.9 + r * 8\nstud = Part.makeCylinder(\n2.45, 1.8,\nFreeCAD.Vector(x, y, 9.6))\nshape = shape.fuse(stud)\nPart.show(shape)","textPreview":"import Part |  | box = Part.makeBox(31.8, 15.8, 9.6) | shape = box |  | for c in range(4): # 4列 | for r in range(2): # 2行 | x = 3.9 + c *...","textChars":247,"textLines":14,"bbox":[76,150,660,474]}
+{"kind":"shape","id":"sh/do7upcr6","slide":9,"name":"explain-1","bbox":[784,132,440,94]}
+{"kind":"textbox","id":"sh/snytg7al","slide":9,"name":"explain-text-1","text":"for c in range(4):\n外循环4列（c=0,1,2,3）","textPreview":"for c in range(4): | 外循环4列（c=0,1,2,3）","textChars":35,"textLines":2,"bbox":[796,138,416,82]}
+{"kind":"shape","id":"sh/jy5cjit4","slide":9,"name":"explain-2","bbox":[784,236,440,94]}
+{"kind":"textbox","id":"sh/ixwbadsj","slide":9,"name":"explain-text-2","text":"for r in range(2):\n内循环2行（r=0,1）。嵌套=4×2=8个圆柱","textPreview":"for r in range(2): | 内循环2行（r=0,1）。嵌套=4×2=8个圆柱","textChars":43,"textLines":2,"bbox":[796,242,416,82]}
+{"kind":"shape","id":"sh/kb298vq1","slide":9,"name":"explain-3","bbox":[784,340,440,94]}
+{"kind":"textbox","id":"sh/5cbq1076","slide":9,"name":"explain-text-3","text":"x = 3.9 + c * 8\n圆柱X坐标：3.9,11.9,19.9,27.9，相邻中心距8mm","textPreview":"x = 3.9 + c * 8 | 圆柱X坐标：3.9,11.9,19.9,27.9，相邻中心距8mm","textChars":49,"textLines":2,"bbox":[796,346,416,82]}
+{"kind":"shape","id":"sh/i9kr658v","slide":9,"name":"explain-4","bbox":[784,444,440,94]}
+{"kind":"textbox","id":"sh/jat8zapg","slide":9,"name":"explain-text-4","text":"shape.fuse(stud)\nfuse=布尔并，把圆柱合并到底座上","textPreview":"shape.fuse(stud) | fuse=布尔并，把圆柱合并到底座上","textChars":35,"textLines":2,"bbox":[796,450,416,82]}
+{"kind":"notes","id":"nt/1ga8kf","slide":9,"text":""}
+{"kind":"slide","id":"sl/fmpsf1","slide":10,"title":"def函数 — 封装重复代码","textShapes":10}
+{"kind":"shape","id":"sh/tw32xk3y","slide":10,"name":"top-accent","bbox":[0,0,1280,8]}
+{"kind":"textbox","id":"sh/6tc32pkn","slide":10,"name":"slide-title","text":"def函数 — 封装重复代码","textPreview":"def函数 — 封装重复代码","textChars":14,"textLines":1,"bbox":[64,36,1060,78]}
+{"kind":"textbox","id":"sh/7ulkval8","slide":10,"name":"slide-icon","text":"📦","textPreview":"📦","textChars":2,"textLines":1,"bbox":[1140,28,76,76]}
+{"kind":"textbox","id":"sh/gzul8z2p","slide":10,"name":"footer","text":"模块三  ·  10","textPreview":"模块三  ·  10","textChars":10,"textLines":1,"bbox":[64,676,1152,24]}
+{"kind":"shape","id":"sh/h0n214ja","slide":10,"name":"code-panel","bbox":[56,132,700,510]}
+{"kind":"textbox","id":"sh/uxc36pkj","slide":10,"name":"editable-code","text":"import Part\n\ndef make_brick(L, W, H, x=0, y=0):\n\"\"\"创建积木块\"\"\"\nbox = Part.makeBox(L, W, H,\nFreeCAD.Vector(x, y, 0))\nreturn box\n\nbrick1 = make_brick(32, 16, 9.6)\nbrick2 = make_brick(16, 16, 9.6, x=40)\nPart.show(brick1)\nPart.show(brick2)","textPreview":"import Part |  | def make_brick(L, W, H, x=0, y=0): | \"\"\"创建积木块\"\"\" | box = Part.makeBox(L, W, H, | FreeCAD.Vector(x, y, 0)) | return box |...","textChars":232,"textLines":12,"bbox":[76,150,660,474]}
+{"kind":"shape","id":"sh/vylkzul4","slide":10,"name":"explain-1","bbox":[784,132,440,76.67]}
+{"kind":"textbox","id":"sh/4nelcz2l","slide":10,"name":"explain-text-1","text":"def make_brick(...):\n定义函数，名为make_brick。注意冒号","textPreview":"def make_brick(...): | 定义函数，名为make_brick。注意冒号","textChars":43,"textLines":2,"bbox":[796,138,416,64.67]}
+{"kind":"shape","id":"sh/5on254j6","slide":10,"name":"explain-2","bbox":[784,218.67,440,76.67]}
+{"kind":"textbox","id":"sh/x4felgzy","slide":10,"name":"explain-text-2","text":"L, W, H, x=0, y=0\n参数：长宽高必填，x/y有默认值0可省略","textPreview":"L, W, H, x=0, y=0 | 参数：长宽高必填，x/y有默认值0可省略","textChars":38,"textLines":2,"bbox":[796,224.67,416,64.67]}
+{"kind":"shape","id":"sh/w36dcbyd","slide":10,"name":"explain-3","bbox":[784,305.33,440,76.67]}
+{"kind":"textbox","id":"sh/b2xwj6hs","slide":10,"name":"explain-text-3","text":"\"\"\"创建积木块\"\"\"\ndocstring文档字符串，说明函数做什么","textPreview":"\"\"\"创建积木块\"\"\" | docstring文档字符串，说明函数做什么","textChars":34,"textLines":2,"bbox":[796,311.33,416,64.67]}
+{"kind":"shape","id":"sh/ahova1g7","slide":10,"name":"explain-4","bbox":[784,392,440,76.67]}
+{"kind":"textbox","id":"sh/l8zepgzu","slide":10,"name":"explain-text-4","text":"return box\n返回创建的几何体，调用者可用变量接收","textPreview":"return box | 返回创建的几何体，调用者可用变量接收","textChars":29,"textLines":2,"bbox":[796,398,416,64.67]}
+{"kind":"shape","id":"sh/k76xgvyp","slide":10,"name":"explain-5","bbox":[784,478.67,440,76.67]}
+{"kind":"textbox","id":"sh/j6xwnqh4","slide":10,"name":"explain-text-5","text":"make_brick(32,16,9.6)\n调用：传3参数，x/y用默认值0","textPreview":"make_brick(32,16,9.6) | 调用：传3参数，x/y用默认值0","textChars":38,"textLines":2,"bbox":[796,484.67,416,64.67]}
+{"kind":"shape","id":"sh/y5ovelgj","slide":10,"name":"explain-6","bbox":[784,565.33,440,76.67]}
+{"kind":"textbox","id":"sh/1cvedwzq","slide":10,"name":"explain-text-6","text":"make_brick(16,16,9.6,x=40)\n调用：传4参数，x指定为40（位置偏移）","textPreview":"make_brick(16,16,9.6,x=40) | 调用：传4参数，x指定为40（位置偏移）","textChars":47,"textLines":2,"bbox":[796,571.33,416,64.67]}
+{"kind":"notes","id":"nt/fmpsf1","slide":10,"text":""}
+{"kind":"slide","id":"sl/yzfq71","slide":11,"title":"成果：参数化笔筒与循环阵列乐高","textShapes":3}
+{"kind":"shape","id":"sh/4zuh0nal","slide":11,"name":"top-accent","bbox":[0,0,1280,8]}
+{"kind":"textbox","id":"sh/jyl07it0","slide":11,"name":"slide-title","text":"成果：参数化笔筒与循环阵列乐高","textPreview":"成果：参数化笔筒与循环阵列乐高","textChars":15,"textLines":1,"bbox":[64,36,1140,78]}
+{"kind":"textbox","id":"sh/ixczydsf","slide":11,"name":"footer","text":"模块三  ·  11","textPreview":"模块三  ·  11","textChars":10,"textLines":1,"bbox":[64,676,1152,24]}
+{"kind":"textbox","id":"sh/vu103it4","slide":11,"name":"image-caption","text":"实践作业2：十二边参数化笔筒 · 实践作业3：循环生成凸点、空腔和加强管\nSTEAM融合点：T技术 + M数学（变量、尺寸、循环与阵列关系）","textPreview":"实践作业2：十二边参数化笔筒 · 实践作业3：循环生成凸点、空腔和加强管 | STEAM融合点：T技术 + M数学（变量、尺寸、循环与阵列关系）","textChars":70,"textLines":2,"bbox":[90,578,1100,80]}
+{"kind":"image","id":"im/s765cfyd","slide":11,"name":"","geometry":"roundRect","alt":"乐高积木块","bbox":[656,136,520,432]}
+{"kind":"image","id":"im/t8f6l0fy","slide":11,"name":"","geometry":"roundRect","alt":"参数化笔筒","bbox":[104,136,520,432]}
+{"kind":"notes","id":"nt/yzfq71","slide":11,"text":""}
+{"kind":"slide","id":"sl/pr5o8z","slide":12,"title":"第9课：调试与打印检查","textShapes":9}
+{"kind":"shape","id":"sh/m543il4v","slide":12,"name":"top-accent","bbox":[0,0,1280,8]}
+{"kind":"textbox","id":"sh/98f2d03m","slide":12,"name":"slide-title","text":"第9课：调试与打印检查","textPreview":"第9课：调试与打印检查","textChars":11,"textLines":1,"bbox":[64,36,1060,78]}
+{"kind":"textbox","id":"sh/876lkvm1","slide":12,"name":"slide-icon","text":"🧪","textPreview":"🧪","textChars":2,"textLines":1,"bbox":[1140,28,76,76]}
+{"kind":"textbox","id":"sh/z2dk7qlk","slide":12,"name":"footer","text":"模块三  ·  12","textPreview":"模块三  ·  12","textChars":10,"textLines":1,"bbox":[64,676,1152,24]}
+{"kind":"shape","id":"sh/e143el4z","slide":12,"name":"code-panel","bbox":[56,132,700,510]}
+{"kind":"textbox","id":"sh/l4v2903a","slide":12,"name":"editable-code","text":"checked = brick.removeSplitter()\nvalid = checked.isValid()\nsolids = len(checked.Solids)\nsize = checked.BoundBox\n\nprint('有效:', valid)\nprint('实体数:', solids)\nprint(round(size.XLength, 1),\nround(size.YLength, 1),\nround(size.ZLength, 1))","textPreview":"checked = brick.removeSplitter() | valid = checked.isValid() | solids = len(checked.Solids) | size = checked.BoundBox |  | print('有效:', v...","textChars":232,"textLines":10,"bbox":[76,150,660,474]}
+{"kind":"shape","id":"sh/03mlgvm5","slide":12,"name":"explain-1","bbox":[784,132,440,94]}
+{"kind":"textbox","id":"sh/retk36l8","slide":12,"name":"explain-text-1","text":"removeSplitter()\n清理布尔运算残余分割边","textPreview":"removeSplitter() | 清理布尔运算残余分割边","textChars":28,"textLines":2,"bbox":[796,138,416,82]}
+{"kind":"shape","id":"sh/qdk3a14n","slide":12,"name":"explain-2","bbox":[784,236,440,94]}
+{"kind":"textbox","id":"sh/cz6503ut","slide":12,"name":"explain-text-2","text":"isValid()\n检查拓扑是否合法，应为True","textPreview":"isValid() | 检查拓扑是否合法，应为True","textChars":25,"textLines":2,"bbox":[796,242,416,82]}
+{"kind":"shape","id":"sh/d0f698ve","slide":12,"name":"explain-3","bbox":[784,340,440,94]}
+{"kind":"textbox","id":"sh/qx4nytwn","slide":12,"name":"explain-text-3","text":"len(Solids)\n统计实体数，应为1","textPreview":"len(Solids) | 统计实体数，应为1","textChars":21,"textLines":2,"bbox":[796,346,416,82]}
+{"kind":"shape","id":"sh/byxo7yd8","slide":12,"name":"explain-4","bbox":[784,444,440,94]}
+{"kind":"textbox","id":"sh/ovm5wjeh","slide":12,"name":"explain-text-4","text":"BoundBox\n读取长宽高，应约31.8×15.8×11.4mm","textPreview":"BoundBox | 读取长宽高，应约31.8×15.8×11.4mm","textChars":33,"textLines":2,"bbox":[796,450,416,82]}
+{"kind":"shape","id":"sh/pwv65ov2","slide":12,"name":"explain-5","bbox":[784,548,440,94]}
+{"kind":"textbox","id":"sh/2t4nutwr","slide":12,"name":"explain-text-5","text":"仍需目视检查\n8凸点、3加强管、底部空腔、最小壁厚","textPreview":"仍需目视检查 | 8凸点、3加强管、底部空腔、最小壁厚","textChars":25,"textLines":2,"bbox":[796,554,416,82]}
+{"kind":"notes","id":"nt/pr5o8z","slide":12,"text":""}
+{"kind":"slide","id":"sl/knjyc3","slide":13,"title":"模块三总结","textShapes":4}
+{"kind":"shape","id":"sh/0jq583uh","slide":13,"name":"top-accent","bbox":[0,0,1280,8]}
+{"kind":"textbox","id":"sh/zih4zydc","slide":13,"name":"slide-title","text":"模块三总结","textPreview":"模块三总结","textChars":5,"textLines":1,"bbox":[64,36,1060,78]}
+{"kind":"textbox","id":"sh/eh8n6tcr","slide":13,"name":"slide-icon","text":"🎯","textPreview":"🎯","textChars":2,"textLines":1,"bbox":[1140,28,76,76]}
+{"kind":"textbox","id":"sh/dgzmxov6","slide":13,"name":"footer","text":"模块三  ·  13","textPreview":"模块三  ·  13","textChars":10,"textLines":1,"bbox":[64,676,1152,24]}
+{"kind":"textbox","id":"sh/cfq54jul","slide":13,"name":"bullet-list","text":"变量 = 存数据的容器（name = 'FreeCAD'）\nprint() = 输出到控制台（调试必备）\nimport Part = 导入3D建模模块\nmakeBox/makeCylinder = 代码创建几何体\nfor循环 = 批量创建（不用复制粘贴）\ndef函数 = 封装代码（一次写好，多次调用）\n模型验证 = 有效几何 + 单一实体 + 可打印结构","textPreview":"变量 = 存数据的容器（name = 'FreeCAD'） | print() = 输出到控制台（调试必备） | import Part = 导入3D建模模块 | makeBox/makeCylinder = 代码创建几何体 | for循环 = 批量创建（不用复制粘贴） |...","textChars":178,"textLines":7,"bbox":[120,144,1040,480]}
+{"kind":"notes","id":"nt/knjyc3","slide":13,"text":""}
